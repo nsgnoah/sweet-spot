@@ -21,6 +21,8 @@ struct HomeView: View {
                     todayCard
                     archive
                 }
+                .frame(maxWidth: 640)
+                .frame(maxWidth: .infinity)
                 .padding(.horizontal, 16)
                 .padding(.bottom, 32)
             }
@@ -98,11 +100,12 @@ struct HomeView: View {
                 }
             }
             .padding(.horizontal, 4)
-            LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 5), spacing: 8) {
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 60, maximum: 90), spacing: 8)], spacing: 8) {
                 ForEach(Array(Puzzles.all.enumerated()), id: \.element.key) { i, puzzle in
                     Button { path.append(puzzle) } label: {
                         PuzzleTile(number: puzzle.id, state: states[i], isToday: puzzle == Puzzles.today)
                     }
+                    .hoverEffect(.lift)
                     .buttonStyle(.plain)
                 }
             }
@@ -206,6 +209,8 @@ struct HowToPlayView: View {
                     .buttonStyle(PillStyle(filled: true))
                     .padding(.bottom, 24)
             }
+            .frame(maxWidth: 560)
+            .frame(maxWidth: .infinity)
             .padding(.horizontal, 16)
         }
         .background(Theme.ground)

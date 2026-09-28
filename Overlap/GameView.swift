@@ -10,26 +10,42 @@ struct GameView: View {
         _game = State(initialValue: Game(puzzle: puzzle))
     }
 
+    @Environment(\.horizontalSizeClass) private var sizeClass
+
     var body: some View {
-        ScrollView {
-            VStack(spacing: 16) {
-                legend
-                VennBoard(game: game)
-                    .padding(.horizontal, -4)
-                if game.state.finished {
-                    ResultCard(game: game)
-                    history
-                    AnswerList(puzzle: game.puzzle)
-                } else {
-                    bank
-                    controls
-                    if !game.state.guesses.isEmpty { history }
+        GeometryReader { geo in
+            let wide = sizeClass == .regular && geo.size.width > geo.size.height
+            ScrollView {
+                Group {
+                    if wide {
+                        // iPad landscape: board on the left, everything else beside it
+                        HStack(alignment: .top, spacing: 32) {
+                            VennBoard(game: game)
+                                .frame(maxWidth: min(700, (geo.size.height - 32) * VennBoard.design.width / VennBoard.design.height))
+                            VStack(spacing: 16) {
+                                legend
+                                panel
+                            }
+                            .frame(width: 360)
+                        }
+                        .padding(.horizontal, 32)
+                        .padding(.top, 8)
+                    } else {
+                        VStack(spacing: 16) {
+                            legend
+                            VennBoard(game: game)
+                                .padding(.horizontal, -4)
+                            panel
+                        }
+                        .frame(maxWidth: 640)
+                        .padding(.horizontal, 16)
+                    }
                 }
+                .frame(maxWidth: .infinity)
+                .padding(.bottom, 32)
+                .animation(.spring(response: 0.35, dampingFraction: 0.85), value: game.state.placements)
+                .animation(.easeInOut, value: game.state.finished)
             }
-            .padding(.horizontal, 16)
-            .padding(.bottom, 32)
-            .animation(.spring(response: 0.35, dampingFraction: 0.85), value: game.state.placements)
-            .animation(.easeInOut, value: game.state.finished)
         }
         .background(Theme.ground)
         .navigationTitle("Overlap #\(game.puzzle.id)")
@@ -65,6 +81,19 @@ struct GameView: View {
             Button("Start over", role: .destructive) { game.restart() }
         }
         .sheet(isPresented: $showHelp) { HowToPlayView() }
+    }
+
+    @ViewBuilder
+    private var panel: some View {
+        if game.state.finished {
+            ResultCard(game: game)
+            history
+            AnswerList(puzzle: game.puzzle)
+        } else {
+            bank
+            controls
+            if !game.state.guesses.isEmpty { history }
+        }
     }
 
     private var legend: some View {
@@ -113,6 +142,7 @@ struct GameView: View {
             FlowLayout(spacing: 8) {
                 ForEach(game.bank, id: \.self) { w in
                     WordChip(text: game.puzzle.words[w], selected: game.selected == w)
+                        .hoverEffect(.lift)
                         .onTapGesture { game.tapWord(w) }
                         .transition(.scale.combined(with: .opacity))
                 }
