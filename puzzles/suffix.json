@@ -1004,46 +1004,49 @@
   },
   {
     "categories": [
-      "___ARM",
-      "___WATER",
-      "___GROUND"
+      "___BOAT",
+      "___HOUSE",
+      "___WORK"
     ],
     "answers": [
       {
-        "word": "SIDE",
+        "word": "SAIL",
         "region": "A",
-        "why": "Sidearm"
+        "why": "Sailboat"
       },
       {
-        "word": "SALT",
+        "word": "TREE",
         "region": "B",
-        "why": "Saltwater"
+        "why": "Treehouse"
       },
       {
-        "word": "CAMP",
+        "word": "TEAM",
         "region": "C",
-        "why": "Campground"
+        "why": "Teamwork"
+      },
+      {
+        "word": "ROW",
+        "region": "AB",
+        "why": "Rowboat, row house"
+      },
+      {
+        "word": "HOUSE",
+        "region": "AC",
+        "why": "Houseboat, housework"
+      },
+      {
+        "word": "FIELD",
+        "region": "BC",
+        "why": "Field house, fieldwork"
       },
       {
         "word": "FIRE",
-        "region": "AB",
-        "why": "Firearm, firewater"
-      },
-      {
-        "word": "FORE",
-        "region": "AC",
-        "why": "Forearm, foreground"
-      },
-      {
-        "word": "BACK",
-        "region": "BC",
-        "why": "Backwater, background"
-      },
-      {
-        "word": "UNDER",
         "region": "ABC",
-        "why": "Underarm, underwater, underground"
+        "why": "Fireboat, firehouse, fireworks"
       }
+    ],
+    "obscure": [
+      "TEAMBOAT"
     ]
   },
   {

@@ -397,45 +397,45 @@
   },
   {
     "categories": [
-      "Cocktails",
+      "Has teeth",
       "Tools",
       "Starts with S"
     ],
     "answers": [
       {
-        "word": "MARTINI",
+        "word": "ZIPPER",
         "region": "A",
-        "why": "A cocktail starting with M"
+        "why": "Zipper teeth, but not a tool, starts with Z"
       },
       {
-        "word": "HAMMER",
+        "word": "LEVEL",
         "region": "B",
-        "why": "A tool starting with H"
+        "why": "A tool with no teeth, starts with L"
       },
       {
         "word": "SAILBOAT",
         "region": "C",
-        "why": "Starts with S, not a drink or tool"
+        "why": "Starts with S, no teeth, not a tool"
       },
       {
-        "word": "GIMLET",
+        "word": "FILE",
         "region": "AB",
-        "why": "Gin-lime cocktail, named for a small hole-boring tool"
+        "why": "A file's rough face is rows of tiny teeth"
       },
       {
-        "word": "SIDECAR",
+        "word": "SQUIRREL",
         "region": "AC",
-        "why": "A cocktail starting with S"
+        "why": "Big front teeth, not a tool, starts with S"
       },
       {
         "word": "SHOVEL",
         "region": "BC",
-        "why": "A tool starting with S"
+        "why": "A tool with no teeth, starts with S"
       },
       {
-        "word": "SCREWDRIVER",
+        "word": "SAW",
         "region": "ABC",
-        "why": "Vodka and OJ, a tool, and starts with S"
+        "why": "A toothed tool starting with S"
       }
     ]
   },

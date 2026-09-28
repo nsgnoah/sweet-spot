@@ -1508,9 +1508,9 @@
     "why": "Potatoes have eyes"
    },
    {
-    "word": "WINE",
+    "word": "PLIERS",
     "region": "B",
-    "why": "Tasters judge a wine's nose"
+    "why": "Needle-nose pliers, but no eyes or tail"
    },
    {
     "word": "KITE",
@@ -1821,9 +1821,9 @@
     "why": "Break bread"
    },
    {
-    "word": "MARTINI",
+    "word": "DICE",
     "region": "C",
-    "why": "Shake a martini"
+    "why": "Shake the dice"
    },
    {
     "word": "BOARD",
@@ -2729,45 +2729,45 @@
  },
  {
   "categories": [
-   "Cocktails",
+   "Has teeth",
    "Tools",
    "Starts with S"
   ],
   "answers": [
    {
-    "word": "MARTINI",
+    "word": "ZIPPER",
     "region": "A",
-    "why": "A cocktail starting with M"
+    "why": "Zipper teeth, but not a tool, starts with Z"
    },
    {
-    "word": "HAMMER",
+    "word": "LEVEL",
     "region": "B",
-    "why": "A tool starting with H"
+    "why": "A tool with no teeth, starts with L"
    },
    {
     "word": "SAILBOAT",
     "region": "C",
-    "why": "Starts with S, not a drink or tool"
+    "why": "Starts with S, no teeth, not a tool"
    },
    {
-    "word": "GIMLET",
+    "word": "FILE",
     "region": "AB",
-    "why": "Gin-lime cocktail, named for a small hole-boring tool"
+    "why": "A file's rough face is rows of tiny teeth"
    },
    {
-    "word": "SIDECAR",
+    "word": "SQUIRREL",
     "region": "AC",
-    "why": "A cocktail starting with S"
+    "why": "Big front teeth, not a tool, starts with S"
    },
    {
     "word": "SHOVEL",
     "region": "BC",
-    "why": "A tool starting with S"
+    "why": "A tool with no teeth, starts with S"
    },
    {
-    "word": "SCREWDRIVER",
+    "word": "SAW",
     "region": "ABC",
-    "why": "Vodka and OJ, a tool, and starts with S"
+    "why": "A toothed tool starting with S"
    }
   ]
  },
@@ -3363,7 +3363,7 @@
    {
     "word": "PILGRIM",
     "region": "C",
-    "why": "A tall buckled hat, plain black clothes"
+    "why": "A tall black hat, but no stars or stripes"
    },
    {
     "word": "OLD GLORY",
@@ -3840,9 +3840,9 @@
     "why": "Harry's best friend, no star"
    },
    {
-    "word": "ORION",
+    "word": "POLARIS",
     "region": "B",
-    "why": "The hunter constellation"
+    "why": "The North Star, not a character"
    },
    {
     "word": "SPELL",
@@ -5325,45 +5325,45 @@
  },
  {
   "categories": [
-   "___ARM",
-   "___WATER",
-   "___GROUND"
+   "___BOAT",
+   "___HOUSE",
+   "___WORK"
   ],
   "answers": [
    {
-    "word": "SIDE",
+    "word": "SAIL",
     "region": "A",
-    "why": "Sidearm"
+    "why": "Sailboat"
    },
    {
-    "word": "SALT",
+    "word": "TREE",
     "region": "B",
-    "why": "Saltwater"
+    "why": "Treehouse"
    },
    {
-    "word": "CAMP",
+    "word": "TEAM",
     "region": "C",
-    "why": "Campground"
+    "why": "Teamwork"
+   },
+   {
+    "word": "ROW",
+    "region": "AB",
+    "why": "Rowboat, row house"
+   },
+   {
+    "word": "HOUSE",
+    "region": "AC",
+    "why": "Houseboat, housework"
+   },
+   {
+    "word": "FIELD",
+    "region": "BC",
+    "why": "Field house, fieldwork"
    },
    {
     "word": "FIRE",
-    "region": "AB",
-    "why": "Firearm, firewater"
-   },
-   {
-    "word": "FORE",
-    "region": "AC",
-    "why": "Forearm, foreground"
-   },
-   {
-    "word": "BACK",
-    "region": "BC",
-    "why": "Backwater, background"
-   },
-   {
-    "word": "UNDER",
     "region": "ABC",
-    "why": "Underarm, underwater, underground"
+    "why": "Fireboat, firehouse, fireworks"
    }
   ]
  },
