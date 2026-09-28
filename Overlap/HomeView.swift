@@ -42,7 +42,7 @@ struct HomeView: View {
     private var header: some View {
         VStack(spacing: 10) {
             VennMark(size: 76)
-            Text("Overlap")
+            Text("Sweet Spot")
                 .font(.display(44))
             Text("Seven words. Three mystery circles.\nFigure out where each one belongs.")
                 .font(.body)

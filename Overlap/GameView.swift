@@ -48,7 +48,7 @@ struct GameView: View {
             }
         }
         .background(Theme.ground)
-        .navigationTitle("Overlap #\(game.puzzle.id)")
+        .navigationTitle("Sweet Spot #\(game.puzzle.id)")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItemGroup(placement: .topBarTrailing) {

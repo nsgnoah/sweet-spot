@@ -206,7 +206,7 @@ final class Game {
 
     var shareText: String {
         let score = state.won ? "\(state.guesses.count)/\(Self.maxGuesses)" : "X/\(Self.maxGuesses)"
-        var lines = ["Overlap #\(puzzle.id)  \(score)"]
+        var lines = ["Sweet Spot #\(puzzle.id)  \(score)"]
         if !state.hints.isEmpty { lines.append(String(repeating: "💡", count: state.hints.count)) }
         lines += state.guesses.map { marks($0).map(\.emoji).joined() }
         return lines.joined(separator: "\n")
