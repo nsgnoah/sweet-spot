@@ -18,11 +18,13 @@ struct GameView: View {
                     .padding(.horizontal, -4)
                 if game.state.finished {
                     ResultCard(game: game)
+                    history
+                    AnswerList(puzzle: game.puzzle)
                 } else {
                     bank
                     controls
+                    if !game.state.guesses.isEmpty { history }
                 }
-                if !game.state.guesses.isEmpty { history }
             }
             .padding(.horizontal, 16)
             .padding(.bottom, 32)
@@ -219,5 +221,57 @@ struct ResultCard: View {
         case 5: "Got it!"
         default: "Phew!"
         }
+    }
+}
+
+struct AnswerList: View {
+    let puzzle: Puzzle
+
+    var body: some View {
+        // Center first, then pairs, then singles
+        let order = [7, 3, 5, 6, 1, 2, 4].compactMap { region in puzzle.answers.firstIndex(of: region) }
+        VStack(alignment: .leading, spacing: 0) {
+            Text("THE ANSWERS")
+                .font(.caption.weight(.bold))
+                .tracking(1.2)
+                .foregroundStyle(.secondary)
+                .padding(.bottom, 6)
+            ForEach(order, id: \.self) { i in
+                HStack(alignment: .firstTextBaseline, spacing: 12) {
+                    RegionDots(mask: puzzle.answers[i])
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(puzzle.words[i])
+                            .font(.system(size: 15, weight: .heavy))
+                        Text(puzzle.whys[i])
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                    Spacer(minLength: 0)
+                }
+                .padding(.vertical, 10)
+                if i != order.last { Divider() }
+            }
+        }
+        .padding(16)
+        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Theme.chip))
+    }
+}
+
+/// Three dots showing which circles a region belongs to.
+struct RegionDots: View {
+    let mask: Int
+
+    var body: some View {
+        HStack(spacing: 3) {
+            ForEach(0..<3, id: \.self) { k in
+                let on = mask & (1 << k) != 0
+                Circle()
+                    .fill(on ? Theme.circles[k] : .clear)
+                    .overlay(Circle().strokeBorder(on ? .clear : Color.primary.opacity(0.2), lineWidth: 1.5))
+                    .frame(width: 10, height: 10)
+            }
+        }
+        .accessibilityLabel(["A", "B", "C"].enumerated().filter { mask & (1 << $0.offset) != 0 }.map(\.element).joined(separator: " and "))
     }
 }

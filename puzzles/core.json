@@ -1,0 +1,364 @@
+[
+  {
+    "categories": [
+      "Has keys",
+      "Has pedals",
+      "Has strings"
+    ],
+    "answers": [
+      {
+        "word": "FLORIDA",
+        "region": "A",
+        "why": "The Florida Keys"
+      },
+      {
+        "word": "BICYCLE",
+        "region": "B",
+        "why": "Pedals, but no keys or strings"
+      },
+      {
+        "word": "PUPPET",
+        "region": "C",
+        "why": "A marionette hangs on strings"
+      },
+      {
+        "word": "CAR",
+        "region": "AB",
+        "why": "Car keys, gas and brake pedals"
+      },
+      {
+        "word": "HARPSICHORD",
+        "region": "AC",
+        "why": "A keyboard that plucks strings, with no pedals"
+      },
+      {
+        "word": "HARP",
+        "region": "BC",
+        "why": "A concert harp has strings and seven pedals"
+      },
+      {
+        "word": "PIANO",
+        "region": "ABC",
+        "why": "Keys, pedals, and strings"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___BALL",
+      "___STORM",
+      "___FALL"
+    ],
+    "answers": [
+      {
+        "word": "BASKET",
+        "region": "A",
+        "why": "Basketball"
+      },
+      {
+        "word": "BRAIN",
+        "region": "B",
+        "why": "Brainstorm"
+      },
+      {
+        "word": "NIGHT",
+        "region": "C",
+        "why": "Nightfall"
+      },
+      {
+        "word": "FIRE",
+        "region": "AB",
+        "why": "Fireball, firestorm"
+      },
+      {
+        "word": "FOOT",
+        "region": "AC",
+        "why": "Football, footfall"
+      },
+      {
+        "word": "RAIN",
+        "region": "BC",
+        "why": "Rainstorm, rainfall"
+      },
+      {
+        "word": "SNOW",
+        "region": "ABC",
+        "why": "Snowball, snowstorm, snowfall"
+      }
+    ],
+    "obscure": [
+      "FIREFALL"
+    ]
+  },
+  {
+    "categories": [
+      "Trees",
+      "Colors",
+      "Six letters"
+    ],
+    "answers": [
+      {
+        "word": "BIRCH",
+        "region": "A",
+        "why": "A tree, five letters"
+      },
+      {
+        "word": "BEIGE",
+        "region": "B",
+        "why": "A color, five letters"
+      },
+      {
+        "word": "PADDLE",
+        "region": "C",
+        "why": "Six letters, neither tree nor color"
+      },
+      {
+        "word": "OLIVE",
+        "region": "AB",
+        "why": "Olive tree, olive green, five letters"
+      },
+      {
+        "word": "WILLOW",
+        "region": "AC",
+        "why": "A six-letter tree"
+      },
+      {
+        "word": "YELLOW",
+        "region": "BC",
+        "why": "A six-letter color"
+      },
+      {
+        "word": "CHERRY",
+        "region": "ABC",
+        "why": "Cherry tree, cherry red, six letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___LINE",
+      "___LOCK",
+      "___BAND"
+    ],
+    "answers": [
+      {
+        "word": "SKY",
+        "region": "A",
+        "why": "Skyline"
+      },
+      {
+        "word": "PAD",
+        "region": "B",
+        "why": "Padlock"
+      },
+      {
+        "word": "BROAD",
+        "region": "C",
+        "why": "Broadband"
+      },
+      {
+        "word": "HEM",
+        "region": "AB",
+        "why": "Hemline, hemlock"
+      },
+      {
+        "word": "WAIST",
+        "region": "AC",
+        "why": "Waistline, waistband"
+      },
+      {
+        "word": "ARM",
+        "region": "BC",
+        "why": "Armlock, armband"
+      },
+      {
+        "word": "HEAD",
+        "region": "ABC",
+        "why": "Headline, headlock, headband"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has wings",
+      "Has a tail",
+      "Has scales"
+    ],
+    "answers": [
+      {
+        "word": "ANGEL",
+        "region": "A",
+        "why": "Wings only"
+      },
+      {
+        "word": "COMET",
+        "region": "B",
+        "why": "A comet's tail"
+      },
+      {
+        "word": "MAP",
+        "region": "C",
+        "why": "A map has a scale"
+      },
+      {
+        "word": "AIRPLANE",
+        "region": "AB",
+        "why": "Wings and a tail"
+      },
+      {
+        "word": "BUTTERFLY",
+        "region": "AC",
+        "why": "Butterfly wings are covered in tiny scales"
+      },
+      {
+        "word": "CROCODILE",
+        "region": "BC",
+        "why": "Scaly with a big tail"
+      },
+      {
+        "word": "DRAGON",
+        "region": "ABC",
+        "why": "Wings, a tail, and scales"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___LIGHT",
+      "___TIME",
+      "___BREAK"
+    ],
+    "answers": [
+      {
+        "word": "CANDLE",
+        "region": "A",
+        "why": "Candlelight"
+      },
+      {
+        "word": "BED",
+        "region": "B",
+        "why": "Bedtime"
+      },
+      {
+        "word": "HEART",
+        "region": "C",
+        "why": "Heartbreak"
+      },
+      {
+        "word": "NIGHT",
+        "region": "AB",
+        "why": "Nightlight, nighttime"
+      },
+      {
+        "word": "FIRE",
+        "region": "AC",
+        "why": "Firelight, firebreak"
+      },
+      {
+        "word": "LUNCH",
+        "region": "BC",
+        "why": "Lunchtime, lunch break"
+      },
+      {
+        "word": "DAY",
+        "region": "ABC",
+        "why": "Daylight, daytime, daybreak"
+      }
+    ],
+    "obscure": [
+      "BEDLIGHT"
+    ]
+  },
+  {
+    "categories": [
+      "Minnesota team names",
+      "Animals",
+      "Five letters"
+    ],
+    "answers": [
+      {
+        "word": "VIKINGS",
+        "region": "A",
+        "why": "Minnesota Vikings"
+      },
+      {
+        "word": "WALLEYE",
+        "region": "B",
+        "why": "Minnesota's state fish"
+      },
+      {
+        "word": "SAUNA",
+        "region": "C",
+        "why": "Five letters"
+      },
+      {
+        "word": "LYNX",
+        "region": "AB",
+        "why": "Minnesota Lynx, a wild cat, four letters"
+      },
+      {
+        "word": "TWINS",
+        "region": "AC",
+        "why": "Minnesota Twins, five letters"
+      },
+      {
+        "word": "MOOSE",
+        "region": "BC",
+        "why": "An animal, five letters"
+      },
+      {
+        "word": "LOONS",
+        "region": "ABC",
+        "why": "Minnesota United's nickname, the state bird, five letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___BALL",
+      "___MAN",
+      "___WORK"
+    ],
+    "answers": [
+      {
+        "word": "MEAT",
+        "region": "A",
+        "why": "Meatball"
+      },
+      {
+        "word": "MAIL",
+        "region": "B",
+        "why": "Mailman"
+      },
+      {
+        "word": "HOME",
+        "region": "C",
+        "why": "Homework"
+      },
+      {
+        "word": "SNOW",
+        "region": "AB",
+        "why": "Snowball, snowman"
+      },
+      {
+        "word": "NET",
+        "region": "AC",
+        "why": "Netball, network"
+      },
+      {
+        "word": "IRON",
+        "region": "BC",
+        "why": "Iron Man, ironwork"
+      },
+      {
+        "word": "FOOT",
+        "region": "ABC",
+        "why": "Football, footman, footwork"
+      }
+    ],
+    "obscure": [
+      "NETMAN",
+      "MEATMAN"
+    ]
+  }
+]

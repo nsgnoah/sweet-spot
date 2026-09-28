@@ -24,21 +24,21 @@ struct GameState: Codable {
 }
 
 enum Store {
-    private static func key(_ id: Int) -> String { "overlap.puzzle.\(id)" }
+    private static func key(_ puzzle: Puzzle) -> String { "overlap.puzzle.\(puzzle.key)" }
 
-    static func load(_ id: Int) -> GameState {
-        guard let data = UserDefaults.standard.data(forKey: key(id)),
+    static func load(_ puzzle: Puzzle) -> GameState {
+        guard let data = UserDefaults.standard.data(forKey: key(puzzle)),
               let state = try? JSONDecoder().decode(GameState.self, from: data) else { return GameState() }
         return state
     }
 
-    static func save(_ state: GameState, _ id: Int) {
+    static func save(_ state: GameState, _ puzzle: Puzzle) {
         if let data = try? JSONEncoder().encode(state) {
-            UserDefaults.standard.set(data, forKey: key(id))
+            UserDefaults.standard.set(data, forKey: key(puzzle))
         }
     }
 
-    static func reset(_ id: Int) { UserDefaults.standard.removeObject(forKey: key(id)) }
+    static func reset(_ puzzle: Puzzle) { UserDefaults.standard.removeObject(forKey: key(puzzle)) }
 }
 
 @Observable
@@ -52,7 +52,7 @@ final class Game {
 
     init(puzzle: Puzzle) {
         self.puzzle = puzzle
-        self.state = Store.load(puzzle.id)
+        self.state = Store.load(puzzle)
     }
 
     var count: Int { puzzle.words.count }
@@ -189,12 +189,12 @@ final class Game {
     func isRevealed(_ category: Int) -> Bool { state.finished || state.hints.contains(category) }
 
     func restart() {
-        Store.reset(puzzle.id)
+        Store.reset(puzzle)
         state = GameState()
         selected = nil
     }
 
-    private func save() { Store.save(state, puzzle.id) }
+    private func save() { Store.save(state, puzzle) }
 
     private func flash(_ message: String) {
         toast = message

@@ -52,15 +52,25 @@ struct HomeView: View {
 
     private var todayCard: some View {
         let today = Puzzles.today
-        let state = Store.load(today.id)
+        let state = Store.load(today)
+        let next = Puzzles.all.first { $0 != today && !Store.load($0).finished }
         return VStack(spacing: 14) {
             Text(Date.now.formatted(.dateTime.weekday(.wide).month(.wide).day()))
                 .font(.subheadline.weight(.semibold))
                 .foregroundStyle(.secondary)
             Text("Puzzle #\(today.id)")
                 .font(.display(26))
-            Button(buttonTitle(state)) { path.append(today) }
-                .buttonStyle(PillStyle(filled: true))
+            if state.finished, let next {
+                HStack(spacing: 12) {
+                    Button("See result") { path.append(today) }
+                        .buttonStyle(PillStyle(filled: false))
+                    Button("Play #\(next.id)") { path.append(next) }
+                        .buttonStyle(PillStyle(filled: true))
+                }
+            } else {
+                Button(buttonTitle(state)) { path.append(today) }
+                    .buttonStyle(PillStyle(filled: true))
+            }
         }
         .id(refresh)
         .frame(maxWidth: .infinity)
@@ -69,58 +79,83 @@ struct HomeView: View {
     }
 
     private var archive: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Text("ALL PUZZLES")
-                .font(.caption.weight(.bold))
-                .tracking(1.2)
-                .foregroundStyle(.secondary)
-                .padding(.leading, 4)
-            VStack(spacing: 0) {
-                ForEach(Puzzles.all) { puzzle in
-                    let state = Store.load(puzzle.id)
-                    Button { path.append(puzzle) } label: {
-                        HStack {
-                            Text("#\(puzzle.id)")
-                                .font(.system(.body, design: .serif).weight(.bold))
-                                .frame(width: 40, alignment: .leading)
-                            status(state)
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .font(.footnote.weight(.semibold))
-                                .foregroundStyle(.tertiary)
-                        }
-                        .padding(.horizontal, 16).padding(.vertical, 14)
-                        .contentShape(Rectangle())
-                    }
-                    .buttonStyle(.plain)
-                    if puzzle.id != Puzzles.all.last?.id { Divider().padding(.leading, 16) }
+        let states = Puzzles.all.map(Store.load)
+        let won = states.filter(\.won)
+        let missed = states.filter { $0.finished && !$0.won }.count
+        let average = won.isEmpty ? 0 : Double(won.map(\.guesses.count).reduce(0, +)) / Double(won.count)
+        return VStack(alignment: .leading, spacing: 12) {
+            HStack(alignment: .firstTextBaseline) {
+                Text("ALL \(Puzzles.all.count) PUZZLES")
+                    .font(.caption.weight(.bold))
+                    .tracking(1.2)
+                    .foregroundStyle(.secondary)
+                Spacer()
+                if !won.isEmpty || missed > 0 {
+                    Text("\(won.count) solved · \(missed) missed\(won.isEmpty ? "" : " · avg " + average.formatted(.number.precision(.fractionLength(1))))")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                        .monospacedDigit()
                 }
             }
-            .id(refresh)
-            .background(RoundedRectangle(cornerRadius: 18, style: .continuous).fill(Theme.chip))
+            .padding(.horizontal, 4)
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 5), spacing: 8) {
+                ForEach(Array(Puzzles.all.enumerated()), id: \.element.key) { i, puzzle in
+                    Button { path.append(puzzle) } label: {
+                        PuzzleTile(number: puzzle.id, state: states[i], isToday: puzzle == Puzzles.today)
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
         }
-    }
-
-    @ViewBuilder
-    private func status(_ state: GameState) -> some View {
-        if state.finished && state.won {
-            Label("Solved in \(state.guesses.count)", systemImage: "checkmark.circle.fill")
-                .foregroundStyle(Theme.green)
-        } else if state.finished {
-            Label("Missed", systemImage: "xmark.circle.fill")
-                .foregroundStyle(Theme.gray)
-        } else if state.started {
-            Label("In progress", systemImage: "circle.lefthalf.filled")
-                .foregroundStyle(Theme.yellow)
-        } else {
-            Text("Not started").foregroundStyle(.secondary)
-        }
+        .id(refresh)
     }
 
     private func buttonTitle(_ state: GameState) -> String {
         state.finished ? "See result" : state.started ? "Continue" : "Play"
     }
 }
+
+struct PuzzleTile: View {
+    let number: Int
+    let state: GameState
+    let isToday: Bool
+
+    var body: some View {
+        let fill: Color = state.won ? Theme.green : state.finished ? Theme.gray : Theme.chip
+        RoundedRectangle(cornerRadius: 12, style: .continuous)
+            .fill(fill)
+            .aspectRatio(1, contentMode: .fit)
+            .overlay {
+                VStack(spacing: 1) {
+                    Text("\(number)")
+                        .font(.system(size: 19, weight: .bold, design: .serif))
+                    Text(caption)
+                        .font(.system(size: 10, weight: .semibold))
+                        .opacity(0.85)
+                }
+                .monospacedDigit()
+                .foregroundStyle(state.finished ? Color.white : Color.primary)
+            }
+            .overlay(
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .strokeBorder(state.started && !state.finished ? Theme.yellow : .clear, lineWidth: 2.5)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                    .strokeBorder(isToday ? Color.primary : .clear, lineWidth: 2)
+                    .padding(-3)
+            )
+        .accessibilityLabel("Puzzle \(number), \(caption.isEmpty ? "not started" : caption)")
+    }
+
+    private var caption: String {
+        if state.won { return "\(state.guesses.count)/\(Game.maxGuesses)" }
+        if state.finished { return "missed" }
+        if state.started { return "playing" }
+        return isToday ? "today" : " "
+    }
+}
+
 
 struct HowToPlayView: View {
     @Environment(\.dismiss) private var dismiss
