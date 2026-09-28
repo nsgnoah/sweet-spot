@@ -185,15 +185,18 @@ struct HowToPlayView: View {
                 }
 
                 card("Playing") {
-                    step("hand.tap", "Tap a word, then tap a spot to place it. Tap a placed word to move it.")
+                    step("hand.draw", "Drag each word to a spot on the diagram. You can also tap a word, then tap a spot.")
                     step("checkmark.circle", "Submit once all seven are placed. You get six tries.")
                     step("lightbulb", "Stuck? Tap a mystery category to reveal it. Hints show as 💡 when you share.")
                 }
 
                 card("After each try") {
-                    step("lock", "**Right spot.** The word locks in place.")
+                    step("circle.fill", "**Right spot.** The word locks in place.")
                     step("circle.lefthalf.filled", "**Close.** It shares at least one circle with the right spot.")
-                    step("xmark", "**Miss.** No circles in common with the right spot.")
+                    step("circle", "**Miss.** No circles in common with the right spot.")
+                    Text("When you share, your guesses show as ● ◐ ○ in the same way.")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
                     Text("When you pick up a word, empty spots remember how it did there before.")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)

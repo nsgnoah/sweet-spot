@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35F5A9FAB7B3D259835F87F6 /* WordDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1839BFAAE98468C48A44D /* WordDrag.swift */; };
 		4A1B74466B5F49285F17D5E8 /* VennBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22043FD2BD931B09FBA8EFC2 /* VennBoard.swift */; };
 		552065BA5714DE0D3E151F37 /* Puzzles.json in Resources */ = {isa = PBXBuildFile; fileRef = 0611BCD98D1E7459BC22D870 /* Puzzles.json */; };
 		627FB36D2DF9520FB8F54687 /* LandscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C21CF934CBBD6295CD3C8 /* LandscapeTests.swift */; };
@@ -32,6 +33,7 @@
 		0611BCD98D1E7459BC22D870 /* Puzzles.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Puzzles.json; sourceTree = "<group>"; };
 		22043FD2BD931B09FBA8EFC2 /* VennBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VennBoard.swift; sourceTree = "<group>"; };
 		2A54D7195DD46D8F4AA46504 /* OverlapUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OverlapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE1839BFAAE98468C48A44D /* WordDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDrag.swift; sourceTree = "<group>"; };
 		4504A02B16E39E9C2BB9556C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4C5D59EC757C6CD5353348 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		566477DADBD4BD9BA5F7D7DE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				0611BCD98D1E7459BC22D870 /* Puzzles.json */,
 				78DBD3B7440FD264C8088BC1 /* Puzzles.swift */,
 				22043FD2BD931B09FBA8EFC2 /* VennBoard.swift */,
+				2AE1839BFAAE98468C48A44D /* WordDrag.swift */,
 			);
 			path = Overlap;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				F9FBB7EF74CC7B2523CE85D6 /* HomeView.swift in Sources */,
 				644EEF8B8630B87D1FB5182D /* Puzzles.swift in Sources */,
 				4A1B74466B5F49285F17D5E8 /* VennBoard.swift in Sources */,
+				35F5A9FAB7B3D259835F87F6 /* WordDrag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,9 +6,9 @@ enum Mark: Int, Codable {
 
     var emoji: String {
         switch self {
-        case .green: "🟩"
-        case .yellow: "🟨"
-        case .gray: "⬜"
+        case .green: "●"
+        case .yellow: "◐"
+        case .gray: "○"
         }
     }
 }
@@ -129,6 +129,20 @@ final class Game {
         guard let sel = selected, state.placements[sel] != nil else { selected = nil; return }
         state.placements[sel] = nil
         selected = nil
+        Haptics.tap(.light)
+        save()
+    }
+
+    /// Drag and drop: put a word straight into a region, swapping with whatever is there.
+    func drop(_ w: Int, on region: Int) {
+        guard !state.finished, !locked.contains(w) else { return }
+        place(w, in: region)
+    }
+
+    /// Drag and drop: a word dropped off the board goes back to the bank.
+    func unplace(_ w: Int) {
+        guard !state.finished, !locked.contains(w), state.placements[w] != nil else { return }
+        state.placements[w] = nil
         Haptics.tap(.light)
         save()
     }

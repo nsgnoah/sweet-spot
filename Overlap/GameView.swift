@@ -5,6 +5,7 @@ struct GameView: View {
     @State private var hintTarget: Int?
     @State private var confirmRestart = false
     @State private var showHelp = false
+    @State private var drag = WordDrag()
 
     init(puzzle: Puzzle) {
         _game = State(initialValue: Game(puzzle: puzzle))
@@ -20,7 +21,7 @@ struct GameView: View {
                     if wide {
                         // iPad landscape: board on the left, everything else beside it
                         HStack(alignment: .top, spacing: 32) {
-                            VennBoard(game: game)
+                            VennBoard(game: game, drag: drag)
                                 .frame(maxWidth: min(700, (geo.size.height - 32) * VennBoard.design.width / VennBoard.design.height))
                             VStack(spacing: 16) {
                                 legend
@@ -33,7 +34,7 @@ struct GameView: View {
                     } else {
                         VStack(spacing: 16) {
                             legend
-                            VennBoard(game: game)
+                            VennBoard(game: game, drag: drag)
                                 .padding(.horizontal, -4)
                             panel
                         }
@@ -43,9 +44,20 @@ struct GameView: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.bottom, 32)
+                .coordinateSpace(name: WordDrag.space)
+                .overlay(alignment: .topLeading) {
+                    // The word under your finger while dragging
+                    if let w = drag.word {
+                        WordChip(text: game.puzzle.words[w], selected: true)
+                            .fixedSize()
+                            .position(drag.location)
+                            .allowsHitTesting(false)
+                    }
+                }
                 .animation(.spring(response: 0.35, dampingFraction: 0.85), value: game.state.placements)
                 .animation(.easeInOut, value: game.state.finished)
             }
+            .scrollDisabled(drag.word != nil)
         }
         .background(Theme.ground)
         .navigationTitle("Sweet Spot #\(game.puzzle.id)")
@@ -136,7 +148,7 @@ struct GameView: View {
     private var bank: some View {
         VStack(spacing: 10) {
             Text(game.bank.isEmpty ? (game.selected != nil ? "Tap here to take a word off the board" : "All placed — submit when ready")
-                 : game.selected == nil ? "Tap a word, then tap where it belongs" : "Now tap a spot on the diagram")
+                 : game.selected == nil ? "Drag each word to where it belongs" : "Now tap a spot on the diagram")
                 .font(.footnote)
                 .foregroundStyle(.secondary)
             FlowLayout(spacing: 8) {
@@ -144,6 +156,7 @@ struct GameView: View {
                     WordChip(text: game.puzzle.words[w], selected: game.selected == w)
                         .hoverEffect(.lift)
                         .onTapGesture { game.tapWord(w) }
+                        .draggableWord(w, game: game, drag: drag)
                         .transition(.scale.combined(with: .opacity))
                 }
             }
@@ -184,7 +197,7 @@ struct GameView: View {
             ForEach(Array(game.state.guesses.enumerated()), id: \.offset) { _, guess in
                 HStack(spacing: 4) {
                     ForEach(Array(game.marks(guess).enumerated()), id: \.offset) { _, m in
-                        RoundedRectangle(cornerRadius: 3).fill(Theme.color(m)).frame(width: 18, height: 18)
+                        MarkDot(mark: m)
                     }
                 }
             }
@@ -303,5 +316,18 @@ struct RegionDots: View {
             }
         }
         .accessibilityLabel(["A", "B", "C"].enumerated().filter { mask & (1 << $0.offset) != 0 }.map(\.element).joined(separator: " and "))
+    }
+}
+
+/// One guess result as a circle: full for right spot, half for close, empty for a miss.
+/// Matches the ● ◐ ○ used in the shared result.
+struct MarkDot: View {
+    let mark: Mark
+
+    var body: some View {
+        Image(systemName: mark == .green ? "circle.fill" : mark == .yellow ? "circle.lefthalf.filled" : "circle")
+            .font(.system(size: 17, weight: .semibold))
+            .foregroundStyle(Theme.color(mark))
+            .frame(width: 20, height: 20)
     }
 }

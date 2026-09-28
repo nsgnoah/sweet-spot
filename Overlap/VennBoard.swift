@@ -2,6 +2,7 @@ import SwiftUI
 
 struct VennBoard: View {
     let game: Game
+    let drag: WordDrag
 
     // Layout in a 360 × 320 design space, scaled to fit.
     static let design = CGSize(width: 360, height: 320)
@@ -37,6 +38,7 @@ struct VennBoard: View {
             }
         }
         .aspectRatio(Self.design.width / Self.design.height, contentMode: .fit)
+        .onGeometryChange(for: CGRect.self) { $0.frame(in: .named(WordDrag.space)) } action: { drag.boardFrame = $0 }
     }
 
     /// The three circles and their A/B/C badges, at scale `s` of the design space.
@@ -75,14 +77,24 @@ struct VennBoard: View {
                 maxWidth: 92 * s
             )
             .animation(.easeOut(duration: 0.3).delay(Double(w) * 0.07), value: game.state.guesses.count)
+            .overlay(
+                RoundedRectangle(cornerRadius: 7 * s, style: .continuous)
+                    .strokeBorder(Color.primary, lineWidth: drag.hoverRegion == region && drag.word != w ? 2.5 : 0)
+                    .padding(-3)
+            )
             .onTapGesture { game.tapWord(w) }
+            .draggableWord(w, game: game, drag: drag)
             .transition(.scale.combined(with: .opacity))
         } else {
-            let past = game.selected.flatMap { game.history(word: $0, region: region) }
+            let active = game.selected ?? drag.word
+            let past = active.flatMap { game.history(word: $0, region: region) }
+            let hovered = drag.hoverRegion == region
             RoundedRectangle(cornerRadius: 7 * s, style: .continuous)
-                .strokeBorder(Color.primary.opacity(game.selected == nil ? 0.18 : 0.4),
-                              style: StrokeStyle(lineWidth: 1.5, dash: [4, 3]))
-                .background(RoundedRectangle(cornerRadius: 7 * s).fill(Color.primary.opacity(0.03)))
+                .strokeBorder(Color.primary.opacity(hovered ? 0.9 : active == nil ? 0.18 : 0.4),
+                              style: StrokeStyle(lineWidth: hovered ? 2.5 : 1.5, dash: hovered ? [] : [4, 3]))
+                .background(RoundedRectangle(cornerRadius: 7 * s).fill(Color.primary.opacity(hovered ? 0.1 : 0.03)))
+                .scaleEffect(hovered ? 1.12 : 1)
+                .animation(.spring(response: 0.2), value: hovered)
                 .frame(width: 44 * s, height: 26 * s)
                 .overlay {
                     switch past {
