@@ -20,9 +20,23 @@ Status as of September 28, 2026. An audit against Apple's current requirements (
 | Close and miss are shown by a symbol as well as color; better contrast; Reduce Motion respected; paired buttons stack at the largest text sizes | `Components.swift`, `GameView.swift`, `HomeView.swift` |
 | Export compliance, arm64, launch screen, 1024 opaque icon, iPhone portrait / iPad all orientations | `project.yml`, asset catalog (unchanged, already correct) |
 
+## Upload build 4
+
+Build 4 is committed but not yet uploaded. Archiving after a restart stops at a macOS keychain prompt ("codesign wants to access key..."). Enter your login password and choose **Always Allow**. Then either use Xcode (Product > Archive, then Distribute App > App Store Connect > Upload), or run:
+
+```bash
+xcodebuild archive -project Overlap.xcodeproj -scheme Overlap -configuration Release -destination 'generic/platform=iOS' -archivePath build/Overlap-4.xcarchive -allowProvisioningUpdates
+```
+
+```bash
+xcodebuild -exportArchive -archivePath build/Overlap-4.xcarchive -exportOptionsPlist build/ExportOptions.plist -exportPath build/export -allowProvisioningUpdates
+```
+
+`build/ExportOptions.plist` (not in git) uploads straight to App Store Connect, and has `manageAppVersionAndBuildNumber` set to false, so the uploaded build is 4, matching the source. After processing, check email for any ITMS warning. There shouldn't be one now that the privacy manifest is in.
+
 ## Privacy and support pages
 
-The app links to these, and App Store Connect needs both URLs. The source is `site/` in this repo; it's published by GitHub Pages from the public `nsgnoah/sweetspot` repo, the same setup as Ola.
+These pages are live. The app links to both, and App Store Connect needs both URLs. The source is `site/` in this repo; it's published by GitHub Pages from the public `nsgnoah/sweetspot` repo, the same setup as Ola.
 
 | App Store Connect field | URL |
 |---|---|
@@ -48,7 +62,7 @@ The app record already exists: **Sweet Spot: Word Venn**, Apple ID 6816802521, b
 | Price / availability | Free. Consider leaving out China mainland and Vietnam, which require a game licence |
 | Mac and Apple Vision Pro | Uncheck both under Pricing and Availability for 1.0, or test "Designed for iPad" on a Mac first. The build settings don't control this |
 | EU trader status | Ola was declared non-trader; use the same unless that has changed |
-| Screenshots | `build/shots-store/iphone` (1284x2778, the 6.5" slot) and `build/shots-store/ipad` (2752x2064, the 13" slot). Suggested order: 02-feedback, 01-placing, 03-solved, 06-howto, 05-home |
+| Screenshots | `build/shots-store/iphone` (1284x2778, the 6.5" slot) and `build/shots-store/ipad` (2752x2064 landscape, the 13" slot), taken from build 4 in light mode with a clean status bar. Not in git. Suggested order: 02-feedback, 01-placing, 03-solved, 06-howto, 05-home |
 
 **Age rating note.** The puzzles still include ordinary compound words and idioms such as swordfish, gunboat, slingshot, arrowhead, and "cross swords", plus a "Playful insults" category (nerd, dweeb, airhead, knucklehead). The audit's verifiers judged these don't count as weapons content or crude humor, the same as in other word games rated 4+. If you'd rather be strict, answering "Infrequent" to Guns or Other Weapons gives 9+ (A16 in Brazil).
 
