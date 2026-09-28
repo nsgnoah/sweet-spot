@@ -176,7 +176,7 @@ struct HowToPlayView: View {
                     Text("Each puzzle hides three categories, drawn as overlapping circles. Every word belongs in exactly one of the seven spaces, and every space gets one word.")
                     ExampleVenn()
                         .padding(.top, 4)
-                    Text("If the circles were **Red**, **Fruit**, and **Round**, APPLE sits in the middle, STRAWBERRY where red and fruit overlap, and BASEBALL alone in round.")
+                    Text("APPLE is red, a fruit, and round, so it sits in the middle. STRAWBERRY is red and a fruit but not round. BANANA is only a fruit.")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -237,7 +237,10 @@ struct HowToPlayView: View {
 
 /// A small, static Venn diagram with the how-to-play example filled in.
 struct ExampleVenn: View {
-    private let words: [(String, Int)] = [("APPLE", 7), ("STRAWBERRY", 3), ("BASEBALL", 4)]
+    private let words: [(String, Int)] = [
+        ("FIRE TRUCK", 1), ("BANANA", 2), ("BASEBALL", 4),
+        ("STRAWBERRY", 3), ("CLOWN NOSE", 5), ("ORANGE", 6), ("APPLE", 7),
+    ]
     private let names = ["Red", "Fruit", "Round"]
 
     var body: some View {
@@ -269,6 +272,6 @@ struct ExampleVenn: View {
             }
         }
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Example: APPLE in all three circles, STRAWBERRY in Red and Fruit, BASEBALL in Round only")
+        .accessibilityLabel("Example with circles Red, Fruit, and Round: FIRE TRUCK is red only, BANANA fruit only, BASEBALL round only, STRAWBERRY red and fruit, CLOWN NOSE red and round, ORANGE fruit and round, APPLE all three")
     }
 }
