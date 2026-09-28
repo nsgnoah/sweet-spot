@@ -161,47 +161,114 @@ struct HowToPlayView: View {
     @Environment(\.dismiss) private var dismiss
 
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 18) {
-                    Text("Every puzzle has three hidden categories, drawn as overlapping circles. Each of the seven words belongs in exactly one of the seven spaces, so every space gets one word.")
-                    example
-                    Text("Tap a word, then tap a spot to place it. When all seven are placed, submit. You get six tries.")
-                    VStack(alignment: .leading, spacing: 10) {
-                        row(.green, "Right spot. It locks in place.")
-                        row(.yellow, "Wrong spot, but it shares at least one circle with the right one.")
-                        row(.gray, "No circles in common with the right spot.")
-                    }
-                    Text("While a word is selected, empty spots show how it did there before: ✕ for gray, a dot for yellow.")
-                    Text("Stuck? Tap a mystery category to reveal it. Hints show as 💡 when you share.")
-                    Text("A new puzzle unlocks each day, and you can play any of them from the list.")
+        ScrollView {
+            VStack(spacing: 20) {
+                VStack(spacing: 10) {
+                    VennMark(size: 56)
+                    Text("How to play")
+                        .font(.display(34))
+                    Text("Seven words. Three mystery circles.")
                         .foregroundStyle(.secondary)
                 }
-                .font(.body)
-                .padding(20)
+                .padding(.top, 28)
+
+                card("The idea") {
+                    Text("Each puzzle hides three categories, drawn as overlapping circles. Every word belongs in exactly one of the seven spaces, and every space gets one word.")
+                    ExampleVenn()
+                        .padding(.top, 4)
+                    Text("If the circles were **Red**, **Fruit**, and **Round**, APPLE sits in the middle, STRAWBERRY where red and fruit overlap, and BASEBALL alone in round.")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+
+                card("Playing") {
+                    step("hand.tap", "Tap a word, then tap a spot to place it. Tap a placed word to move it.")
+                    step("checkmark.circle", "Submit once all seven are placed. You get six tries.")
+                    step("lightbulb", "Stuck? Tap a mystery category to reveal it. Hints show as 💡 when you share.")
+                }
+
+                card("After each try") {
+                    step("lock", "**Right spot.** The word locks in place.")
+                    step("circle.lefthalf.filled", "**Close.** It shares at least one circle with the right spot.")
+                    step("xmark", "**Miss.** No circles in common with the right spot.")
+                    Text("When you pick up a word, empty spots remember how it did there before.")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+
+                Text("A new puzzle unlocks every day, and you can play any of them from the grid.")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 12)
+
+                Button("Let\u{2019}s play") { dismiss() }
+                    .buttonStyle(PillStyle(filled: true))
+                    .padding(.bottom, 24)
             }
-            .navigationTitle("How to play")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .confirmationAction) { Button("Got it") { dismiss() } }
-            }
+            .padding(.horizontal, 16)
         }
+        .background(Theme.ground)
         .presentationDetents([.large])
+        .presentationDragIndicator(.visible)
     }
 
-    private var example: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text("EXAMPLE").font(.caption.weight(.bold)).tracking(1.2).foregroundStyle(.secondary)
-            Text("If the circles were **Red**, **Fruit**, and **Round**, then APPLE goes in the very middle (all three), STRAWBERRY goes where red and fruit overlap, and BASEBALL sits alone in round.")
+    private func card<Content: View>(_ title: String, @ViewBuilder content: () -> Content) -> some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text(title)
+                .font(.display(22))
+            content()
         }
-        .padding(14)
-        .background(RoundedRectangle(cornerRadius: 14).fill(Color.primary.opacity(0.05)))
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(20)
+        .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Theme.chip))
     }
 
-    private func row(_ mark: Mark, _ text: String) -> some View {
-        HStack(alignment: .top, spacing: 12) {
-            RoundedRectangle(cornerRadius: 5).fill(Theme.color(mark)).frame(width: 24, height: 24)
+    private func step(_ icon: String, _ text: LocalizedStringKey) -> some View {
+        HStack(alignment: .firstTextBaseline, spacing: 12) {
+            Image(systemName: icon)
+                .font(.system(size: 16, weight: .semibold))
+                .frame(width: 22)
             Text(text)
+                .fixedSize(horizontal: false, vertical: true)
         }
+    }
+}
+
+/// A small, static Venn diagram with the how-to-play example filled in.
+struct ExampleVenn: View {
+    private let words: [(String, Int)] = [("APPLE", 7), ("STRAWBERRY", 3), ("BASEBALL", 4)]
+    private let names = ["Red", "Fruit", "Round"]
+
+    var body: some View {
+        VStack(spacing: 12) {
+            GeometryReader { geo in
+                let s = geo.size.width / VennBoard.design.width
+                ZStack {
+                    VennBoard.backdrop(s)
+                    ForEach(words, id: \.0) { word, region in
+                        WordChip(text: word, size: 13 * s, maxWidth: 92 * s)
+                            .position(x: VennBoard.slots[region]!.x * s, y: VennBoard.slots[region]!.y * s)
+                    }
+                }
+            }
+            .aspectRatio(VennBoard.design.width / VennBoard.design.height, contentMode: .fit)
+
+            HStack(spacing: 14) {
+                ForEach(0..<3, id: \.self) { i in
+                    HStack(spacing: 6) {
+                        Text(["A", "B", "C"][i])
+                            .font(.system(size: 11, weight: .black, design: .rounded))
+                            .foregroundStyle(.white)
+                            .frame(width: 20, height: 20)
+                            .background(Circle().fill(Theme.circles[i]))
+                        Text(names[i])
+                            .font(.subheadline.weight(.semibold))
+                    }
+                }
+            }
+        }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("Example: APPLE in all three circles, STRAWBERRY in Red and Fruit, BASEBALL in Round only")
     }
 }

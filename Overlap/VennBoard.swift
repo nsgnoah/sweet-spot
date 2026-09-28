@@ -23,7 +23,7 @@ struct VennBoard: View {
         GeometryReader { geo in
             let s = geo.size.width / Self.design.width
             ZStack {
-                circles(s)
+                Self.backdrop(s)
                     .contentShape(Rectangle())
                     .onTapGesture(coordinateSpace: .local) { loc in
                         let region = Self.region(at: CGPoint(x: loc.x / s, y: loc.y / s))
@@ -39,7 +39,8 @@ struct VennBoard: View {
         .aspectRatio(Self.design.width / Self.design.height, contentMode: .fit)
     }
 
-    private func circles(_ s: CGFloat) -> some View {
+    /// The three circles and their A/B/C badges, at scale `s` of the design space.
+    static func backdrop(_ s: CGFloat) -> some View {
         ZStack {
             ForEach(0..<3, id: \.self) { i in
                 let c = Self.centers[i]
