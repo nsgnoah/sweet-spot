@@ -4,6 +4,9 @@ struct VennBoard: View {
     let game: Game
     let drag: WordDrag
 
+    @State private var id = UUID()
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     // Layout in a 360 × 320 design space, scaled to fit.
     static let design = CGSize(width: 360, height: 320)
     static let radius: CGFloat = 96
@@ -13,6 +16,19 @@ struct VennBoard: View {
         3: CGPoint(x: 180, y: 80), 5: CGPoint(x: 124, y: 180), 6: CGPoint(x: 236, y: 180),
         7: CGPoint(x: 180, y: 146),
     ]
+
+    /// Slots in reading order, top to bottom, for VoiceOver.
+    static let readingOrder = [3, 1, 2, 7, 5, 6, 4]
+
+    /// Spoken name of a region, e.g. "only A", "A and B", "all three circles".
+    static func regionName(_ mask: Int) -> String {
+        let names = ["A", "B", "C"].enumerated().filter { mask & (1 << $0.offset) != 0 }.map(\.element)
+        switch names.count {
+        case 1: return "only \(names[0])"
+        case 2: return "\(names[0]) and \(names[1])"
+        default: return "all three circles"
+        }
+    }
 
     static func region(at p: CGPoint) -> Int {
         centers.enumerated().reduce(0) { mask, item in
@@ -31,14 +47,15 @@ struct VennBoard: View {
                         if region == 0 { game.selected = nil } else { game.tapRegion(region) }
                     }
 
-                ForEach(Array(Self.slots.keys), id: \.self) { region in
+                ForEach(Self.readingOrder, id: \.self) { region in
                     slot(region, s)
                         .position(x: Self.slots[region]!.x * s, y: Self.slots[region]!.y * s)
                 }
             }
         }
         .aspectRatio(Self.design.width / Self.design.height, contentMode: .fit)
-        .onGeometryChange(for: CGRect.self) { $0.frame(in: .named(WordDrag.space)) } action: { drag.boardFrame = $0 }
+        .onGeometryChange(for: CGRect.self) { $0.frame(in: .named(WordDrag.space)) } action: { drag.boards[id] = $0 }
+        .onDisappear { drag.boards[id] = nil }
     }
 
     /// The three circles and their A/B/C badges, at scale `s` of the design space.
@@ -61,6 +78,7 @@ struct VennBoard: View {
                     .frame(width: 24 * s, height: 24 * s)
                     .background(Circle().fill(Theme.circles[i]))
                     .position(x: spots[i].x * s, y: spots[i].y * s)
+                    .accessibilityLabel("Circle \(["A", "B", "C"][i])")
             }
         }
     }
@@ -84,7 +102,18 @@ struct VennBoard: View {
             )
             .onTapGesture { game.tapWord(w) }
             .draggableWord(w, game: game, drag: drag)
-            .transition(.scale.combined(with: .opacity))
+            .transition(reduceMotion ? .opacity : .scale.combined(with: .opacity))
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel(game.puzzle.words[w])
+            .accessibilityValue(placedValue(w, region))
+            .accessibilityAddTraits(game.state.finished ? [] : .isButton)
+            .accessibilityAddTraits(game.selected == w ? .isSelected : [])
+            .accessibilityAction { game.tapWord(w) }
+            .accessibilityActions {
+                if !game.state.finished && !game.locked.contains(w) {
+                    Button("Return to word bank") { game.unplace(w) }
+                }
+            }
         } else {
             let active = game.selected ?? drag.word
             let past = active.flatMap { game.history(word: $0, region: region) }
@@ -93,17 +122,30 @@ struct VennBoard: View {
                 .strokeBorder(Color.primary.opacity(hovered ? 0.9 : active == nil ? 0.18 : 0.4),
                               style: StrokeStyle(lineWidth: hovered ? 2.5 : 1.5, dash: hovered ? [] : [4, 3]))
                 .background(RoundedRectangle(cornerRadius: 7 * s).fill(Color.primary.opacity(hovered ? 0.1 : 0.03)))
-                .scaleEffect(hovered ? 1.12 : 1)
+                .scaleEffect(hovered && !reduceMotion ? 1.12 : 1)
                 .animation(.spring(response: 0.2), value: hovered)
                 .frame(width: 44 * s, height: 26 * s)
                 .overlay {
                     switch past {
                     case .gray: Image(systemName: "xmark").font(.system(size: 11 * s, weight: .bold)).foregroundStyle(Theme.gray)
-                    case .yellow: Circle().fill(Theme.yellow).frame(width: 10 * s)
+                    case .yellow: Circle().fill(Theme.yellow).overlay(Circle().strokeBorder(Color.primary.opacity(0.6), lineWidth: 1)).frame(width: 10 * s)
                     default: EmptyView()
                     }
                 }
                 .onTapGesture { game.tapRegion(region) }
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel("Empty spot, \(Self.regionName(region))")
+                .accessibilityValue(past.map { "earlier: \($0.spoken)" } ?? "")
+                .accessibilityHint(game.state.finished ? "" : game.selected.map { "Places \(game.puzzle.words[$0]) here" } ?? "Select a word first")
+                .accessibilityAddTraits(game.state.finished ? [] : .isButton)
+                .accessibilityAction { game.tapRegion(region) }
         }
+    }
+
+    private func placedValue(_ w: Int, _ region: Int) -> String {
+        var parts = [Self.regionName(region)]
+        if let mark = game.mark(for: w), !game.state.finished { parts.append(mark.spoken) }
+        if game.locked.contains(w) && !game.state.finished { parts.append("locked") }
+        return parts.joined(separator: ", ")
     }
 }

@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163CBBDAD31D77592CB376BC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AA602FEB50FAF93D23440687 /* PrivacyInfo.xcprivacy */; };
 		35F5A9FAB7B3D259835F87F6 /* WordDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1839BFAAE98468C48A44D /* WordDrag.swift */; };
 		4A1B74466B5F49285F17D5E8 /* VennBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22043FD2BD931B09FBA8EFC2 /* VennBoard.swift */; };
 		552065BA5714DE0D3E151F37 /* Puzzles.json in Resources */ = {isa = PBXBuildFile; fileRef = 0611BCD98D1E7459BC22D870 /* Puzzles.json */; };
 		627FB36D2DF9520FB8F54687 /* LandscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C21CF934CBBD6295CD3C8 /* LandscapeTests.swift */; };
 		644EEF8B8630B87D1FB5182D /* Puzzles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DBD3B7440FD264C8088BC1 /* Puzzles.swift */; };
 		664119FFF93CA5A1E14DDD98 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566477DADBD4BD9BA5F7D7DE /* GameView.swift */; };
+		8B3A6364188679A103B8E1BD /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900F0BA1395239DC24F8A331 /* AboutView.swift */; };
 		99F067DF4E6E1F502C9E1A84 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3C953F71985ED032F435E1 /* Game.swift */; };
 		A1FC08AFEFAA31E2248CD364 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777BBF45576D758B451802F8 /* Components.swift */; };
 		F2D56188E3EA4E17136DDB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4504A02B16E39E9C2BB9556C /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 		777BBF45576D758B451802F8 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		78DBD3B7440FD264C8088BC1 /* Puzzles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzles.swift; sourceTree = "<group>"; };
 		7A3C953F71985ED032F435E1 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		900F0BA1395239DC24F8A331 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		AA602FEB50FAF93D23440687 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		BF8C21CF934CBBD6295CD3C8 /* LandscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeTests.swift; sourceTree = "<group>"; };
 		D1F45A6D0FEF48E8E8466FD6 /* Overlap.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Overlap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,11 +78,13 @@
 		DD1905ED2741E9AE4E669D0B /* Overlap */ = {
 			isa = PBXGroup;
 			children = (
+				900F0BA1395239DC24F8A331 /* AboutView.swift */,
 				4504A02B16E39E9C2BB9556C /* Assets.xcassets */,
 				777BBF45576D758B451802F8 /* Components.swift */,
 				7A3C953F71985ED032F435E1 /* Game.swift */,
 				566477DADBD4BD9BA5F7D7DE /* GameView.swift */,
 				4C4C5D59EC757C6CD5353348 /* HomeView.swift */,
+				AA602FEB50FAF93D23440687 /* PrivacyInfo.xcprivacy */,
 				0611BCD98D1E7459BC22D870 /* Puzzles.json */,
 				78DBD3B7440FD264C8088BC1 /* Puzzles.swift */,
 				22043FD2BD931B09FBA8EFC2 /* VennBoard.swift */,
@@ -133,7 +139,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					8E95B97913FF8DE5E7F200D7 = {
 						DevelopmentTeam = S6QW7SV228;
@@ -171,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2D56188E3EA4E17136DDB7C /* Assets.xcassets in Resources */,
+				163CBBDAD31D77592CB376BC /* PrivacyInfo.xcprivacy in Resources */,
 				552065BA5714DE0D3E151F37 /* Puzzles.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3A6364188679A103B8E1BD /* AboutView.swift in Sources */,
 				A1FC08AFEFAA31E2248CD364 /* Components.swift in Sources */,
 				99F067DF4E6E1F502C9E1A84 /* Game.swift in Sources */,
 				664119FFF93CA5A1E14DDD98 /* GameView.swift in Sources */,
@@ -274,7 +282,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = S6QW7SV228;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Spot";
@@ -340,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = S6QW7SV228;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Spot";
@@ -358,6 +366,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};

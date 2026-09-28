@@ -8,13 +8,15 @@ final class WordDrag {
 
     var word: Int?
     var location: CGPoint = .zero
-    var boardFrame: CGRect = .zero
+    /// Each on-screen board's frame, keyed by board, so a board torn down in a layout change
+    /// (rotating an iPad, say) can't overwrite the frame of the one that replaced it.
+    var boards: [UUID: CGRect] = [:]
 
     /// The board region under a point, or 0 when it's off the circles.
     func region(at p: CGPoint) -> Int {
-        guard boardFrame.width > 0, boardFrame.contains(p) else { return 0 }
-        let s = boardFrame.width / VennBoard.design.width
-        return VennBoard.region(at: CGPoint(x: (p.x - boardFrame.minX) / s, y: (p.y - boardFrame.minY) / s))
+        guard let frame = boards.values.first(where: { $0.width > 0 && $0.contains(p) }) else { return 0 }
+        let s = frame.width / VennBoard.design.width
+        return VennBoard.region(at: CGPoint(x: (p.x - frame.minX) / s, y: (p.y - frame.minY) / s))
     }
 
     var hoverRegion: Int? {
@@ -29,6 +31,8 @@ private struct Draggable: ViewModifier {
     let game: Game
     let drag: WordDrag
 
+    @GestureState private var dragging = false
+
     private var enabled: Bool { !game.state.finished && !game.locked.contains(word) }
 
     func body(content: Content) -> some View {
@@ -36,6 +40,7 @@ private struct Draggable: ViewModifier {
             .opacity(drag.word == word ? 0.25 : 1)
             .gesture(
                 DragGesture(minimumDistance: 6, coordinateSpace: .named(WordDrag.space))
+                    .updating($dragging) { _, state, _ in state = true }
                     .onChanged { value in
                         if drag.word == nil {
                             game.selected = nil
@@ -51,6 +56,11 @@ private struct Draggable: ViewModifier {
                     },
                 including: enabled ? .all : .subviews
             )
+            // A cancelled drag (the app going to the background, say) never calls onEnded,
+            // but gesture state still resets, so let go of the word here.
+            .onChange(of: dragging) { _, isDragging in
+                if !isDragging && drag.word == word { drag.word = nil }
+            }
     }
 }
 

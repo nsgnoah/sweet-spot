@@ -11,6 +11,15 @@ enum Mark: Int, Codable {
         case .gray: "○"
         }
     }
+
+    /// How VoiceOver reads the mark.
+    var spoken: String {
+        switch self {
+        case .green: "right spot"
+        case .yellow: "close"
+        case .gray: "miss"
+        }
+    }
 }
 
 struct GameState: Codable {
@@ -183,9 +192,11 @@ final class Game {
             state.finished = true
             state.won = true
             Haptics.notify(.success)
+            announce("Solved in \(state.guesses.count) of \(Self.maxGuesses)")
         } else if state.guesses.count >= Self.maxGuesses {
             state.finished = true
             Haptics.notify(.error)
+            announce("Out of guesses. The board now shows the answers.")
         } else {
             let greens = result.filter { $0 == .green }.count
             flash(greens == count - 1 ? "So close!" : "\(greens) of \(count) in the right spot")
@@ -212,9 +223,18 @@ final class Game {
 
     private func flash(_ message: String) {
         toast = message
+        AccessibilityNotification.Announcement(message).post()
         Task { @MainActor in
             try? await Task.sleep(for: .seconds(1.8))
             if toast == message { toast = nil }
+        }
+    }
+
+    /// Waits a moment so VoiceOver doesn't drop the announcement while the result card replaces the controls.
+    private func announce(_ message: String) {
+        Task { @MainActor in
+            try? await Task.sleep(for: .seconds(0.6))
+            AccessibilityNotification.Announcement(message).post()
         }
     }
 

@@ -10,6 +10,14 @@ struct Puzzle: Identifiable, Hashable {
     let whys: [String]
 
     static func == (l: Puzzle, r: Puzzle) -> Bool { l.key == r.key }
+
+    /// Shown only if the bundled puzzles fail to load, so the app never crashes on launch.
+    static let placeholder = Puzzle(
+        id: 1, key: "placeholder", categories: ["Red", "Fruit", "Round"],
+        words: ["FIRE TRUCK", "BANANA", "BASEBALL", "STRAWBERRY", "CLOWN NOSE", "ORANGE", "APPLE"],
+        answers: [1, 2, 4, 3, 5, 6, 7],
+        whys: ["Red only", "Fruit only", "Round only", "Red and a fruit", "Red and round", "A round fruit", "Red, a fruit, and round"]
+    )
     func hash(into h: inout Hasher) { h.combine(key) }
 }
 
@@ -23,7 +31,10 @@ enum Puzzles {
     static let all: [Puzzle] = {
         guard let url = Bundle.main.url(forResource: "Puzzles", withExtension: "json"),
               let data = try? Data(contentsOf: url),
-              let raw = try? JSONDecoder().decode([Raw].self, from: data) else { return [] }
+              let raw = try? JSONDecoder().decode([Raw].self, from: data) else {
+            assertionFailure("Puzzles.json is missing or corrupt")
+            return []
+        }
         return raw.enumerated().map { index, r in
             let key = r.categories.joined(separator: "|")
             // Authored in region order, so shuffle (the same way every time) to hide the answer.
@@ -42,12 +53,13 @@ enum Puzzles {
     }()
 
     /// One puzzle per day, cycling, starting on launch day.
+    /// Always counted on the Gregorian calendar (in the local time zone), so everyone gets the same puzzle.
     static var today: Puzzle {
-        let cal = Calendar.current
+        let cal = Calendar(identifier: .gregorian)
         let start = cal.date(from: DateComponents(year: 2026, month: 9, day: 27))!
         let days = cal.dateComponents([.day], from: cal.startOfDay(for: start), to: cal.startOfDay(for: .now)).day ?? 0
-        let n = all.count
-        return all[((days % n) + n) % n]
+        let n = max(all.count, 1)
+        return all.isEmpty ? .placeholder : all[((days % n) + n) % n]
     }
 
     private static func fnv1a(_ s: String) -> UInt64 {

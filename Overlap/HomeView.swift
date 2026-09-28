@@ -10,8 +10,10 @@ struct OverlapApp: App {
 struct HomeView: View {
     @AppStorage("seenHowTo") private var seenHowTo = false
     @State private var showHelp = false
+    @State private var showAbout = false
     @State private var path: [Puzzle] = []
     @State private var refresh = 0
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         NavigationStack(path: $path) {
@@ -29,13 +31,20 @@ struct HomeView: View {
             .background(Theme.ground)
             .navigationDestination(for: Puzzle.self) { GameView(puzzle: $0) }
             .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button("Privacy & support", systemImage: "info.circle") { showAbout = true }
+                }
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button { showHelp = true } label: { Image(systemName: "questionmark.circle") }
+                    Button("How to play", systemImage: "questionmark.circle") { showHelp = true }
                 }
             }
             .onAppear { refresh += 1 }
+            // Pick up a new day's puzzle when the app comes back after midnight
+            .onChange(of: scenePhase) { _, phase in if phase == .active { refresh += 1 } }
+            .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)) { _ in refresh += 1 }
         }
         .sheet(isPresented: $showHelp) { HowToPlayView() }
+        .sheet(isPresented: $showAbout) { AboutView() }
         .onAppear { if !seenHowTo { showHelp = true; seenHowTo = true } }
     }
 
@@ -63,7 +72,7 @@ struct HomeView: View {
             Text("Puzzle #\(today.id)")
                 .font(.display(26))
             if state.finished, let next {
-                HStack(spacing: 12) {
+                PillRow {
                     Button("See result") { path.append(today) }
                         .buttonStyle(PillStyle(filled: false))
                     Button("Play #\(next.id)") { path.append(next) }
@@ -86,31 +95,52 @@ struct HomeView: View {
         let missed = states.filter { $0.finished && !$0.won }.count
         let average = won.isEmpty ? 0 : Double(won.map(\.guesses.count).reduce(0, +)) / Double(won.count)
         return VStack(alignment: .leading, spacing: 12) {
-            HStack(alignment: .firstTextBaseline) {
-                Text("ALL \(Puzzles.all.count) PUZZLES")
-                    .font(.caption.weight(.bold))
-                    .tracking(1.2)
-                    .foregroundStyle(.secondary)
-                Spacer()
-                if !won.isEmpty || missed > 0 {
-                    Text("\(won.count) solved · \(missed) missed\(won.isEmpty ? "" : " · avg " + average.formatted(.number.precision(.fractionLength(1))))")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                        .monospacedDigit()
+            // Stacks the stats under the heading when large text won't fit both on one line
+            ViewThatFits(in: .horizontal) {
+                HStack(alignment: .firstTextBaseline) {
+                    archiveTitle
+                    Spacer()
+                    archiveStats(won: won, missed: missed, average: average)
+                }
+                VStack(alignment: .leading, spacing: 4) {
+                    archiveTitle
+                    archiveStats(won: won, missed: missed, average: average)
                 }
             }
             .padding(.horizontal, 4)
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 60, maximum: 90), spacing: 8)], spacing: 8) {
                 ForEach(Array(Puzzles.all.enumerated()), id: \.element.key) { i, puzzle in
+                    let state = states[i]
                     Button { path.append(puzzle) } label: {
-                        PuzzleTile(number: puzzle.id, state: states[i], isToday: puzzle == Puzzles.today)
+                        PuzzleTile(number: puzzle.id, state: state, isToday: puzzle == Puzzles.today)
                     }
                     .hoverEffect(.lift)
                     .buttonStyle(.plain)
+                    .accessibilityLabel("Puzzle \(puzzle.id)\(puzzle == Puzzles.today ? ", today" : "")")
+                    .accessibilityValue(state.won ? "solved in \(state.guesses.count) of \(Game.maxGuesses)"
+                                        : state.finished ? "missed" : state.started ? "in progress" : "not started")
                 }
             }
         }
         .id(refresh)
+    }
+
+    private var archiveTitle: some View {
+        Text("ALL \(Puzzles.all.count) PUZZLES")
+            .font(.caption.weight(.bold))
+            .tracking(1.2)
+            .foregroundStyle(.secondary)
+            .fixedSize()
+    }
+
+    @ViewBuilder
+    private func archiveStats(won: [GameState], missed: Int, average: Double) -> some View {
+        if !won.isEmpty || missed > 0 {
+            Text("\(won.count) solved · \(missed) missed\(won.isEmpty ? "" : " · avg " + average.formatted(.number.precision(.fractionLength(1))))")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .monospacedDigit()
+        }
     }
 
     private func buttonTitle(_ state: GameState) -> String {
@@ -134,7 +164,7 @@ struct PuzzleTile: View {
                         .font(.system(size: 19, weight: .bold, design: .serif))
                     Text(caption)
                         .font(.system(size: 10, weight: .semibold))
-                        .opacity(0.85)
+                        .opacity(state.finished ? 1 : 0.85)
                 }
                 .monospacedDigit()
                 .foregroundStyle(state.finished ? Color.white : Color.primary)
@@ -148,7 +178,6 @@ struct PuzzleTile: View {
                     .strokeBorder(isToday ? Color.primary : .clear, lineWidth: 2)
                     .padding(-3)
             )
-        .accessibilityLabel("Puzzle \(number), \(caption.isEmpty ? "not started" : caption)")
     }
 
     private var caption: String {
@@ -202,7 +231,7 @@ struct HowToPlayView: View {
                         .foregroundStyle(.secondary)
                 }
 
-                Text("A new puzzle unlocks every day, and you can play any of them from the grid.")
+                Text("There\u{2019}s a featured puzzle every day, and you can play any of them from the grid.")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
@@ -237,6 +266,7 @@ struct HowToPlayView: View {
             Image(systemName: icon)
                 .font(.system(size: 16, weight: .semibold))
                 .frame(width: 22)
+                .accessibilityHidden(true)
             Text(text)
                 .fixedSize(horizontal: false, vertical: true)
         }
@@ -265,21 +295,27 @@ struct ExampleVenn: View {
             }
             .aspectRatio(VennBoard.design.width / VennBoard.design.height, contentMode: .fit)
 
-            HStack(spacing: 14) {
-                ForEach(0..<3, id: \.self) { i in
-                    HStack(spacing: 6) {
-                        Text(["A", "B", "C"][i])
-                            .font(.system(size: 11, weight: .black, design: .rounded))
-                            .foregroundStyle(.white)
-                            .frame(width: 20, height: 20)
-                            .background(Circle().fill(Theme.circles[i]))
-                        Text(names[i])
-                            .font(.subheadline.weight(.semibold))
-                    }
-                }
+            // Stacks the key when large text won't fit it on one line
+            ViewThatFits {
+                HStack(spacing: 14) { legend }
+                VStack(alignment: .leading, spacing: 6) { legend }
             }
         }
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("Example with circles Red, Fruit, and Round: FIRE TRUCK is red only, BANANA fruit only, BASEBALL round only, STRAWBERRY red and fruit, CLOWN NOSE red and round, ORANGE fruit and round, APPLE all three")
+    }
+
+    private var legend: some View {
+        ForEach(0..<3, id: \.self) { i in
+            HStack(spacing: 6) {
+                Text(["A", "B", "C"][i])
+                    .font(.system(size: 11, weight: .black, design: .rounded))
+                    .foregroundStyle(.white)
+                    .frame(width: 20, height: 20)
+                    .background(Circle().fill(Theme.circles[i]))
+                Text(names[i])
+                    .font(.subheadline.weight(.semibold))
+            }
+        }
     }
 }
