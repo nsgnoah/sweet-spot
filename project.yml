@@ -8,6 +8,8 @@ targets:
     type: application
     platform: iOS
     sources: [Overlap]
+    scheme:
+      testTargets: [OverlapUITests]
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: co.nsgsolutions.overlap
@@ -23,3 +25,16 @@ targets:
         SWIFT_VERSION: "5.0"
         TARGETED_DEVICE_FAMILY: "1,2"
         CODE_SIGN_STYLE: Automatic
+  OverlapUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [OverlapUITests]
+    dependencies:
+      - target: Overlap
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: Overlap
+        PRODUCT_BUNDLE_IDENTIFIER: co.nsgsolutions.overlap.uitests
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
