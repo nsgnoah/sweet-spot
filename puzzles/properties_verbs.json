@@ -1,0 +1,530 @@
+[
+ {
+  "categories": [
+   "You can cast it",
+   "You can draw it",
+   "You can drop it"
+  ],
+  "answers": [
+   {
+    "word": "SPELL",
+    "region": "A",
+    "why": "Cast a spell"
+   },
+   {
+    "word": "BLANK",
+    "region": "B",
+    "why": "Draw a blank"
+   },
+   {
+    "word": "HINT",
+    "region": "C",
+    "why": "Drop a hint"
+   },
+   {
+    "word": "LOTS",
+    "region": "AB",
+    "why": "Cast lots, draw lots"
+   },
+   {
+    "word": "BALLOT",
+    "region": "AC",
+    "why": "Cast a ballot, drop a ballot in the box"
+   },
+   {
+    "word": "NAMES",
+    "region": "BC",
+    "why": "Draw names for gifts, drop names to impress"
+   },
+   {
+    "word": "LINE",
+    "region": "ABC",
+    "why": "Cast a line, draw a line, drop someone a line"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can break it",
+   "You can set it",
+   "You can hold it"
+  ],
+  "answers": [
+   {
+    "word": "SWEAT",
+    "region": "A",
+    "why": "Break a sweat"
+   },
+   {
+    "word": "ALARM",
+    "region": "B",
+    "why": "Set an alarm"
+   },
+   {
+    "word": "GRUDGE",
+    "region": "C",
+    "why": "Hold a grudge"
+   },
+   {
+    "word": "RULES",
+    "region": "AB",
+    "why": "Set the rules, then break them"
+   },
+   {
+    "word": "SERVE",
+    "region": "AC",
+    "why": "In tennis you break serve or hold serve"
+   },
+   {
+    "word": "MEETING",
+    "region": "BC",
+    "why": "Set a meeting, hold a meeting"
+   },
+   {
+    "word": "RECORD",
+    "region": "ABC",
+    "why": "Break a record, set a record, hold a record"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can roll it",
+   "You can shoot it",
+   "You can cast it"
+  ],
+  "answers": [
+   {
+    "word": "CREDITS",
+    "region": "A",
+    "why": "Roll the credits"
+   },
+   {
+    "word": "BREEZE",
+    "region": "B",
+    "why": "Shoot the breeze"
+   },
+   {
+    "word": "VOTE",
+    "region": "C",
+    "why": "Cast a vote"
+   },
+   {
+    "word": "MARBLES",
+    "region": "AB",
+    "why": "Roll marbles, shoot marbles"
+   },
+   {
+    "word": "EYES",
+    "region": "AC",
+    "why": "Roll your eyes, cast your eyes"
+   },
+   {
+    "word": "GLANCE",
+    "region": "BC",
+    "why": "Shoot a glance, cast a glance"
+   },
+   {
+    "word": "DICE",
+    "region": "ABC",
+    "why": "Roll dice, shoot dice, cast dice"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can pitch it",
+   "You can throw it",
+   "You can win it"
+  ],
+  "answers": [
+   {
+    "word": "TENT",
+    "region": "A",
+    "why": "Pitch a tent"
+   },
+   {
+    "word": "PARTY",
+    "region": "B",
+    "why": "Throw a party"
+   },
+   {
+    "word": "LOTTERY",
+    "region": "C",
+    "why": "Win the lottery"
+   },
+   {
+    "word": "FIT",
+    "region": "AB",
+    "why": "Pitch a fit, throw a fit"
+   },
+   {
+    "word": "CLIENT",
+    "region": "AC",
+    "why": "Pitch a client, then win the client"
+   },
+   {
+    "word": "FIGHT",
+    "region": "BC",
+    "why": "Throw a fight on purpose, or win a fight"
+   },
+   {
+    "word": "GAME",
+    "region": "ABC",
+    "why": "Pitch a game, throw a game, win a game"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can land it",
+   "You can pull it",
+   "You can throw it"
+  ],
+  "answers": [
+   {
+    "word": "GIG",
+    "region": "A",
+    "why": "Land a gig"
+   },
+   {
+    "word": "MUSCLE",
+    "region": "B",
+    "why": "Pull a muscle"
+   },
+   {
+    "word": "TANTRUM",
+    "region": "C",
+    "why": "Throw a tantrum"
+   },
+   {
+    "word": "STUNT",
+    "region": "AB",
+    "why": "Pull a stunt, land a stunt"
+   },
+   {
+    "word": "HAYMAKER",
+    "region": "AC",
+    "why": "Throw a haymaker, land a haymaker"
+   },
+   {
+    "word": "WEIGHT",
+    "region": "BC",
+    "why": "Pull your weight, throw your weight around"
+   },
+   {
+    "word": "PUNCH",
+    "region": "ABC",
+    "why": "Land a punch, pull a punch, throw a punch"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can kick it",
+   "You can break it",
+   "You can shake it"
+  ],
+  "answers": [
+   {
+    "word": "TIRES",
+    "region": "A",
+    "why": "Kick the tires"
+   },
+   {
+    "word": "BREAD",
+    "region": "B",
+    "why": "Break bread"
+   },
+   {
+    "word": "MARTINI",
+    "region": "C",
+    "why": "Shake a martini"
+   },
+   {
+    "word": "BOARD",
+    "region": "AB",
+    "why": "Karate: kick a board, break a board"
+   },
+   {
+    "word": "CAN",
+    "region": "AC",
+    "why": "Kick the can down the road, shake a spray can"
+   },
+   {
+    "word": "FAITH",
+    "region": "BC",
+    "why": "Break faith, shake someone's faith"
+   },
+   {
+    "word": "HABIT",
+    "region": "ABC",
+    "why": "Kick a habit, break a habit, shake a habit"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can hit it",
+   "You can beat it",
+   "You can miss it"
+  ],
+  "answers": [
+   {
+    "word": "HAY",
+    "region": "A",
+    "why": "Hit the hay"
+   },
+   {
+    "word": "ODDS",
+    "region": "B",
+    "why": "Beat the odds"
+   },
+   {
+    "word": "CHANCE",
+    "region": "C",
+    "why": "Miss your chance"
+   },
+   {
+    "word": "DRUM",
+    "region": "AB",
+    "why": "Hit a drum, beat a drum"
+   },
+   {
+    "word": "NOTE",
+    "region": "AC",
+    "why": "Hit a note, miss a note"
+   },
+   {
+    "word": "CURFEW",
+    "region": "BC",
+    "why": "Beat curfew, miss curfew"
+   },
+   {
+    "word": "DEADLINE",
+    "region": "ABC",
+    "why": "Hit a deadline, beat a deadline, miss a deadline"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can burn it",
+   "You can cross it",
+   "You can build it"
+  ],
+  "answers": [
+   {
+    "word": "RUBBER",
+    "region": "A",
+    "why": "Burn rubber"
+   },
+   {
+    "word": "SWORDS",
+    "region": "B",
+    "why": "Cross swords"
+   },
+   {
+    "word": "SNOWMAN",
+    "region": "C",
+    "why": "Build a snowman"
+   },
+   {
+    "word": "FINGERS",
+    "region": "AB",
+    "why": "Burn your fingers, cross your fingers"
+   },
+   {
+    "word": "HOUSE",
+    "region": "AC",
+    "why": "Build a house, burn a house down"
+   },
+   {
+    "word": "MOAT",
+    "region": "BC",
+    "why": "Build a moat, cross a moat"
+   },
+   {
+    "word": "BRIDGE",
+    "region": "ABC",
+    "why": "Burn bridges, cross that bridge, build bridges"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can keep it",
+   "You can tell it",
+   "You can kill it"
+  ],
+  "answers": [
+   {
+    "word": "PROMISE",
+    "region": "A",
+    "why": "Keep a promise"
+   },
+   {
+    "word": "FIB",
+    "region": "B",
+    "why": "Tell a fib"
+   },
+   {
+    "word": "MOSQUITO",
+    "region": "C",
+    "why": "Kill a mosquito (a lake-cabin sport)"
+   },
+   {
+    "word": "SECRET",
+    "region": "AB",
+    "why": "Keep a secret, tell a secret"
+   },
+   {
+    "word": "LIGHTS",
+    "region": "AC",
+    "why": "Keep the lights on, kill the lights"
+   },
+   {
+    "word": "JOKE",
+    "region": "BC",
+    "why": "Tell a joke, kill a joke by overexplaining it"
+   },
+   {
+    "word": "TIME",
+    "region": "ABC",
+    "why": "Keep time, tell time, kill time"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can catch it",
+   "You can call it",
+   "You can play it"
+  ],
+  "answers": [
+   {
+    "word": "COLD",
+    "region": "A",
+    "why": "Catch a cold"
+   },
+   {
+    "word": "DIBS",
+    "region": "B",
+    "why": "Call dibs"
+   },
+   {
+    "word": "HOOKY",
+    "region": "C",
+    "why": "Play hooky"
+   },
+   {
+    "word": "CAB",
+    "region": "AB",
+    "why": "Catch a cab, call a cab"
+   },
+   {
+    "word": "MOVIE",
+    "region": "AC",
+    "why": "Catch a movie, play a movie"
+   },
+   {
+    "word": "BINGO",
+    "region": "BC",
+    "why": "Call bingo, play bingo"
+   },
+   {
+    "word": "GAME",
+    "region": "ABC",
+    "why": "Catch a game, call a game, play a game"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can drop it",
+   "You can pass it",
+   "You can hold it"
+  ],
+  "answers": [
+   {
+    "word": "CHARGES",
+    "region": "A",
+    "why": "Drop the charges"
+   },
+   {
+    "word": "MUSTER",
+    "region": "B",
+    "why": "Pass muster"
+   },
+   {
+    "word": "HORSES",
+    "region": "C",
+    "why": "Hold your horses"
+   },
+   {
+    "word": "BUCK",
+    "region": "AB",
+    "why": "Pass the buck, or drop a buck (bag a deer)"
+   },
+   {
+    "word": "CALL",
+    "region": "AC",
+    "why": "Drop a call, hold my calls"
+   },
+   {
+    "word": "WATER",
+    "region": "BC",
+    "why": "An argument holds water; you can also pass water"
+   },
+   {
+    "word": "CLASS",
+    "region": "ABC",
+    "why": "Drop a class, pass a class, hold class"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can hold it",
+   "You can draw it",
+   "You can catch it"
+  ],
+  "answers": [
+   {
+    "word": "COURT",
+    "region": "A",
+    "why": "Hold court"
+   },
+   {
+    "word": "BATH",
+    "region": "B",
+    "why": "Draw a bath"
+   },
+   {
+    "word": "DRIFT",
+    "region": "C",
+    "why": "Catch my drift"
+   },
+   {
+    "word": "CARDS",
+    "region": "AB",
+    "why": "Draw cards, hold your cards close"
+   },
+   {
+    "word": "ELEVATOR",
+    "region": "AC",
+    "why": "Hold the elevator, catch the elevator"
+   },
+   {
+    "word": "FLAK",
+    "region": "BC",
+    "why": "Draw flak, catch flak"
+   },
+   {
+    "word": "BREATH",
+    "region": "ABC",
+    "why": "Hold your breath, draw a breath, catch your breath"
+   }
+  ]
+ }
+]

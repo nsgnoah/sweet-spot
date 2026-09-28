@@ -1,0 +1,530 @@
+[
+  {
+    "categories": [
+      "Has legs",
+      "Has arms",
+      "Has a seat"
+    ],
+    "answers": [
+      {
+        "word": "RELAY",
+        "region": "A",
+        "why": "Four legs, one per runner"
+      },
+      {
+        "word": "CHANDELIER",
+        "region": "B",
+        "why": "Arms hold the lights; it hangs, no legs or seat"
+      },
+      {
+        "word": "SENATE",
+        "region": "C",
+        "why": "Senators win a seat"
+      },
+      {
+        "word": "MONKEY",
+        "region": "AB",
+        "why": "Arms and legs, but nowhere to sit"
+      },
+      {
+        "word": "PANTS",
+        "region": "AC",
+        "why": "Two legs and a seat, but no arms"
+      },
+      {
+        "word": "WHEELCHAIR",
+        "region": "BC",
+        "why": "Armrests and a seat, but wheels instead of legs"
+      },
+      {
+        "word": "THRONE",
+        "region": "ABC",
+        "why": "Legs, arms, and a royal seat"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has a head",
+      "Has a foot",
+      "Has a face"
+    ],
+    "answers": [
+      {
+        "word": "LETTUCE",
+        "region": "A",
+        "why": "Sold by the head"
+      },
+      {
+        "word": "HILL",
+        "region": "B",
+        "why": "The foot of the hill, but no head or face"
+      },
+      {
+        "word": "CLOCK",
+        "region": "C",
+        "why": "A clock face, but no head or foot"
+      },
+      {
+        "word": "BED",
+        "region": "AB",
+        "why": "Head of the bed, foot of the bed"
+      },
+      {
+        "word": "COIN",
+        "region": "AC",
+        "why": "Heads side, with a face on it"
+      },
+      {
+        "word": "CLIFF",
+        "region": "BC",
+        "why": "A cliff face, and the foot of the cliff"
+      },
+      {
+        "word": "RUSHMORE",
+        "region": "ABC",
+        "why": "Four heads, four faces, and a foot of the mountain"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has hands",
+      "Has a deck",
+      "Has a bow"
+    ],
+    "answers": [
+      {
+        "word": "CLOCK",
+        "region": "A",
+        "why": "Hour and minute hands"
+      },
+      {
+        "word": "SKATEBOARD",
+        "region": "B",
+        "why": "You stand on the deck"
+      },
+      {
+        "word": "GIFT",
+        "region": "C",
+        "why": "Tied with a bow on top"
+      },
+      {
+        "word": "POKER",
+        "region": "AB",
+        "why": "Deal a hand from the deck"
+      },
+      {
+        "word": "ARCHER",
+        "region": "AC",
+        "why": "Hands to draw a bow, but no deck"
+      },
+      {
+        "word": "KAYAK",
+        "region": "BC",
+        "why": "A deck and a bow, but no crew hands"
+      },
+      {
+        "word": "SHIP",
+        "region": "ABC",
+        "why": "All hands on deck, from bow to stern"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has a head",
+      "Has teeth",
+      "Has a handle"
+    ],
+    "answers": [
+      {
+        "word": "GARLIC",
+        "region": "A",
+        "why": "A head of garlic"
+      },
+      {
+        "word": "GEAR",
+        "region": "B",
+        "why": "Teeth mesh with other gears"
+      },
+      {
+        "word": "MUG",
+        "region": "C",
+        "why": "Just a handle"
+      },
+      {
+        "word": "SHARK",
+        "region": "AB",
+        "why": "Head and rows of teeth, nothing to hold"
+      },
+      {
+        "word": "HAMMER",
+        "region": "AC",
+        "why": "Head and handle, no teeth"
+      },
+      {
+        "word": "SAW",
+        "region": "BC",
+        "why": "Teeth and a handle, but no head"
+      },
+      {
+        "word": "RAKE",
+        "region": "ABC",
+        "why": "Toothed head on a long handle"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has eyes",
+      "Has a nose",
+      "Has a tail"
+    ],
+    "answers": [
+      {
+        "word": "POTATO",
+        "region": "A",
+        "why": "Potatoes have eyes"
+      },
+      {
+        "word": "WINE",
+        "region": "B",
+        "why": "Tasters judge a wine's nose"
+      },
+      {
+        "word": "KITE",
+        "region": "C",
+        "why": "A kite has a tail"
+      },
+      {
+        "word": "SNOWMAN",
+        "region": "AB",
+        "why": "Coal eyes and a carrot nose, no tail"
+      },
+      {
+        "word": "TADPOLE",
+        "region": "AC",
+        "why": "Eyes and a wiggly tail, no nose"
+      },
+      {
+        "word": "AIRPLANE",
+        "region": "BC",
+        "why": "A nose up front, a tail in back, no eyes"
+      },
+      {
+        "word": "RUDOLPH",
+        "region": "ABC",
+        "why": "Eyes, a tail, and a very shiny nose"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has a ring",
+      "Has a bell",
+      "Has a belt"
+    ],
+    "answers": [
+      {
+        "word": "ONION",
+        "region": "A",
+        "why": "Onion rings"
+      },
+      {
+        "word": "BICYCLE",
+        "region": "B",
+        "why": "Ring-ring goes the bike bell"
+      },
+      {
+        "word": "ORION",
+        "region": "C",
+        "why": "Orion's Belt"
+      },
+      {
+        "word": "WEDDING",
+        "region": "AB",
+        "why": "A ring and wedding bells"
+      },
+      {
+        "word": "SUMO",
+        "region": "AC",
+        "why": "Wrestled in a ring, wearing a belt"
+      },
+      {
+        "word": "SANTA",
+        "region": "BC",
+        "why": "Sleigh bells and a big black belt"
+      },
+      {
+        "word": "BOXING",
+        "region": "ABC",
+        "why": "A ring, a bell each round, a title belt"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has a pitch",
+      "Has a diamond",
+      "Has a bat"
+    ],
+    "answers": [
+      {
+        "word": "ROOF",
+        "region": "A",
+        "why": "A steep roof has a high pitch"
+      },
+      {
+        "word": "RING",
+        "region": "B",
+        "why": "An engagement ring's diamond"
+      },
+      {
+        "word": "CAVE",
+        "region": "C",
+        "why": "Bats hang in caves"
+      },
+      {
+        "word": "KICKBALL",
+        "region": "AB",
+        "why": "A rolled pitch on a diamond, but no bat"
+      },
+      {
+        "word": "CRICKET",
+        "region": "AC",
+        "why": "Played on a pitch with a bat, no diamond"
+      },
+      {
+        "word": "T-BALL",
+        "region": "BC",
+        "why": "A diamond and a bat, but no pitcher"
+      },
+      {
+        "word": "BASEBALL",
+        "region": "ABC",
+        "why": "Pitch, diamond, and bat"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has a point",
+      "Has a head",
+      "Has feathers"
+    ],
+    "answers": [
+      {
+        "word": "PENCIL",
+        "region": "A",
+        "why": "Sharpen it to a point"
+      },
+      {
+        "word": "CABBAGE",
+        "region": "B",
+        "why": "A head of cabbage"
+      },
+      {
+        "word": "PILLOW",
+        "region": "C",
+        "why": "Stuffed with feathers"
+      },
+      {
+        "word": "NAIL",
+        "region": "AB",
+        "why": "A head to hammer and a point"
+      },
+      {
+        "word": "QUILL",
+        "region": "AC",
+        "why": "A feather pen with a sharp point"
+      },
+      {
+        "word": "DUCK",
+        "region": "BC",
+        "why": "Head and feathers, but a flat, rounded bill"
+      },
+      {
+        "word": "ARROW",
+        "region": "ABC",
+        "why": "Arrowhead, point, and feathered fletching"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has a shell",
+      "Has a tail",
+      "Has claws"
+    ],
+    "answers": [
+      {
+        "word": "TACO",
+        "region": "A",
+        "why": "A crunchy taco shell"
+      },
+      {
+        "word": "PONY",
+        "region": "B",
+        "why": "A swishy tail, but hooves, not claws"
+      },
+      {
+        "word": "HAMMER",
+        "region": "C",
+        "why": "A claw hammer pulls nails"
+      },
+      {
+        "word": "SHRIMP",
+        "region": "AB",
+        "why": "Peel the shell, leave the tail, no claws"
+      },
+      {
+        "word": "CRAB",
+        "region": "AC",
+        "why": "A hard shell and two big claws, but no tail"
+      },
+      {
+        "word": "CAT",
+        "region": "BC",
+        "why": "A tail and sharp claws, but no shell"
+      },
+      {
+        "word": "LOBSTER",
+        "region": "ABC",
+        "why": "Hard shell, big tail, and two claws"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has a keeper",
+      "Has a pitch",
+      "Has a net"
+    ],
+    "answers": [
+      {
+        "word": "LIGHTHOUSE",
+        "region": "A",
+        "why": "A lighthouse keeper tends the light"
+      },
+      {
+        "word": "TUNING FORK",
+        "region": "B",
+        "why": "It rings at one exact pitch"
+      },
+      {
+        "word": "TENNIS",
+        "region": "C",
+        "why": "Hit it over the net, on a court"
+      },
+      {
+        "word": "QUIDDITCH",
+        "region": "AB",
+        "why": "A Keeper guards the hoops on the pitch, no nets"
+      },
+      {
+        "word": "WATER POLO",
+        "region": "AC",
+        "why": "A goalkeeper and a net, but a pool, not a pitch"
+      },
+      {
+        "word": "BATTING CAGE",
+        "region": "BC",
+        "why": "Pitches come in, nets all around, no keeper"
+      },
+      {
+        "word": "SOCCER",
+        "region": "ABC",
+        "why": "A goalkeeper guards the net on the pitch"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has a chain",
+      "Has a bell",
+      "Has a fork"
+    ],
+    "answers": [
+      {
+        "word": "NECKLACE",
+        "region": "A",
+        "why": "Hangs on a chain"
+      },
+      {
+        "word": "CHURCH",
+        "region": "B",
+        "why": "A bell in the steeple"
+      },
+      {
+        "word": "ROAD",
+        "region": "C",
+        "why": "A fork in the road"
+      },
+      {
+        "word": "SHIP",
+        "region": "AB",
+        "why": "An anchor chain and a ship's bell"
+      },
+      {
+        "word": "MOTORCYCLE",
+        "region": "AC",
+        "why": "Chain drive and front forks, but a horn, not a bell"
+      },
+      {
+        "word": "DINNER",
+        "region": "BC",
+        "why": "A dinner bell and a dinner fork, but no chain"
+      },
+      {
+        "word": "BICYCLE",
+        "region": "ABC",
+        "why": "Chain, handlebar bell, and front fork"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Has stars",
+      "Has stripes",
+      "Has a hat"
+    ],
+    "answers": [
+      {
+        "word": "HOLLYWOOD",
+        "region": "A",
+        "why": "Stars on the Walk of Fame"
+      },
+      {
+        "word": "ZEBRA",
+        "region": "B",
+        "why": "Black and white stripes"
+      },
+      {
+        "word": "PILGRIM",
+        "region": "C",
+        "why": "A tall buckled hat, plain black clothes"
+      },
+      {
+        "word": "OLD GLORY",
+        "region": "AB",
+        "why": "Fifty stars and thirteen stripes, no hat"
+      },
+      {
+        "word": "WIZARD",
+        "region": "AC",
+        "why": "A pointy hat covered in stars"
+      },
+      {
+        "word": "WALDO",
+        "region": "BC",
+        "why": "Striped shirt and bobble hat, no stars"
+      },
+      {
+        "word": "UNCLE SAM",
+        "region": "ABC",
+        "why": "A starry top hat and striped pants"
+      }
+    ]
+  }
+]

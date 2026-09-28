@@ -441,6 +441,94 @@
  },
  {
   "categories": [
+   "Has legs",
+   "Has arms",
+   "Has a seat"
+  ],
+  "answers": [
+   {
+    "word": "RELAY",
+    "region": "A",
+    "why": "Four legs, one per runner"
+   },
+   {
+    "word": "CHANDELIER",
+    "region": "B",
+    "why": "Arms hold the lights; it hangs, no legs or seat"
+   },
+   {
+    "word": "SENATE",
+    "region": "C",
+    "why": "Senators win a seat"
+   },
+   {
+    "word": "MONKEY",
+    "region": "AB",
+    "why": "Arms and legs, but nowhere to sit"
+   },
+   {
+    "word": "PANTS",
+    "region": "AC",
+    "why": "Two legs and a seat, but no arms"
+   },
+   {
+    "word": "WHEELCHAIR",
+    "region": "BC",
+    "why": "Armrests and a seat, but wheels instead of legs"
+   },
+   {
+    "word": "THRONE",
+    "region": "ABC",
+    "why": "Legs, arms, and a royal seat"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can cast it",
+   "You can draw it",
+   "You can drop it"
+  ],
+  "answers": [
+   {
+    "word": "SPELL",
+    "region": "A",
+    "why": "Cast a spell"
+   },
+   {
+    "word": "BLANK",
+    "region": "B",
+    "why": "Draw a blank"
+   },
+   {
+    "word": "HINT",
+    "region": "C",
+    "why": "Drop a hint"
+   },
+   {
+    "word": "LOTS",
+    "region": "AB",
+    "why": "Cast lots, draw lots"
+   },
+   {
+    "word": "BALLOT",
+    "region": "AC",
+    "why": "Cast a ballot, drop a ballot in the box"
+   },
+   {
+    "word": "NAMES",
+    "region": "BC",
+    "why": "Draw names for gifts, drop names to impress"
+   },
+   {
+    "word": "LINE",
+    "region": "ABC",
+    "why": "Cast a line, draw a line, drop someone a line"
+   }
+  ]
+ },
+ {
+  "categories": [
    "___LAND",
    "___ROOM",
    "___WORK"
@@ -612,6 +700,94 @@
     "word": "WORK",
     "region": "ABC",
     "why": "Homework, housework, schoolwork"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Has a head",
+   "Has a foot",
+   "Has a face"
+  ],
+  "answers": [
+   {
+    "word": "LETTUCE",
+    "region": "A",
+    "why": "Sold by the head"
+   },
+   {
+    "word": "HILL",
+    "region": "B",
+    "why": "The foot of the hill, but no head or face"
+   },
+   {
+    "word": "CLOCK",
+    "region": "C",
+    "why": "A clock face, but no head or foot"
+   },
+   {
+    "word": "BED",
+    "region": "AB",
+    "why": "Head of the bed, foot of the bed"
+   },
+   {
+    "word": "COIN",
+    "region": "AC",
+    "why": "Heads side, with a face on it"
+   },
+   {
+    "word": "CLIFF",
+    "region": "BC",
+    "why": "A cliff face, and the foot of the cliff"
+   },
+   {
+    "word": "RUSHMORE",
+    "region": "ABC",
+    "why": "Four heads, four faces, and a foot of the mountain"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can break it",
+   "You can set it",
+   "You can hold it"
+  ],
+  "answers": [
+   {
+    "word": "SWEAT",
+    "region": "A",
+    "why": "Break a sweat"
+   },
+   {
+    "word": "ALARM",
+    "region": "B",
+    "why": "Set an alarm"
+   },
+   {
+    "word": "GRUDGE",
+    "region": "C",
+    "why": "Hold a grudge"
+   },
+   {
+    "word": "RULES",
+    "region": "AB",
+    "why": "Set the rules, then break them"
+   },
+   {
+    "word": "SERVE",
+    "region": "AC",
+    "why": "In tennis you break serve or hold serve"
+   },
+   {
+    "word": "MEETING",
+    "region": "BC",
+    "why": "Set a meeting, hold a meeting"
+   },
+   {
+    "word": "RECORD",
+    "region": "ABC",
+    "why": "Break a record, set a record, hold a record"
    }
   ]
  },
@@ -793,6 +969,94 @@
  },
  {
   "categories": [
+   "Has hands",
+   "Has a deck",
+   "Has a bow"
+  ],
+  "answers": [
+   {
+    "word": "CLOCK",
+    "region": "A",
+    "why": "Hour and minute hands"
+   },
+   {
+    "word": "SKATEBOARD",
+    "region": "B",
+    "why": "You stand on the deck"
+   },
+   {
+    "word": "GIFT",
+    "region": "C",
+    "why": "Tied with a bow on top"
+   },
+   {
+    "word": "POKER",
+    "region": "AB",
+    "why": "Deal a hand from the deck"
+   },
+   {
+    "word": "ARCHER",
+    "region": "AC",
+    "why": "Hands to draw a bow, but no deck"
+   },
+   {
+    "word": "KAYAK",
+    "region": "BC",
+    "why": "A deck and a bow, but no crew hands"
+   },
+   {
+    "word": "SHIP",
+    "region": "ABC",
+    "why": "All hands on deck, from bow to stern"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can roll it",
+   "You can shoot it",
+   "You can cast it"
+  ],
+  "answers": [
+   {
+    "word": "CREDITS",
+    "region": "A",
+    "why": "Roll the credits"
+   },
+   {
+    "word": "BREEZE",
+    "region": "B",
+    "why": "Shoot the breeze"
+   },
+   {
+    "word": "VOTE",
+    "region": "C",
+    "why": "Cast a vote"
+   },
+   {
+    "word": "MARBLES",
+    "region": "AB",
+    "why": "Roll marbles, shoot marbles"
+   },
+   {
+    "word": "EYES",
+    "region": "AC",
+    "why": "Roll your eyes, cast your eyes"
+   },
+   {
+    "word": "GLANCE",
+    "region": "BC",
+    "why": "Shoot a glance, cast a glance"
+   },
+   {
+    "word": "DICE",
+    "region": "ABC",
+    "why": "Roll dice, shoot dice, cast dice"
+   }
+  ]
+ },
+ {
+  "categories": [
    "___DUST",
    "___FISH",
    "___LIGHT"
@@ -964,6 +1228,94 @@
     "word": "LIGHT",
     "region": "ABC",
     "why": "Sunlight, moonlight, starlight"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Has a head",
+   "Has teeth",
+   "Has a handle"
+  ],
+  "answers": [
+   {
+    "word": "GARLIC",
+    "region": "A",
+    "why": "A head of garlic"
+   },
+   {
+    "word": "GEAR",
+    "region": "B",
+    "why": "Teeth mesh with other gears"
+   },
+   {
+    "word": "MUG",
+    "region": "C",
+    "why": "Just a handle"
+   },
+   {
+    "word": "SHARK",
+    "region": "AB",
+    "why": "Head and rows of teeth, nothing to hold"
+   },
+   {
+    "word": "HAMMER",
+    "region": "AC",
+    "why": "Head and handle, no teeth"
+   },
+   {
+    "word": "SAW",
+    "region": "BC",
+    "why": "Teeth and a handle, but no head"
+   },
+   {
+    "word": "RAKE",
+    "region": "ABC",
+    "why": "Toothed head on a long handle"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can pitch it",
+   "You can throw it",
+   "You can win it"
+  ],
+  "answers": [
+   {
+    "word": "TENT",
+    "region": "A",
+    "why": "Pitch a tent"
+   },
+   {
+    "word": "PARTY",
+    "region": "B",
+    "why": "Throw a party"
+   },
+   {
+    "word": "LOTTERY",
+    "region": "C",
+    "why": "Win the lottery"
+   },
+   {
+    "word": "FIT",
+    "region": "AB",
+    "why": "Pitch a fit, throw a fit"
+   },
+   {
+    "word": "CLIENT",
+    "region": "AC",
+    "why": "Pitch a client, then win the client"
+   },
+   {
+    "word": "FIGHT",
+    "region": "BC",
+    "why": "Throw a fight on purpose, or win a fight"
+   },
+   {
+    "word": "GAME",
+    "region": "ABC",
+    "why": "Pitch a game, throw a game, win a game"
    }
   ]
  },
@@ -1145,6 +1497,94 @@
  },
  {
   "categories": [
+   "Has eyes",
+   "Has a nose",
+   "Has a tail"
+  ],
+  "answers": [
+   {
+    "word": "POTATO",
+    "region": "A",
+    "why": "Potatoes have eyes"
+   },
+   {
+    "word": "WINE",
+    "region": "B",
+    "why": "Tasters judge a wine's nose"
+   },
+   {
+    "word": "KITE",
+    "region": "C",
+    "why": "A kite has a tail"
+   },
+   {
+    "word": "SNOWMAN",
+    "region": "AB",
+    "why": "Coal eyes and a carrot nose, no tail"
+   },
+   {
+    "word": "TADPOLE",
+    "region": "AC",
+    "why": "Eyes and a wiggly tail, no nose"
+   },
+   {
+    "word": "AIRPLANE",
+    "region": "BC",
+    "why": "A nose up front, a tail in back, no eyes"
+   },
+   {
+    "word": "RUDOLPH",
+    "region": "ABC",
+    "why": "Eyes, a tail, and a very shiny nose"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can land it",
+   "You can pull it",
+   "You can throw it"
+  ],
+  "answers": [
+   {
+    "word": "GIG",
+    "region": "A",
+    "why": "Land a gig"
+   },
+   {
+    "word": "MUSCLE",
+    "region": "B",
+    "why": "Pull a muscle"
+   },
+   {
+    "word": "TANTRUM",
+    "region": "C",
+    "why": "Throw a tantrum"
+   },
+   {
+    "word": "STUNT",
+    "region": "AB",
+    "why": "Pull a stunt, land a stunt"
+   },
+   {
+    "word": "HAYMAKER",
+    "region": "AC",
+    "why": "Throw a haymaker, land a haymaker"
+   },
+   {
+    "word": "WEIGHT",
+    "region": "BC",
+    "why": "Pull your weight, throw your weight around"
+   },
+   {
+    "word": "PUNCH",
+    "region": "ABC",
+    "why": "Land a punch, pull a punch, throw a punch"
+   }
+  ]
+ },
+ {
+  "categories": [
    "___BOARD",
    "___HOLE",
    "___PAD"
@@ -1316,6 +1756,94 @@
     "word": "HOSE",
     "region": "ABC",
     "why": "Fire hose, water hose, air hose"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Has a ring",
+   "Has a bell",
+   "Has a belt"
+  ],
+  "answers": [
+   {
+    "word": "ONION",
+    "region": "A",
+    "why": "Onion rings"
+   },
+   {
+    "word": "BICYCLE",
+    "region": "B",
+    "why": "Ring-ring goes the bike bell"
+   },
+   {
+    "word": "ORION",
+    "region": "C",
+    "why": "Orion's Belt"
+   },
+   {
+    "word": "WEDDING",
+    "region": "AB",
+    "why": "A ring and wedding bells"
+   },
+   {
+    "word": "SUMO",
+    "region": "AC",
+    "why": "Wrestled in a ring, wearing a belt"
+   },
+   {
+    "word": "SANTA",
+    "region": "BC",
+    "why": "Sleigh bells and a big black belt"
+   },
+   {
+    "word": "BOXING",
+    "region": "ABC",
+    "why": "A ring, a bell each round, a title belt"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can kick it",
+   "You can break it",
+   "You can shake it"
+  ],
+  "answers": [
+   {
+    "word": "TIRES",
+    "region": "A",
+    "why": "Kick the tires"
+   },
+   {
+    "word": "BREAD",
+    "region": "B",
+    "why": "Break bread"
+   },
+   {
+    "word": "MARTINI",
+    "region": "C",
+    "why": "Shake a martini"
+   },
+   {
+    "word": "BOARD",
+    "region": "AB",
+    "why": "Karate: kick a board, break a board"
+   },
+   {
+    "word": "CAN",
+    "region": "AC",
+    "why": "Kick the can down the road, shake a spray can"
+   },
+   {
+    "word": "FAITH",
+    "region": "BC",
+    "why": "Break faith, shake someone's faith"
+   },
+   {
+    "word": "HABIT",
+    "region": "ABC",
+    "why": "Kick a habit, break a habit, shake a habit"
    }
   ]
  },
@@ -1497,6 +2025,94 @@
  },
  {
   "categories": [
+   "Has a pitch",
+   "Has a diamond",
+   "Has a bat"
+  ],
+  "answers": [
+   {
+    "word": "ROOF",
+    "region": "A",
+    "why": "A steep roof has a high pitch"
+   },
+   {
+    "word": "RING",
+    "region": "B",
+    "why": "An engagement ring's diamond"
+   },
+   {
+    "word": "CAVE",
+    "region": "C",
+    "why": "Bats hang in caves"
+   },
+   {
+    "word": "KICKBALL",
+    "region": "AB",
+    "why": "A rolled pitch on a diamond, but no bat"
+   },
+   {
+    "word": "CRICKET",
+    "region": "AC",
+    "why": "Played on a pitch with a bat, no diamond"
+   },
+   {
+    "word": "T-BALL",
+    "region": "BC",
+    "why": "A diamond and a bat, but no pitcher"
+   },
+   {
+    "word": "BASEBALL",
+    "region": "ABC",
+    "why": "Pitch, diamond, and bat"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can hit it",
+   "You can beat it",
+   "You can miss it"
+  ],
+  "answers": [
+   {
+    "word": "HAY",
+    "region": "A",
+    "why": "Hit the hay"
+   },
+   {
+    "word": "ODDS",
+    "region": "B",
+    "why": "Beat the odds"
+   },
+   {
+    "word": "CHANCE",
+    "region": "C",
+    "why": "Miss your chance"
+   },
+   {
+    "word": "DRUM",
+    "region": "AB",
+    "why": "Hit a drum, beat a drum"
+   },
+   {
+    "word": "NOTE",
+    "region": "AC",
+    "why": "Hit a note, miss a note"
+   },
+   {
+    "word": "CURFEW",
+    "region": "BC",
+    "why": "Beat curfew, miss curfew"
+   },
+   {
+    "word": "DEADLINE",
+    "region": "ABC",
+    "why": "Hit a deadline, beat a deadline, miss a deadline"
+   }
+  ]
+ },
+ {
+  "categories": [
    "___FALL",
    "___MARK",
    "___WAY"
@@ -1668,6 +2284,94 @@
     "word": "TIME",
     "region": "ABC",
     "why": "Springtime, summertime, wintertime"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Has a point",
+   "Has a head",
+   "Has feathers"
+  ],
+  "answers": [
+   {
+    "word": "PENCIL",
+    "region": "A",
+    "why": "Sharpen it to a point"
+   },
+   {
+    "word": "CABBAGE",
+    "region": "B",
+    "why": "A head of cabbage"
+   },
+   {
+    "word": "PILLOW",
+    "region": "C",
+    "why": "Stuffed with feathers"
+   },
+   {
+    "word": "NAIL",
+    "region": "AB",
+    "why": "A head to hammer and a point"
+   },
+   {
+    "word": "QUILL",
+    "region": "AC",
+    "why": "A feather pen with a sharp point"
+   },
+   {
+    "word": "DUCK",
+    "region": "BC",
+    "why": "Head and feathers, but a flat, rounded bill"
+   },
+   {
+    "word": "ARROW",
+    "region": "ABC",
+    "why": "Arrowhead, point, and feathered fletching"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can burn it",
+   "You can cross it",
+   "You can build it"
+  ],
+  "answers": [
+   {
+    "word": "RUBBER",
+    "region": "A",
+    "why": "Burn rubber"
+   },
+   {
+    "word": "SWORDS",
+    "region": "B",
+    "why": "Cross swords"
+   },
+   {
+    "word": "SNOWMAN",
+    "region": "C",
+    "why": "Build a snowman"
+   },
+   {
+    "word": "FINGERS",
+    "region": "AB",
+    "why": "Burn your fingers, cross your fingers"
+   },
+   {
+    "word": "HOUSE",
+    "region": "AC",
+    "why": "Build a house, burn a house down"
+   },
+   {
+    "word": "MOAT",
+    "region": "BC",
+    "why": "Build a moat, cross a moat"
+   },
+   {
+    "word": "BRIDGE",
+    "region": "ABC",
+    "why": "Burn bridges, cross that bridge, build bridges"
    }
   ]
  },
@@ -1849,6 +2553,94 @@
  },
  {
   "categories": [
+   "Has a shell",
+   "Has a tail",
+   "Has claws"
+  ],
+  "answers": [
+   {
+    "word": "TACO",
+    "region": "A",
+    "why": "A crunchy taco shell"
+   },
+   {
+    "word": "PONY",
+    "region": "B",
+    "why": "A swishy tail, but hooves, not claws"
+   },
+   {
+    "word": "HAMMER",
+    "region": "C",
+    "why": "A claw hammer pulls nails"
+   },
+   {
+    "word": "SHRIMP",
+    "region": "AB",
+    "why": "Peel the shell, leave the tail, no claws"
+   },
+   {
+    "word": "CRAB",
+    "region": "AC",
+    "why": "A hard shell and two big claws, but no tail"
+   },
+   {
+    "word": "CAT",
+    "region": "BC",
+    "why": "A tail and sharp claws, but no shell"
+   },
+   {
+    "word": "LOBSTER",
+    "region": "ABC",
+    "why": "Hard shell, big tail, and two claws"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can keep it",
+   "You can tell it",
+   "You can kill it"
+  ],
+  "answers": [
+   {
+    "word": "PROMISE",
+    "region": "A",
+    "why": "Keep a promise"
+   },
+   {
+    "word": "FIB",
+    "region": "B",
+    "why": "Tell a fib"
+   },
+   {
+    "word": "MOSQUITO",
+    "region": "C",
+    "why": "Kill a mosquito (a lake-cabin sport)"
+   },
+   {
+    "word": "SECRET",
+    "region": "AB",
+    "why": "Keep a secret, tell a secret"
+   },
+   {
+    "word": "LIGHTS",
+    "region": "AC",
+    "why": "Keep the lights on, kill the lights"
+   },
+   {
+    "word": "JOKE",
+    "region": "BC",
+    "why": "Tell a joke, kill a joke by overexplaining it"
+   },
+   {
+    "word": "TIME",
+    "region": "ABC",
+    "why": "Keep time, tell time, kill time"
+   }
+  ]
+ },
+ {
+  "categories": [
    "___BALL",
    "___PRINT",
    "___STAND"
@@ -2020,6 +2812,94 @@
     "word": "BOARD",
     "region": "ABC",
     "why": "Blackboard, whiteboard, snowboard"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Has a keeper",
+   "Has a pitch",
+   "Has a net"
+  ],
+  "answers": [
+   {
+    "word": "LIGHTHOUSE",
+    "region": "A",
+    "why": "A lighthouse keeper tends the light"
+   },
+   {
+    "word": "TUNING FORK",
+    "region": "B",
+    "why": "It rings at one exact pitch"
+   },
+   {
+    "word": "TENNIS",
+    "region": "C",
+    "why": "Hit it over the net, on a court"
+   },
+   {
+    "word": "QUIDDITCH",
+    "region": "AB",
+    "why": "A Keeper guards the hoops on the pitch, no nets"
+   },
+   {
+    "word": "WATER POLO",
+    "region": "AC",
+    "why": "A goalkeeper and a net, but a pool, not a pitch"
+   },
+   {
+    "word": "BATTING CAGE",
+    "region": "BC",
+    "why": "Pitches come in, nets all around, no keeper"
+   },
+   {
+    "word": "SOCCER",
+    "region": "ABC",
+    "why": "A goalkeeper guards the net on the pitch"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can catch it",
+   "You can call it",
+   "You can play it"
+  ],
+  "answers": [
+   {
+    "word": "COLD",
+    "region": "A",
+    "why": "Catch a cold"
+   },
+   {
+    "word": "DIBS",
+    "region": "B",
+    "why": "Call dibs"
+   },
+   {
+    "word": "HOOKY",
+    "region": "C",
+    "why": "Play hooky"
+   },
+   {
+    "word": "CAB",
+    "region": "AB",
+    "why": "Catch a cab, call a cab"
+   },
+   {
+    "word": "MOVIE",
+    "region": "AC",
+    "why": "Catch a movie, play a movie"
+   },
+   {
+    "word": "BINGO",
+    "region": "BC",
+    "why": "Call bingo, play bingo"
+   },
+   {
+    "word": "GAME",
+    "region": "ABC",
+    "why": "Catch a game, call a game, play a game"
    }
   ]
  },
@@ -2201,6 +3081,94 @@
  },
  {
   "categories": [
+   "Has a chain",
+   "Has a bell",
+   "Has a fork"
+  ],
+  "answers": [
+   {
+    "word": "NECKLACE",
+    "region": "A",
+    "why": "Hangs on a chain"
+   },
+   {
+    "word": "CHURCH",
+    "region": "B",
+    "why": "A bell in the steeple"
+   },
+   {
+    "word": "ROAD",
+    "region": "C",
+    "why": "A fork in the road"
+   },
+   {
+    "word": "SHIP",
+    "region": "AB",
+    "why": "An anchor chain and a ship's bell"
+   },
+   {
+    "word": "MOTORCYCLE",
+    "region": "AC",
+    "why": "Chain drive and front forks, but a horn, not a bell"
+   },
+   {
+    "word": "DINNER",
+    "region": "BC",
+    "why": "A dinner bell and a dinner fork, but no chain"
+   },
+   {
+    "word": "BICYCLE",
+    "region": "ABC",
+    "why": "Chain, handlebar bell, and front fork"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can drop it",
+   "You can pass it",
+   "You can hold it"
+  ],
+  "answers": [
+   {
+    "word": "CHARGES",
+    "region": "A",
+    "why": "Drop the charges"
+   },
+   {
+    "word": "MUSTER",
+    "region": "B",
+    "why": "Pass muster"
+   },
+   {
+    "word": "HORSES",
+    "region": "C",
+    "why": "Hold your horses"
+   },
+   {
+    "word": "BUCK",
+    "region": "AB",
+    "why": "Pass the buck, or drop a buck (bag a deer)"
+   },
+   {
+    "word": "CALL",
+    "region": "AC",
+    "why": "Drop a call, hold my calls"
+   },
+   {
+    "word": "WATER",
+    "region": "BC",
+    "why": "An argument holds water; you can also pass water"
+   },
+   {
+    "word": "CLASS",
+    "region": "ABC",
+    "why": "Drop a class, pass a class, hold class"
+   }
+  ]
+ },
+ {
+  "categories": [
    "___HORSE",
    "___ROOM",
    "___SIDE"
@@ -2372,6 +3340,94 @@
     "word": "DONE",
     "region": "ABC",
     "why": "Overdone, underdone, outdone"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Has stars",
+   "Has stripes",
+   "Has a hat"
+  ],
+  "answers": [
+   {
+    "word": "HOLLYWOOD",
+    "region": "A",
+    "why": "Stars on the Walk of Fame"
+   },
+   {
+    "word": "ZEBRA",
+    "region": "B",
+    "why": "Black and white stripes"
+   },
+   {
+    "word": "PILGRIM",
+    "region": "C",
+    "why": "A tall buckled hat, plain black clothes"
+   },
+   {
+    "word": "OLD GLORY",
+    "region": "AB",
+    "why": "Fifty stars and thirteen stripes, no hat"
+   },
+   {
+    "word": "WIZARD",
+    "region": "AC",
+    "why": "A pointy hat covered in stars"
+   },
+   {
+    "word": "WALDO",
+    "region": "BC",
+    "why": "Striped shirt and bobble hat, no stars"
+   },
+   {
+    "word": "UNCLE SAM",
+    "region": "ABC",
+    "why": "A starry top hat and striped pants"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "You can hold it",
+   "You can draw it",
+   "You can catch it"
+  ],
+  "answers": [
+   {
+    "word": "COURT",
+    "region": "A",
+    "why": "Hold court"
+   },
+   {
+    "word": "BATH",
+    "region": "B",
+    "why": "Draw a bath"
+   },
+   {
+    "word": "DRIFT",
+    "region": "C",
+    "why": "Catch my drift"
+   },
+   {
+    "word": "CARDS",
+    "region": "AB",
+    "why": "Draw cards, hold your cards close"
+   },
+   {
+    "word": "ELEVATOR",
+    "region": "AC",
+    "why": "Hold the elevator, catch the elevator"
+   },
+   {
+    "word": "FLAK",
+    "region": "BC",
+    "why": "Draw flak, catch flak"
+   },
+   {
+    "word": "BREATH",
+    "region": "ABC",
+    "why": "Hold your breath, draw a breath, catch your breath"
    }
   ]
  },
