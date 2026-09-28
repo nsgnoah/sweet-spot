@@ -1,0 +1,1102 @@
+[
+  {
+    "categories": [
+      "Superheroes",
+      "Birds",
+      "Six letters"
+    ],
+    "answers": [
+      {
+        "word": "SUPERMAN",
+        "region": "A",
+        "why": "Is it a bird? No, it's Superman (eight letters)"
+      },
+      {
+        "word": "PELICAN",
+        "region": "B",
+        "why": "A bird with no superpowers, seven letters"
+      },
+      {
+        "word": "MITTEN",
+        "region": "C",
+        "why": "Six letters, but no cape and no feathers"
+      },
+      {
+        "word": "ROBIN",
+        "region": "AB",
+        "why": "Batman's partner and a bird, but five letters"
+      },
+      {
+        "word": "BATMAN",
+        "region": "AC",
+        "why": "A six-letter superhero, and a bat is not a bird"
+      },
+      {
+        "word": "TOUCAN",
+        "region": "BC",
+        "why": "A six-letter bird, no superpowers"
+      },
+      {
+        "word": "FALCON",
+        "region": "ABC",
+        "why": "Marvel's Falcon, a bird of prey, and six letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Greek gods",
+      "NASA programs",
+      "Six letters"
+    ],
+    "answers": [
+      {
+        "word": "POSEIDON",
+        "region": "A",
+        "why": "Greek god of the sea"
+      },
+      {
+        "word": "VOYAGER",
+        "region": "B",
+        "why": "NASA's Voyager probes; not a god, seven letters"
+      },
+      {
+        "word": "ROCKET",
+        "region": "C",
+        "why": "Six letters, not a god or a program"
+      },
+      {
+        "word": "ARTEMIS",
+        "region": "AB",
+        "why": "Greek goddess and NASA's return-to-the-Moon program"
+      },
+      {
+        "word": "ATHENA",
+        "region": "AC",
+        "why": "Greek goddess of wisdom, six letters"
+      },
+      {
+        "word": "GEMINI",
+        "region": "BC",
+        "why": "NASA's two-person program, six letters"
+      },
+      {
+        "word": "APOLLO",
+        "region": "ABC",
+        "why": "Greek god, the Moon-landing program, and six letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Car parts",
+      "Clothing",
+      "Starts with H"
+    ],
+    "answers": [
+      {
+        "word": "BUMPER",
+        "region": "A",
+        "why": "A car part you can't wear"
+      },
+      {
+        "word": "SWEATER",
+        "region": "B",
+        "why": "Clothing, not a car part, starts with S"
+      },
+      {
+        "word": "HONEY",
+        "region": "C",
+        "why": "Starts with H, but not a car part or clothing"
+      },
+      {
+        "word": "MUFFLER",
+        "region": "AB",
+        "why": "Quiets your exhaust, or warms your neck"
+      },
+      {
+        "word": "HORN",
+        "region": "AC",
+        "why": "A car part starting with H, but you can't wear it"
+      },
+      {
+        "word": "HAT",
+        "region": "BC",
+        "why": "Clothing that starts with H"
+      },
+      {
+        "word": "HOOD",
+        "region": "ABC",
+        "why": "Covers the engine or your head, and starts with H"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Minnesota cities",
+      "Also a first name",
+      "Six letters"
+    ],
+    "answers": [
+      {
+        "word": "BEMIDJI",
+        "region": "A",
+        "why": "Home of the giant Paul Bunyan statue"
+      },
+      {
+        "word": "OLE",
+        "region": "B",
+        "why": "Ole of Ole and Lena jokes"
+      },
+      {
+        "word": "HOCKEY",
+        "region": "C",
+        "why": "Six letters, but not a city or a name"
+      },
+      {
+        "word": "VIRGINIA",
+        "region": "AB",
+        "why": "Iron Range city and a first name"
+      },
+      {
+        "word": "DULUTH",
+        "region": "AC",
+        "why": "North Shore city, six letters"
+      },
+      {
+        "word": "INGRID",
+        "region": "BC",
+        "why": "A first name with six letters"
+      },
+      {
+        "word": "AUSTIN",
+        "region": "ABC",
+        "why": "Spam's hometown, a first name, and six letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Fish",
+      "Hides a body part",
+      "Seven letters"
+    ],
+    "answers": [
+      {
+        "word": "PERCH",
+        "region": "A",
+        "why": "A panfish, five letters, nothing hidden"
+      },
+      {
+        "word": "LEGEND",
+        "region": "B",
+        "why": "Hides LEG"
+      },
+      {
+        "word": "HOTDISH",
+        "region": "C",
+        "why": "Seven letters and a church-basement classic"
+      },
+      {
+        "word": "BULLHEAD",
+        "region": "AB",
+        "why": "A catfish that hides HEAD"
+      },
+      {
+        "word": "SUNFISH",
+        "region": "AC",
+        "why": "A sunny, seven letters"
+      },
+      {
+        "word": "SHINDIG",
+        "region": "BC",
+        "why": "Hides SHIN, seven letters"
+      },
+      {
+        "word": "WALLEYE",
+        "region": "ABC",
+        "why": "Minnesota's state fish hides EYE, seven letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "NFL team names",
+      "Birds",
+      "Seven letters"
+    ],
+    "answers": [
+      {
+        "word": "BEARS",
+        "region": "A",
+        "why": "Chicago's NFL team, not birds"
+      },
+      {
+        "word": "LOONS",
+        "region": "B",
+        "why": "Birds, and Minnesota's soccer team, not NFL"
+      },
+      {
+        "word": "MUSKIES",
+        "region": "C",
+        "why": "Seven letters, but fish"
+      },
+      {
+        "word": "EAGLES",
+        "region": "AB",
+        "why": "Philadelphia's NFL team and birds, six letters"
+      },
+      {
+        "word": "VIKINGS",
+        "region": "AC",
+        "why": "Minnesota's NFL team, seven letters"
+      },
+      {
+        "word": "ORIOLES",
+        "region": "BC",
+        "why": "Birds and a baseball team, not NFL"
+      },
+      {
+        "word": "FALCONS",
+        "region": "ABC",
+        "why": "Atlanta's NFL team, birds, and seven letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Boats",
+      "Has a double letter",
+      "Five letters"
+    ],
+    "answers": [
+      {
+        "word": "ROWBOAT",
+        "region": "A",
+        "why": "A boat with no double letter, seven letters"
+      },
+      {
+        "word": "RIPPLE",
+        "region": "B",
+        "why": "Double P, but not a boat"
+      },
+      {
+        "word": "SHORE",
+        "region": "C",
+        "why": "Five letters, not a boat"
+      },
+      {
+        "word": "PONTOON",
+        "region": "AB",
+        "why": "Every Minnesota lake has one; double O"
+      },
+      {
+        "word": "KAYAK",
+        "region": "AC",
+        "why": "A five-letter boat, no double letter"
+      },
+      {
+        "word": "REELS",
+        "region": "BC",
+        "why": "Double E, five letters"
+      },
+      {
+        "word": "FERRY",
+        "region": "ABC",
+        "why": "A boat, double R, and five letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Ford models",
+      "Kinds of horses",
+      "Five letters"
+    ],
+    "answers": [
+      {
+        "word": "EXPLORER",
+        "region": "A",
+        "why": "Ford SUV, not a horse"
+      },
+      {
+        "word": "STALLION",
+        "region": "B",
+        "why": "A male horse, not a Ford"
+      },
+      {
+        "word": "CHEVY",
+        "region": "C",
+        "why": "Five letters, but not a Ford"
+      },
+      {
+        "word": "MUSTANG",
+        "region": "AB",
+        "why": "Ford's muscle car and a wild horse"
+      },
+      {
+        "word": "FOCUS",
+        "region": "AC",
+        "why": "Ford compact, five letters"
+      },
+      {
+        "word": "FILLY",
+        "region": "BC",
+        "why": "A young female horse, five letters"
+      },
+      {
+        "word": "PINTO",
+        "region": "ABC",
+        "why": "A Ford, a spotted horse, and five letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Shakespeare characters",
+      "Disney characters",
+      "Five letters"
+    ],
+    "answers": [
+      {
+        "word": "MACBETH",
+        "region": "A",
+        "why": "Shakespeare's Scottish king"
+      },
+      {
+        "word": "STITCH",
+        "region": "B",
+        "why": "Disney's alien from Lilo & Stitch"
+      },
+      {
+        "word": "GLOBE",
+        "region": "C",
+        "why": "Shakespeare's theater, not a character"
+      },
+      {
+        "word": "IAGO",
+        "region": "AB",
+        "why": "Othello's villain and Jafar's parrot"
+      },
+      {
+        "word": "ROMEO",
+        "region": "AC",
+        "why": "Juliet's love, five letters"
+      },
+      {
+        "word": "DUMBO",
+        "region": "BC",
+        "why": "Disney's flying elephant, five letters"
+      },
+      {
+        "word": "ARIEL",
+        "region": "ABC",
+        "why": "The Tempest's spirit, the Little Mermaid, and five letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Monopoly spaces",
+      "US states",
+      "Starts with a vowel"
+    ],
+    "answers": [
+      {
+        "word": "BOARDWALK",
+        "region": "A",
+        "why": "Monopoly's priciest property"
+      },
+      {
+        "word": "MINNESOTA",
+        "region": "B",
+        "why": "A state, but not on the Monopoly board"
+      },
+      {
+        "word": "AUCTION",
+        "region": "C",
+        "why": "A Monopoly rule, not a space; starts with A"
+      },
+      {
+        "word": "VERMONT",
+        "region": "AB",
+        "why": "Vermont Avenue, and a state"
+      },
+      {
+        "word": "ATLANTIC",
+        "region": "AC",
+        "why": "Atlantic Avenue, starts with A"
+      },
+      {
+        "word": "IOWA",
+        "region": "BC",
+        "why": "A state that starts with I, but not on the board"
+      },
+      {
+        "word": "ILLINOIS",
+        "region": "ABC",
+        "why": "Illinois Avenue, a state, and starts with I"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Dances",
+      "NATO alphabet",
+      "Ends with O"
+    ],
+    "answers": [
+      {
+        "word": "POLKA",
+        "region": "A",
+        "why": "A dance at every Minnesota wedding"
+      },
+      {
+        "word": "QUEBEC",
+        "region": "B",
+        "why": "NATO's word for Q"
+      },
+      {
+        "word": "PIANO",
+        "region": "C",
+        "why": "Ends with O, not a dance or a code word"
+      },
+      {
+        "word": "FOXTROT",
+        "region": "AB",
+        "why": "A ballroom dance and NATO's F"
+      },
+      {
+        "word": "MAMBO",
+        "region": "AC",
+        "why": "A Latin dance ending in O"
+      },
+      {
+        "word": "BRAVO",
+        "region": "BC",
+        "why": "NATO's B, ends with O"
+      },
+      {
+        "word": "TANGO",
+        "region": "ABC",
+        "why": "A dance, NATO's T, and ends with O"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Foods",
+      "Slang for money",
+      "Starts with B"
+    ],
+    "answers": [
+      {
+        "word": "WAFFLE",
+        "region": "A",
+        "why": "A breakfast food, not money"
+      },
+      {
+        "word": "MOOLAH",
+        "region": "B",
+        "why": "Slang for money you can't eat"
+      },
+      {
+        "word": "BICYCLE",
+        "region": "C",
+        "why": "Starts with B, but not food or money"
+      },
+      {
+        "word": "CHEDDAR",
+        "region": "AB",
+        "why": "A cheese, and slang for cash"
+      },
+      {
+        "word": "BAGEL",
+        "region": "AC",
+        "why": "A food that starts with B, but not money"
+      },
+      {
+        "word": "BUCKS",
+        "region": "BC",
+        "why": "Slang for dollars that starts with B"
+      },
+      {
+        "word": "BREAD",
+        "region": "ABC",
+        "why": "A food, slang for money, and starts with B"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Baseball terms",
+      "Fishing terms",
+      "Six letters"
+    ],
+    "answers": [
+      {
+        "word": "BULLPEN",
+        "region": "A",
+        "why": "Where relief pitchers warm up"
+      },
+      {
+        "word": "LURE",
+        "region": "B",
+        "why": "Fishing only, four letters"
+      },
+      {
+        "word": "SUNSET",
+        "region": "C",
+        "why": "Six letters, no bat or rod needed"
+      },
+      {
+        "word": "FLY",
+        "region": "AB",
+        "why": "A fly ball, or fly fishing"
+      },
+      {
+        "word": "DUGOUT",
+        "region": "AC",
+        "why": "Baseball's bench, six letters"
+      },
+      {
+        "word": "BOBBER",
+        "region": "BC",
+        "why": "Watch it go under; six letters"
+      },
+      {
+        "word": "SINKER",
+        "region": "ABC",
+        "why": "A pitch, a fishing weight, and six letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Harry Potter characters",
+      "Stars & constellations",
+      "Starts with S"
+    ],
+    "answers": [
+      {
+        "word": "HERMIONE",
+        "region": "A",
+        "why": "Harry's best friend, no star"
+      },
+      {
+        "word": "ORION",
+        "region": "B",
+        "why": "The hunter constellation"
+      },
+      {
+        "word": "SPELL",
+        "region": "C",
+        "why": "Starts with S, but not a character or a star"
+      },
+      {
+        "word": "DRACO",
+        "region": "AB",
+        "why": "Draco Malfoy and the dragon constellation"
+      },
+      {
+        "word": "SNAPE",
+        "region": "AC",
+        "why": "The Potions master, starts with S"
+      },
+      {
+        "word": "SUN",
+        "region": "BC",
+        "why": "Our nearest star, starts with S"
+      },
+      {
+        "word": "SIRIUS",
+        "region": "ABC",
+        "why": "Sirius Black, the brightest star, starts with S"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "US presidents",
+      "Car brands",
+      "Four letters"
+    ],
+    "answers": [
+      {
+        "word": "HOOVER",
+        "region": "A",
+        "why": "A president (and a vacuum), but no car"
+      },
+      {
+        "word": "TESLA",
+        "region": "B",
+        "why": "A car brand, never a president"
+      },
+      {
+        "word": "SLED",
+        "region": "C",
+        "why": "Four letters, but no president or car brand"
+      },
+      {
+        "word": "LINCOLN",
+        "region": "AB",
+        "why": "President and Ford's luxury brand, seven letters"
+      },
+      {
+        "word": "TAFT",
+        "region": "AC",
+        "why": "A four-letter president with no car"
+      },
+      {
+        "word": "JEEP",
+        "region": "BC",
+        "why": "A four-letter car brand"
+      },
+      {
+        "word": "FORD",
+        "region": "ABC",
+        "why": "President Gerald Ford, a car brand, and four letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Fruits",
+      "Tech companies",
+      "Starts with a vowel"
+    ],
+    "answers": [
+      {
+        "word": "BANANA",
+        "region": "A",
+        "why": "A fruit, not a tech company, starts with B"
+      },
+      {
+        "word": "MICROSOFT",
+        "region": "B",
+        "why": "A tech giant you can't eat"
+      },
+      {
+        "word": "UMBRELLA",
+        "region": "C",
+        "why": "Starts with a vowel, but not fruit or tech"
+      },
+      {
+        "word": "BLACKBERRY",
+        "region": "AB",
+        "why": "A fruit and the old phone maker, starts with B"
+      },
+      {
+        "word": "APRICOT",
+        "region": "AC",
+        "why": "A fruit that starts with a vowel"
+      },
+      {
+        "word": "INTEL",
+        "region": "BC",
+        "why": "A chip maker that starts with a vowel"
+      },
+      {
+        "word": "APPLE",
+        "region": "ABC",
+        "why": "A fruit, a tech giant, and starts with a vowel"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "One-name singers",
+      "Animals",
+      "Ends with E"
+    ],
+    "answers": [
+      {
+        "word": "LIZZO",
+        "region": "A",
+        "why": "The Minneapolis-launched star, ends with O"
+      },
+      {
+        "word": "WALRUS",
+        "region": "B",
+        "why": "An animal, not a singer"
+      },
+      {
+        "word": "PICKLE",
+        "region": "C",
+        "why": "Ends with E, but can't sing and isn't an animal"
+      },
+      {
+        "word": "SEAL",
+        "region": "AB",
+        "why": "Sang \"Kiss from a Rose,\" and a sea animal"
+      },
+      {
+        "word": "PRINCE",
+        "region": "AC",
+        "why": "Minnesota's own Prince, ends with E"
+      },
+      {
+        "word": "GIRAFFE",
+        "region": "BC",
+        "why": "An animal that ends with E"
+      },
+      {
+        "word": "DRAKE",
+        "region": "ABC",
+        "why": "The rapper, a male duck, and ends with E"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "NBA teams",
+      "Weather words",
+      "Four letters"
+    ],
+    "answers": [
+      {
+        "word": "TIMBERWOLVES",
+        "region": "A",
+        "why": "Minnesota's NBA team"
+      },
+      {
+        "word": "BLIZZARD",
+        "region": "B",
+        "why": "Minnesota weather, not an NBA team"
+      },
+      {
+        "word": "MITT",
+        "region": "C",
+        "why": "Four letters, no team or weather"
+      },
+      {
+        "word": "THUNDER",
+        "region": "AB",
+        "why": "Oklahoma City's team and a storm sound"
+      },
+      {
+        "word": "JAZZ",
+        "region": "AC",
+        "why": "Utah's team, four letters"
+      },
+      {
+        "word": "HAIL",
+        "region": "BC",
+        "why": "Weather, four letters"
+      },
+      {
+        "word": "HEAT",
+        "region": "ABC",
+        "why": "Miami's team, weather, and four letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Candy",
+      "Playful insults",
+      "Five letters"
+    ],
+    "answers": [
+      {
+        "word": "SNICKERS",
+        "region": "A",
+        "why": "A candy bar, not an insult"
+      },
+      {
+        "word": "KNUCKLEHEAD",
+        "region": "B",
+        "why": "A classic insult, not a candy"
+      },
+      {
+        "word": "SMILE",
+        "region": "C",
+        "why": "Five letters, neither sweet nor mean"
+      },
+      {
+        "word": "AIRHEADS",
+        "region": "AB",
+        "why": "A taffy candy and a name for ditzy people"
+      },
+      {
+        "word": "HEATH",
+        "region": "AC",
+        "why": "A toffee bar, five letters"
+      },
+      {
+        "word": "DWEEB",
+        "region": "BC",
+        "why": "An insult with five letters"
+      },
+      {
+        "word": "NERDS",
+        "region": "ABC",
+        "why": "A candy, an insult, and five letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Dog breeds",
+      "Nationalities",
+      "Starts with A"
+    ],
+    "answers": [
+      {
+        "word": "POODLE",
+        "region": "A",
+        "why": "A dog breed only"
+      },
+      {
+        "word": "KENYAN",
+        "region": "B",
+        "why": "A nationality, not a dog breed"
+      },
+      {
+        "word": "ALPACA",
+        "region": "C",
+        "why": "Starts with A, but not a dog"
+      },
+      {
+        "word": "MALTESE",
+        "region": "AB",
+        "why": "A toy breed and someone from Malta"
+      },
+      {
+        "word": "AKITA",
+        "region": "AC",
+        "why": "A Japanese dog breed, starts with A"
+      },
+      {
+        "word": "ALBANIAN",
+        "region": "BC",
+        "why": "A nationality that starts with A, not a breed"
+      },
+      {
+        "word": "AFGHAN",
+        "region": "ABC",
+        "why": "Afghan hound, a nationality, and starts with A"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Broadway musicals",
+      "Also a first name",
+      "Six letters"
+    ],
+    "answers": [
+      {
+        "word": "CATS",
+        "region": "A",
+        "why": "A musical, four letters"
+      },
+      {
+        "word": "MARGARET",
+        "region": "B",
+        "why": "A first name only"
+      },
+      {
+        "word": "ENCORE",
+        "region": "C",
+        "why": "Six letters, not a show or a name"
+      },
+      {
+        "word": "ANNIE",
+        "region": "AB",
+        "why": "The musical and a first name, five letters"
+      },
+      {
+        "word": "GREASE",
+        "region": "AC",
+        "why": "A musical with six letters"
+      },
+      {
+        "word": "SOPHIA",
+        "region": "BC",
+        "why": "A first name with six letters"
+      },
+      {
+        "word": "OLIVER",
+        "region": "ABC",
+        "why": "Oliver! the musical, a first name, six letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Parts of a tree",
+      "Body parts",
+      "Starts with L"
+    ],
+    "answers": [
+      {
+        "word": "BARK",
+        "region": "A",
+        "why": "Covers a tree, but not a body part"
+      },
+      {
+        "word": "ELBOW",
+        "region": "B",
+        "why": "A body part you won't find on a tree"
+      },
+      {
+        "word": "LANTERN",
+        "region": "C",
+        "why": "Starts with L, but not tree or body"
+      },
+      {
+        "word": "TRUNK",
+        "region": "AB",
+        "why": "A tree's trunk, and your torso (or an elephant's)"
+      },
+      {
+        "word": "LEAF",
+        "region": "AC",
+        "why": "A tree part that starts with L"
+      },
+      {
+        "word": "LUNG",
+        "region": "BC",
+        "why": "A body part that starts with L"
+      },
+      {
+        "word": "LIMB",
+        "region": "ABC",
+        "why": "On a tree, on your body, and starts with L"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "State nicknames",
+      "Big Ten mascots",
+      "Animals"
+    ],
+    "answers": [
+      {
+        "word": "SUNSHINE",
+        "region": "A",
+        "why": "Florida is the Sunshine State"
+      },
+      {
+        "word": "SPARTAN",
+        "region": "B",
+        "why": "Michigan State's mascot"
+      },
+      {
+        "word": "OTTER",
+        "region": "C",
+        "why": "An animal only"
+      },
+      {
+        "word": "BUCKEYE",
+        "region": "AB",
+        "why": "Ohio's nickname and mascot; a nut, not an animal"
+      },
+      {
+        "word": "BEAVER",
+        "region": "AC",
+        "why": "Oregon is the Beaver State; not a Big Ten mascot"
+      },
+      {
+        "word": "WILDCAT",
+        "region": "BC",
+        "why": "Northwestern's mascot, an animal"
+      },
+      {
+        "word": "GOPHER",
+        "region": "ABC",
+        "why": "The Gopher State, Goldy Gopher, and an animal"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Beatles first names",
+      "Apostles",
+      "Presidents' first names"
+    ],
+    "answers": [
+      {
+        "word": "RINGO",
+        "region": "A",
+        "why": "A Beatle only"
+      },
+      {
+        "word": "MATTHEW",
+        "region": "B",
+        "why": "An apostle only"
+      },
+      {
+        "word": "ABRAHAM",
+        "region": "C",
+        "why": "President Lincoln's first name"
+      },
+      {
+        "word": "PAUL",
+        "region": "AB",
+        "why": "McCartney and the apostle Paul"
+      },
+      {
+        "word": "GEORGE",
+        "region": "AC",
+        "why": "Harrison, and Washington or Bush"
+      },
+      {
+        "word": "THOMAS",
+        "region": "BC",
+        "why": "Doubting Thomas and Thomas Jefferson"
+      },
+      {
+        "word": "JOHN",
+        "region": "ABC",
+        "why": "Lennon, the apostle John, and John Adams"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "Greek gods",
+      "Famous brands",
+      "Four letters"
+    ],
+    "answers": [
+      {
+        "word": "APHRODITE",
+        "region": "A",
+        "why": "Greek goddess of love"
+      },
+      {
+        "word": "ADIDAS",
+        "region": "B",
+        "why": "A brand, not a god"
+      },
+      {
+        "word": "TOGA",
+        "region": "C",
+        "why": "Four letters, and it's Roman anyway"
+      },
+      {
+        "word": "HERMES",
+        "region": "AB",
+        "why": "Messenger god and the luxury brand"
+      },
+      {
+        "word": "ZEUS",
+        "region": "AC",
+        "why": "King of the Greek gods, four letters"
+      },
+      {
+        "word": "LEGO",
+        "region": "BC",
+        "why": "A famous brand, four letters"
+      },
+      {
+        "word": "NIKE",
+        "region": "ABC",
+        "why": "Goddess of victory, a brand, and four letters"
+      }
+    ]
+  }
+]

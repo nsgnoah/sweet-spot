@@ -1,0 +1,1010 @@
+[
+  {
+    "categories": [
+      "UP___",
+      "DOWN___",
+      "OUT___"
+    ],
+    "answers": [
+      {
+        "word": "KEEP",
+        "region": "A",
+        "why": "Upkeep"
+      },
+      {
+        "word": "TRODDEN",
+        "region": "B",
+        "why": "Downtrodden"
+      },
+      {
+        "word": "LAW",
+        "region": "C",
+        "why": "Outlaw"
+      },
+      {
+        "word": "TOWN",
+        "region": "AB",
+        "why": "Uptown, downtown"
+      },
+      {
+        "word": "STANDING",
+        "region": "AC",
+        "why": "Upstanding, outstanding"
+      },
+      {
+        "word": "PLAY",
+        "region": "BC",
+        "why": "Downplay, outplay"
+      },
+      {
+        "word": "SIDE",
+        "region": "ABC",
+        "why": "Upside, downside, outside"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "HOME___",
+      "HOUSE___",
+      "SCHOOL___"
+    ],
+    "answers": [
+      {
+        "word": "SICK",
+        "region": "A",
+        "why": "Homesick"
+      },
+      {
+        "word": "BOAT",
+        "region": "B",
+        "why": "Houseboat"
+      },
+      {
+        "word": "YARD",
+        "region": "C",
+        "why": "Schoolyard"
+      },
+      {
+        "word": "BOUND",
+        "region": "AB",
+        "why": "Homebound, housebound"
+      },
+      {
+        "word": "ROOM",
+        "region": "AC",
+        "why": "Homeroom, schoolroom"
+      },
+      {
+        "word": "MATE",
+        "region": "BC",
+        "why": "Housemate, schoolmate"
+      },
+      {
+        "word": "WORK",
+        "region": "ABC",
+        "why": "Homework, housework, schoolwork"
+      }
+    ],
+    "obscure": [
+      "HOUSEROOM"
+    ]
+  },
+  {
+    "categories": [
+      "BLACK___",
+      "BLUE___",
+      "RED___"
+    ],
+    "answers": [
+      {
+        "word": "SMITH",
+        "region": "A",
+        "why": "Blacksmith"
+      },
+      {
+        "word": "GILL",
+        "region": "B",
+        "why": "Bluegill"
+      },
+      {
+        "word": "HANDED",
+        "region": "C",
+        "why": "Red-handed"
+      },
+      {
+        "word": "BERRY",
+        "region": "AB",
+        "why": "Blackberry, blueberry"
+      },
+      {
+        "word": "HEAD",
+        "region": "AC",
+        "why": "Blackhead, redhead"
+      },
+      {
+        "word": "BLOODED",
+        "region": "BC",
+        "why": "Blue-blooded, red-blooded"
+      },
+      {
+        "word": "BIRD",
+        "region": "ABC",
+        "why": "Blackbird, bluebird, redbird (the cardinal)"
+      }
+    ],
+    "obscure": [
+      "BLACKBLOODED",
+      "REDBERRY"
+    ]
+  },
+  {
+    "categories": [
+      "SUN___",
+      "MOON___",
+      "STAR___"
+    ],
+    "answers": [
+      {
+        "word": "SCREEN",
+        "region": "A",
+        "why": "Sunscreen"
+      },
+      {
+        "word": "WALK",
+        "region": "B",
+        "why": "Moonwalk"
+      },
+      {
+        "word": "BOARD",
+        "region": "C",
+        "why": "Starboard"
+      },
+      {
+        "word": "BEAM",
+        "region": "AB",
+        "why": "Sunbeam, moonbeam"
+      },
+      {
+        "word": "BURST",
+        "region": "AC",
+        "why": "Sunburst, starburst"
+      },
+      {
+        "word": "DUST",
+        "region": "BC",
+        "why": "Moon dust, stardust"
+      },
+      {
+        "word": "LIGHT",
+        "region": "ABC",
+        "why": "Sunlight, moonlight, starlight"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "LAKE___",
+      "SEA___",
+      "RIVER___"
+    ],
+    "answers": [
+      {
+        "word": "EFFECT",
+        "region": "A",
+        "why": "Lake-effect snow"
+      },
+      {
+        "word": "SHELL",
+        "region": "B",
+        "why": "Seashell"
+      },
+      {
+        "word": "BANK",
+        "region": "C",
+        "why": "Riverbank"
+      },
+      {
+        "word": "SHORE",
+        "region": "AB",
+        "why": "Lakeshore, seashore"
+      },
+      {
+        "word": "WALK",
+        "region": "AC",
+        "why": "Lakewalk (hi, Duluth), riverwalk"
+      },
+      {
+        "word": "OTTER",
+        "region": "BC",
+        "why": "Sea otter, river otter"
+      },
+      {
+        "word": "BED",
+        "region": "ABC",
+        "why": "Lakebed, seabed, riverbed"
+      }
+    ],
+    "obscure": [
+      "SEABANK"
+    ]
+  },
+  {
+    "categories": [
+      "FIRE___",
+      "WATER___",
+      "AIR___"
+    ],
+    "answers": [
+      {
+        "word": "FLY",
+        "region": "A",
+        "why": "Firefly"
+      },
+      {
+        "word": "MELON",
+        "region": "B",
+        "why": "Watermelon"
+      },
+      {
+        "word": "PORT",
+        "region": "C",
+        "why": "Airport"
+      },
+      {
+        "word": "PROOF",
+        "region": "AB",
+        "why": "Fireproof, waterproof"
+      },
+      {
+        "word": "BALL",
+        "region": "AC",
+        "why": "Fireball, airball"
+      },
+      {
+        "word": "TIGHT",
+        "region": "BC",
+        "why": "Watertight, airtight"
+      },
+      {
+        "word": "HOSE",
+        "region": "ABC",
+        "why": "Fire hose, water hose, air hose"
+      }
+    ],
+    "obscure": [
+      "FIRETIGHT",
+      "AIRPROOF"
+    ]
+  },
+  {
+    "categories": [
+      "DOG___",
+      "CAT___",
+      "FIRE___"
+    ],
+    "answers": [
+      {
+        "word": "SLED",
+        "region": "A",
+        "why": "Dogsled"
+      },
+      {
+        "word": "NIP",
+        "region": "B",
+        "why": "Catnip"
+      },
+      {
+        "word": "WORKS",
+        "region": "C",
+        "why": "Fireworks"
+      },
+      {
+        "word": "PERSON",
+        "region": "AB",
+        "why": "Dog person, cat person"
+      },
+      {
+        "word": "WOOD",
+        "region": "AC",
+        "why": "Dogwood, firewood"
+      },
+      {
+        "word": "BIRD",
+        "region": "BC",
+        "why": "Catbird, firebird"
+      },
+      {
+        "word": "FIGHT",
+        "region": "ABC",
+        "why": "Dogfight, catfight, firefight"
+      }
+    ],
+    "obscure": [
+      "CATWOOD"
+    ]
+  },
+  {
+    "categories": [
+      "SPRING___",
+      "SUMMER___",
+      "WINTER___"
+    ],
+    "answers": [
+      {
+        "word": "CHICKEN",
+        "region": "A",
+        "why": "Spring chicken"
+      },
+      {
+        "word": "SCHOOL",
+        "region": "B",
+        "why": "Summer school"
+      },
+      {
+        "word": "WONDERLAND",
+        "region": "C",
+        "why": "Winter wonderland"
+      },
+      {
+        "word": "FLING",
+        "region": "AB",
+        "why": "Spring fling, summer fling"
+      },
+      {
+        "word": "WHEAT",
+        "region": "AC",
+        "why": "Spring wheat, winter wheat"
+      },
+      {
+        "word": "SQUASH",
+        "region": "BC",
+        "why": "Summer squash, winter squash"
+      },
+      {
+        "word": "TIME",
+        "region": "ABC",
+        "why": "Springtime, summertime, wintertime"
+      }
+    ],
+    "obscure": [
+      "SUMMERWHEAT"
+    ]
+  },
+  {
+    "categories": [
+      "WATER___",
+      "SNOW___",
+      "RAIN___"
+    ],
+    "answers": [
+      {
+        "word": "COLOR",
+        "region": "A",
+        "why": "Watercolor"
+      },
+      {
+        "word": "FLAKE",
+        "region": "B",
+        "why": "Snowflake"
+      },
+      {
+        "word": "BOW",
+        "region": "C",
+        "why": "Rainbow"
+      },
+      {
+        "word": "SKI",
+        "region": "AB",
+        "why": "Water ski, snow ski"
+      },
+      {
+        "word": "BARREL",
+        "region": "AC",
+        "why": "Water barrel, rain barrel"
+      },
+      {
+        "word": "STORM",
+        "region": "BC",
+        "why": "Snowstorm, rainstorm"
+      },
+      {
+        "word": "FALL",
+        "region": "ABC",
+        "why": "Waterfall, snowfall, rainfall"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "BLACK___",
+      "WHITE___",
+      "SNOW___"
+    ],
+    "answers": [
+      {
+        "word": "MAIL",
+        "region": "A",
+        "why": "Blackmail"
+      },
+      {
+        "word": "WASH",
+        "region": "B",
+        "why": "Whitewash"
+      },
+      {
+        "word": "PLOW",
+        "region": "C",
+        "why": "Snowplow"
+      },
+      {
+        "word": "LIST",
+        "region": "AB",
+        "why": "Blacklist, whitelist"
+      },
+      {
+        "word": "BALL",
+        "region": "AC",
+        "why": "Blackball, snowball"
+      },
+      {
+        "word": "CAP",
+        "region": "BC",
+        "why": "Whitecap, snowcap"
+      },
+      {
+        "word": "BOARD",
+        "region": "ABC",
+        "why": "Blackboard, whiteboard, snowboard"
+      }
+    ],
+    "obscure": [
+      "BLACKWASH",
+      "BLACKCAP"
+    ]
+  },
+  {
+    "categories": [
+      "HEAD___",
+      "EAR___",
+      "EYE___"
+    ],
+    "answers": [
+      {
+        "word": "BAND",
+        "region": "A",
+        "why": "Headband"
+      },
+      {
+        "word": "LOBE",
+        "region": "B",
+        "why": "Earlobe"
+      },
+      {
+        "word": "BROW",
+        "region": "C",
+        "why": "Eyebrow"
+      },
+      {
+        "word": "PHONE",
+        "region": "AB",
+        "why": "Headphone, earphone"
+      },
+      {
+        "word": "WEAR",
+        "region": "AC",
+        "why": "Headwear, eyewear"
+      },
+      {
+        "word": "DROPS",
+        "region": "BC",
+        "why": "Eardrops, eyedrops"
+      },
+      {
+        "word": "PIECE",
+        "region": "ABC",
+        "why": "Headpiece, earpiece, eyepiece"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "OVER___",
+      "UNDER___",
+      "OUT___"
+    ],
+    "answers": [
+      {
+        "word": "TIME",
+        "region": "A",
+        "why": "Overtime"
+      },
+      {
+        "word": "DOG",
+        "region": "B",
+        "why": "Underdog"
+      },
+      {
+        "word": "BREAK",
+        "region": "C",
+        "why": "Outbreak"
+      },
+      {
+        "word": "PASS",
+        "region": "AB",
+        "why": "Overpass, underpass"
+      },
+      {
+        "word": "LOOK",
+        "region": "AC",
+        "why": "Overlook, outlook"
+      },
+      {
+        "word": "LINE",
+        "region": "BC",
+        "why": "Underline, outline"
+      },
+      {
+        "word": "DONE",
+        "region": "ABC",
+        "why": "Overdone, underdone, outdone"
+      }
+    ],
+    "obscure": [
+      "OVERBREAK",
+      "OVERLINE",
+      "UNDERTIME",
+      "UNDERLOOK",
+      "OUTPASS"
+    ]
+  },
+  {
+    "categories": [
+      "ICE___",
+      "STONE___",
+      "IRON___"
+    ],
+    "answers": [
+      {
+        "word": "FISHING",
+        "region": "A",
+        "why": "Ice fishing"
+      },
+      {
+        "word": "MASON",
+        "region": "B",
+        "why": "Stonemason"
+      },
+      {
+        "word": "CLAD",
+        "region": "C",
+        "why": "Ironclad"
+      },
+      {
+        "word": "COLD",
+        "region": "AB",
+        "why": "Ice-cold, stone-cold"
+      },
+      {
+        "word": "MAN",
+        "region": "AC",
+        "why": "Iceman, Iron Man"
+      },
+      {
+        "word": "WORK",
+        "region": "BC",
+        "why": "Stonework, ironwork"
+      },
+      {
+        "word": "AGE",
+        "region": "ABC",
+        "why": "Ice Age, Stone Age, Iron Age"
+      }
+    ],
+    "obscure": [
+      "ICECLAD",
+      "ICEWORK",
+      "STONEMAN"
+    ]
+  },
+  {
+    "categories": [
+      "RED___",
+      "WHITE___",
+      "BLUE___"
+    ],
+    "answers": [
+      {
+        "word": "CARPET",
+        "region": "A",
+        "why": "Red carpet"
+      },
+      {
+        "word": "NOISE",
+        "region": "B",
+        "why": "White noise"
+      },
+      {
+        "word": "PRINT",
+        "region": "C",
+        "why": "Blueprint"
+      },
+      {
+        "word": "HOT",
+        "region": "AB",
+        "why": "Red-hot, white-hot"
+      },
+      {
+        "word": "CROSS",
+        "region": "AC",
+        "why": "Red Cross, Blue Cross"
+      },
+      {
+        "word": "COLLAR",
+        "region": "BC",
+        "why": "White-collar, blue-collar"
+      },
+      {
+        "word": "FISH",
+        "region": "ABC",
+        "why": "Redfish, whitefish, bluefish"
+      }
+    ],
+    "obscure": [
+      "WHITECROSS",
+      "BLUEHOT"
+    ]
+  },
+  {
+    "categories": [
+      "HEAD___",
+      "HAND___",
+      "Three letters"
+    ],
+    "answers": [
+      {
+        "word": "LIGHT",
+        "region": "A",
+        "why": "Headlight"
+      },
+      {
+        "word": "CUFF",
+        "region": "B",
+        "why": "Handcuff"
+      },
+      {
+        "word": "TOE",
+        "region": "C",
+        "why": "Three letters"
+      },
+      {
+        "word": "STAND",
+        "region": "AB",
+        "why": "Headstand, handstand"
+      },
+      {
+        "word": "WAY",
+        "region": "AC",
+        "why": "Headway, three letters"
+      },
+      {
+        "word": "BAG",
+        "region": "BC",
+        "why": "Handbag, three letters"
+      },
+      {
+        "word": "SET",
+        "region": "ABC",
+        "why": "Headset, handset, three letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "DOOR___",
+      "WINDOW___",
+      "Four letters"
+    ],
+    "answers": [
+      {
+        "word": "KNOCKER",
+        "region": "A",
+        "why": "Door knocker"
+      },
+      {
+        "word": "SHOPPING",
+        "region": "B",
+        "why": "Window shopping"
+      },
+      {
+        "word": "LOON",
+        "region": "C",
+        "why": "Four letters"
+      },
+      {
+        "word": "FRAME",
+        "region": "AB",
+        "why": "Doorframe, window frame"
+      },
+      {
+        "word": "BELL",
+        "region": "AC",
+        "why": "Doorbell, four letters"
+      },
+      {
+        "word": "PANE",
+        "region": "BC",
+        "why": "Windowpane, four letters"
+      },
+      {
+        "word": "LOCK",
+        "region": "ABC",
+        "why": "Door lock, window lock, four letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "SUN___",
+      "RAIN___",
+      "Five letters"
+    ],
+    "answers": [
+      {
+        "word": "FLOWER",
+        "region": "A",
+        "why": "Sunflower"
+      },
+      {
+        "word": "COAT",
+        "region": "B",
+        "why": "Raincoat"
+      },
+      {
+        "word": "TRAIL",
+        "region": "C",
+        "why": "Five letters"
+      },
+      {
+        "word": "HAT",
+        "region": "AB",
+        "why": "Sun hat, rain hat"
+      },
+      {
+        "word": "SHINE",
+        "region": "AC",
+        "why": "Sunshine, five letters"
+      },
+      {
+        "word": "CHECK",
+        "region": "BC",
+        "why": "Rain check, five letters"
+      },
+      {
+        "word": "DANCE",
+        "region": "ABC",
+        "why": "Sun dance, rain dance, five letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "FOOT___",
+      "HAND___",
+      "Four letters"
+    ],
+    "answers": [
+      {
+        "word": "STOOL",
+        "region": "A",
+        "why": "Footstool"
+      },
+      {
+        "word": "SHAKE",
+        "region": "B",
+        "why": "Handshake"
+      },
+      {
+        "word": "DOCK",
+        "region": "C",
+        "why": "Four letters"
+      },
+      {
+        "word": "PRINT",
+        "region": "AB",
+        "why": "Footprint, handprint"
+      },
+      {
+        "word": "NOTE",
+        "region": "AC",
+        "why": "Footnote, four letters"
+      },
+      {
+        "word": "MADE",
+        "region": "BC",
+        "why": "Handmade, four letters"
+      },
+      {
+        "word": "HOLD",
+        "region": "ABC",
+        "why": "Foothold, handhold, four letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "GOLD___",
+      "SILVER___",
+      "Animals"
+    ],
+    "answers": [
+      {
+        "word": "RUSH",
+        "region": "A",
+        "why": "Gold rush"
+      },
+      {
+        "word": "LINING",
+        "region": "B",
+        "why": "Silver lining"
+      },
+      {
+        "word": "BEAVER",
+        "region": "C",
+        "why": "An animal"
+      },
+      {
+        "word": "MEDAL",
+        "region": "AB",
+        "why": "Gold medal, silver medal"
+      },
+      {
+        "word": "FINCH",
+        "region": "AC",
+        "why": "Goldfinch, and a finch is an animal"
+      },
+      {
+        "word": "FOX",
+        "region": "BC",
+        "why": "Silver fox, and a fox is an animal"
+      },
+      {
+        "word": "FISH",
+        "region": "ABC",
+        "why": "Goldfish, silverfish, and fish are animals"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "LIFE___",
+      "TIME___",
+      "Has a double letter"
+    ],
+    "answers": [
+      {
+        "word": "GUARD",
+        "region": "A",
+        "why": "Lifeguard"
+      },
+      {
+        "word": "ZONE",
+        "region": "B",
+        "why": "Time zone"
+      },
+      {
+        "word": "PADDLE",
+        "region": "C",
+        "why": "Double D"
+      },
+      {
+        "word": "LINE",
+        "region": "AB",
+        "why": "Lifeline, timeline"
+      },
+      {
+        "word": "SUPPORT",
+        "region": "AC",
+        "why": "Life support, double P"
+      },
+      {
+        "word": "KEEPER",
+        "region": "BC",
+        "why": "Timekeeper, double E"
+      },
+      {
+        "word": "LESS",
+        "region": "ABC",
+        "why": "Lifeless, timeless, double S"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "HAIR___",
+      "PAINT___",
+      "Six letters"
+    ],
+    "answers": [
+      {
+        "word": "CUT",
+        "region": "A",
+        "why": "Haircut"
+      },
+      {
+        "word": "BOX",
+        "region": "B",
+        "why": "Paintbox"
+      },
+      {
+        "word": "ANCHOR",
+        "region": "C",
+        "why": "Six letters"
+      },
+      {
+        "word": "BRUSH",
+        "region": "AB",
+        "why": "Hairbrush, paintbrush (only five letters)"
+      },
+      {
+        "word": "CURLER",
+        "region": "AC",
+        "why": "Hair curler, six letters"
+      },
+      {
+        "word": "BUCKET",
+        "region": "BC",
+        "why": "Paint bucket, six letters"
+      },
+      {
+        "word": "ROLLER",
+        "region": "ABC",
+        "why": "Hair roller, paint roller, six letters"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "AIR___",
+      "SEA___",
+      "Four letters"
+    ],
+    "answers": [
+      {
+        "word": "FIELD",
+        "region": "A",
+        "why": "Airfield"
+      },
+      {
+        "word": "HORSE",
+        "region": "B",
+        "why": "Seahorse"
+      },
+      {
+        "word": "SAIL",
+        "region": "C",
+        "why": "Four letters"
+      },
+      {
+        "word": "PLANE",
+        "region": "AB",
+        "why": "Airplane, seaplane"
+      },
+      {
+        "word": "LOCK",
+        "region": "AC",
+        "why": "Airlock, four letters"
+      },
+      {
+        "word": "GULL",
+        "region": "BC",
+        "why": "Seagull, four letters"
+      },
+      {
+        "word": "SICK",
+        "region": "ABC",
+        "why": "Airsick, seasick, four letters"
+      }
+    ]
+  }
+]

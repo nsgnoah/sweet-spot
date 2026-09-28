@@ -1,0 +1,1140 @@
+[
+  {
+    "categories": [
+      "___LAND",
+      "___ROOM",
+      "___WORK"
+    ],
+    "answers": [
+      {
+        "word": "WASTE",
+        "region": "A",
+        "why": "Wasteland"
+      },
+      {
+        "word": "BATH",
+        "region": "B",
+        "why": "Bathroom"
+      },
+      {
+        "word": "NET",
+        "region": "C",
+        "why": "Network"
+      },
+      {
+        "word": "HEAD",
+        "region": "AB",
+        "why": "Headland, headroom"
+      },
+      {
+        "word": "WOOD",
+        "region": "AC",
+        "why": "Woodland, woodwork"
+      },
+      {
+        "word": "LEG",
+        "region": "BC",
+        "why": "Legroom, legwork"
+      },
+      {
+        "word": "HOME",
+        "region": "ABC",
+        "why": "Homeland, homeroom, homework"
+      }
+    ],
+    "obscure": [
+      "HEADWORK"
+    ]
+  },
+  {
+    "categories": [
+      "___BOX",
+      "___STONE",
+      "___STORM"
+    ],
+    "answers": [
+      {
+        "word": "MATCH",
+        "region": "A",
+        "why": "Matchbox"
+      },
+      {
+        "word": "MILE",
+        "region": "B",
+        "why": "Milestone"
+      },
+      {
+        "word": "WIND",
+        "region": "C",
+        "why": "Windstorm"
+      },
+      {
+        "word": "SOAP",
+        "region": "AB",
+        "why": "Soapbox, soapstone"
+      },
+      {
+        "word": "ICE",
+        "region": "AC",
+        "why": "Icebox, ice storm"
+      },
+      {
+        "word": "HAIL",
+        "region": "BC",
+        "why": "Hailstone, hailstorm"
+      },
+      {
+        "word": "SAND",
+        "region": "ABC",
+        "why": "Sandbox, sandstone, sandstorm"
+      }
+    ],
+    "obscure": [
+      "WINDBOX"
+    ]
+  },
+  {
+    "categories": [
+      "___DUST",
+      "___FISH",
+      "___LIGHT"
+    ],
+    "answers": [
+      {
+        "word": "PIXIE",
+        "region": "A",
+        "why": "Pixie dust"
+      },
+      {
+        "word": "CAT",
+        "region": "B",
+        "why": "Catfish"
+      },
+      {
+        "word": "SPOT",
+        "region": "C",
+        "why": "Spotlight"
+      },
+      {
+        "word": "GOLD",
+        "region": "AB",
+        "why": "Gold dust, goldfish"
+      },
+      {
+        "word": "MOON",
+        "region": "AC",
+        "why": "Moon dust, moonlight"
+      },
+      {
+        "word": "SUN",
+        "region": "BC",
+        "why": "Sunfish, sunlight"
+      },
+      {
+        "word": "STAR",
+        "region": "ABC",
+        "why": "Stardust, starfish, starlight"
+      }
+    ],
+    "obscure": [
+      "MOONFISH"
+    ]
+  },
+  {
+    "categories": [
+      "___HOUSE",
+      "___FIGHT",
+      "___FISH"
+    ],
+    "answers": [
+      {
+        "word": "LIGHT",
+        "region": "A",
+        "why": "Lighthouse"
+      },
+      {
+        "word": "FIST",
+        "region": "B",
+        "why": "Fistfight"
+      },
+      {
+        "word": "JELLY",
+        "region": "C",
+        "why": "Jellyfish"
+      },
+      {
+        "word": "FIRE",
+        "region": "AB",
+        "why": "Firehouse, firefight"
+      },
+      {
+        "word": "WHITE",
+        "region": "AC",
+        "why": "White House, whitefish"
+      },
+      {
+        "word": "SWORD",
+        "region": "BC",
+        "why": "Swordfight, swordfish"
+      },
+      {
+        "word": "DOG",
+        "region": "ABC",
+        "why": "Doghouse, dogfight, dogfish"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___BOARD",
+      "___HOLE",
+      "___PAD"
+    ],
+    "answers": [
+      {
+        "word": "CARD",
+        "region": "A",
+        "why": "Cardboard"
+      },
+      {
+        "word": "PIGEON",
+        "region": "B",
+        "why": "Pigeonhole"
+      },
+      {
+        "word": "LILY",
+        "region": "C",
+        "why": "Lily pad"
+      },
+      {
+        "word": "BLACK",
+        "region": "AB",
+        "why": "Blackboard, black hole"
+      },
+      {
+        "word": "DRAWING",
+        "region": "AC",
+        "why": "Drawing board, drawing pad"
+      },
+      {
+        "word": "MOUSE",
+        "region": "BC",
+        "why": "Mousehole, mouse pad"
+      },
+      {
+        "word": "KEY",
+        "region": "ABC",
+        "why": "Keyboard, keyhole, keypad"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___LAND",
+      "___ROAD",
+      "___WAY"
+    ],
+    "answers": [
+      {
+        "word": "DREAM",
+        "region": "A",
+        "why": "Dreamland"
+      },
+      {
+        "word": "DIRT",
+        "region": "B",
+        "why": "Dirt road"
+      },
+      {
+        "word": "RUN",
+        "region": "C",
+        "why": "Runway"
+      },
+      {
+        "word": "MAIN",
+        "region": "AB",
+        "why": "Mainland, main road"
+      },
+      {
+        "word": "PARK",
+        "region": "AC",
+        "why": "Parkland, parkway"
+      },
+      {
+        "word": "RAIL",
+        "region": "BC",
+        "why": "Railroad, railway"
+      },
+      {
+        "word": "HIGH",
+        "region": "ABC",
+        "why": "Highland, high road, highway"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___FALL",
+      "___MARK",
+      "___WAY"
+    ],
+    "answers": [
+      {
+        "word": "RAIN",
+        "region": "A",
+        "why": "Rainfall"
+      },
+      {
+        "word": "BIRTH",
+        "region": "B",
+        "why": "Birthmark"
+      },
+      {
+        "word": "DRIVE",
+        "region": "C",
+        "why": "Driveway"
+      },
+      {
+        "word": "LAND",
+        "region": "AB",
+        "why": "Landfall, landmark"
+      },
+      {
+        "word": "FREE",
+        "region": "AC",
+        "why": "Free fall, freeway"
+      },
+      {
+        "word": "HALL",
+        "region": "BC",
+        "why": "Hallmark, hallway"
+      },
+      {
+        "word": "WATER",
+        "region": "ABC",
+        "why": "Waterfall, watermark, waterway"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___PLANE",
+      "___PORT",
+      "___SHIP"
+    ],
+    "answers": [
+      {
+        "word": "FLOAT",
+        "region": "A",
+        "why": "Floatplane"
+      },
+      {
+        "word": "PASS",
+        "region": "B",
+        "why": "Passport"
+      },
+      {
+        "word": "FRIEND",
+        "region": "C",
+        "why": "Friendship"
+      },
+      {
+        "word": "SEA",
+        "region": "AB",
+        "why": "Seaplane, seaport"
+      },
+      {
+        "word": "WAR",
+        "region": "AC",
+        "why": "Warplane, warship"
+      },
+      {
+        "word": "SPACE",
+        "region": "BC",
+        "why": "Spaceport, spaceship"
+      },
+      {
+        "word": "AIR",
+        "region": "ABC",
+        "why": "Airplane, airport, airship"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___BALL",
+      "___PRINT",
+      "___STAND"
+    ],
+    "answers": [
+      {
+        "word": "MEAT",
+        "region": "A",
+        "why": "Meatball"
+      },
+      {
+        "word": "THUMB",
+        "region": "B",
+        "why": "Thumbprint"
+      },
+      {
+        "word": "BAND",
+        "region": "C",
+        "why": "Bandstand"
+      },
+      {
+        "word": "FOOT",
+        "region": "AB",
+        "why": "Football, footprint"
+      },
+      {
+        "word": "KICK",
+        "region": "AC",
+        "why": "Kickball, kickstand"
+      },
+      {
+        "word": "NEWS",
+        "region": "BC",
+        "why": "Newsprint, newsstand"
+      },
+      {
+        "word": "HAND",
+        "region": "ABC",
+        "why": "Handball, handprint, handstand"
+      }
+    ],
+    "obscure": [
+      "THUMBBALL"
+    ]
+  },
+  {
+    "categories": [
+      "___BOAT",
+      "___HORN",
+      "___SHOT"
+    ],
+    "answers": [
+      {
+        "word": "TUG",
+        "region": "A",
+        "why": "Tugboat"
+      },
+      {
+        "word": "SHOE",
+        "region": "B",
+        "why": "Shoehorn"
+      },
+      {
+        "word": "SLING",
+        "region": "C",
+        "why": "Slingshot"
+      },
+      {
+        "word": "AIR",
+        "region": "AB",
+        "why": "Airboat, air horn"
+      },
+      {
+        "word": "GUN",
+        "region": "AC",
+        "why": "Gunboat, gunshot"
+      },
+      {
+        "word": "BIG",
+        "region": "BC",
+        "why": "Bighorn, big shot"
+      },
+      {
+        "word": "LONG",
+        "region": "ABC",
+        "why": "Longboat, longhorn, long shot"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___HORSE",
+      "___ROOM",
+      "___SIDE"
+    ],
+    "answers": [
+      {
+        "word": "RACE",
+        "region": "A",
+        "why": "Racehorse"
+      },
+      {
+        "word": "MUSH",
+        "region": "B",
+        "why": "Mushroom"
+      },
+      {
+        "word": "LAKE",
+        "region": "C",
+        "why": "Lakeside"
+      },
+      {
+        "word": "WAR",
+        "region": "AB",
+        "why": "Warhorse, war room"
+      },
+      {
+        "word": "SEA",
+        "region": "AC",
+        "why": "Seahorse, seaside"
+      },
+      {
+        "word": "BED",
+        "region": "BC",
+        "why": "Bedroom, bedside"
+      },
+      {
+        "word": "DARK",
+        "region": "ABC",
+        "why": "Dark horse, darkroom, dark side"
+      }
+    ],
+    "obscure": [
+      "SEAROOM"
+    ]
+  },
+  {
+    "categories": [
+      "___LOAD",
+      "___MATE",
+      "___YARD"
+    ],
+    "answers": [
+      {
+        "word": "PAY",
+        "region": "A",
+        "why": "Payload"
+      },
+      {
+        "word": "SOUL",
+        "region": "B",
+        "why": "Soulmate"
+      },
+      {
+        "word": "JUNK",
+        "region": "C",
+        "why": "Junkyard"
+      },
+      {
+        "word": "WORK",
+        "region": "AB",
+        "why": "Workload, workmate"
+      },
+      {
+        "word": "BOAT",
+        "region": "AC",
+        "why": "Boatload, boatyard"
+      },
+      {
+        "word": "SCHOOL",
+        "region": "BC",
+        "why": "Schoolmate, schoolyard"
+      },
+      {
+        "word": "SHIP",
+        "region": "ABC",
+        "why": "Shipload, shipmate, shipyard"
+      }
+    ],
+    "obscure": [
+      "WORKYARD"
+    ]
+  },
+  {
+    "categories": [
+      "___WARE",
+      "___SCREEN",
+      "___BACK"
+    ],
+    "answers": [
+      {
+        "word": "KITCHEN",
+        "region": "A",
+        "why": "Kitchenware"
+      },
+      {
+        "word": "SMOKE",
+        "region": "B",
+        "why": "Smokescreen"
+      },
+      {
+        "word": "QUARTER",
+        "region": "C",
+        "why": "Quarterback"
+      },
+      {
+        "word": "FLAT",
+        "region": "AB",
+        "why": "Flatware, flat screen"
+      },
+      {
+        "word": "HARD",
+        "region": "AC",
+        "why": "Hardware, hardback"
+      },
+      {
+        "word": "GREEN",
+        "region": "BC",
+        "why": "Green screen, greenback"
+      },
+      {
+        "word": "SILVER",
+        "region": "ABC",
+        "why": "Silverware, silver screen, silverback"
+      }
+    ],
+    "obscure": [
+      "FLATBACK"
+    ]
+  },
+  {
+    "categories": [
+      "___BOAT",
+      "___TIME",
+      "___LINE"
+    ],
+    "answers": [
+      {
+        "word": "ROW",
+        "region": "A",
+        "why": "Rowboat"
+      },
+      {
+        "word": "NAP",
+        "region": "B",
+        "why": "Naptime"
+      },
+      {
+        "word": "COAST",
+        "region": "C",
+        "why": "Coastline"
+      },
+      {
+        "word": "SHOW",
+        "region": "AB",
+        "why": "Showboat, showtime"
+      },
+      {
+        "word": "POWER",
+        "region": "AC",
+        "why": "Powerboat, power line"
+      },
+      {
+        "word": "STORY",
+        "region": "BC",
+        "why": "Storytime, storyline"
+      },
+      {
+        "word": "LIFE",
+        "region": "ABC",
+        "why": "Lifeboat, lifetime, lifeline"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___KEEPER",
+      "___CARD",
+      "___LINE"
+    ],
+    "answers": [
+      {
+        "word": "ZOO",
+        "region": "A",
+        "why": "Zookeeper"
+      },
+      {
+        "word": "POST",
+        "region": "B",
+        "why": "Postcard"
+      },
+      {
+        "word": "DEAD",
+        "region": "C",
+        "why": "Deadline"
+      },
+      {
+        "word": "SCORE",
+        "region": "AB",
+        "why": "Scorekeeper, scorecard"
+      },
+      {
+        "word": "GOAL",
+        "region": "AC",
+        "why": "Goalkeeper, goal line"
+      },
+      {
+        "word": "PUNCH",
+        "region": "BC",
+        "why": "Punch card, punchline"
+      },
+      {
+        "word": "TIME",
+        "region": "ABC",
+        "why": "Timekeeper, time card, timeline"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___BOARD",
+      "___WATER",
+      "___CAP"
+    ],
+    "answers": [
+      {
+        "word": "CLIP",
+        "region": "A",
+        "why": "Clipboard"
+      },
+      {
+        "word": "SALT",
+        "region": "B",
+        "why": "Saltwater"
+      },
+      {
+        "word": "HUB",
+        "region": "C",
+        "why": "Hubcap"
+      },
+      {
+        "word": "SPRING",
+        "region": "AB",
+        "why": "Springboard, spring water"
+      },
+      {
+        "word": "SNOW",
+        "region": "AC",
+        "why": "Snowboard, snowcap"
+      },
+      {
+        "word": "ICE",
+        "region": "BC",
+        "why": "Ice water, ice cap"
+      },
+      {
+        "word": "WHITE",
+        "region": "ABC",
+        "why": "Whiteboard, whitewater, whitecap"
+      }
+    ],
+    "obscure": [
+      "SNOWWATER"
+    ]
+  },
+  {
+    "categories": [
+      "___EYE",
+      "___LIGHT",
+      "___WOOD"
+    ],
+    "answers": [
+      {
+        "word": "PINK",
+        "region": "A",
+        "why": "Pinkeye"
+      },
+      {
+        "word": "FLASH",
+        "region": "B",
+        "why": "Flashlight"
+      },
+      {
+        "word": "DRIFT",
+        "region": "C",
+        "why": "Driftwood"
+      },
+      {
+        "word": "BLACK",
+        "region": "AB",
+        "why": "Black eye, black light"
+      },
+      {
+        "word": "DEAD",
+        "region": "AC",
+        "why": "Deadeye, deadwood"
+      },
+      {
+        "word": "FIRE",
+        "region": "BC",
+        "why": "Firelight, firewood"
+      },
+      {
+        "word": "RED",
+        "region": "ABC",
+        "why": "Red-eye, red light, redwood"
+      }
+    ],
+    "obscure": [
+      "DEADLIGHT",
+      "PINKWOOD",
+      "BLACKWOOD"
+    ]
+  },
+  {
+    "categories": [
+      "___BALL",
+      "___DROP",
+      "___PIECE"
+    ],
+    "answers": [
+      {
+        "word": "DODGE",
+        "region": "A",
+        "why": "Dodgeball"
+      },
+      {
+        "word": "TEAR",
+        "region": "B",
+        "why": "Teardrop"
+      },
+      {
+        "word": "CENTER",
+        "region": "C",
+        "why": "Centerpiece"
+      },
+      {
+        "word": "GUM",
+        "region": "AB",
+        "why": "Gumball, gumdrop"
+      },
+      {
+        "word": "HAIR",
+        "region": "AC",
+        "why": "Hairball, hairpiece"
+      },
+      {
+        "word": "EAR",
+        "region": "BC",
+        "why": "Eardrop, earpiece"
+      },
+      {
+        "word": "EYE",
+        "region": "ABC",
+        "why": "Eyeball, eyedrop, eyepiece"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___MAKER",
+      "___BOOK",
+      "___LIST"
+    ],
+    "answers": [
+      {
+        "word": "PEACE",
+        "region": "A",
+        "why": "Peacemaker"
+      },
+      {
+        "word": "SCRAP",
+        "region": "B",
+        "why": "Scrapbook"
+      },
+      {
+        "word": "BUCKET",
+        "region": "C",
+        "why": "Bucket list"
+      },
+      {
+        "word": "MATCH",
+        "region": "AB",
+        "why": "Matchmaker, matchbook"
+      },
+      {
+        "word": "HIT",
+        "region": "AC",
+        "why": "Hitmaker, hit list"
+      },
+      {
+        "word": "GUEST",
+        "region": "BC",
+        "why": "Guestbook, guest list"
+      },
+      {
+        "word": "PLAY",
+        "region": "ABC",
+        "why": "Playmaker, playbook, playlist"
+      }
+    ],
+    "obscure": [
+      "BUCKETMAKER"
+    ]
+  },
+  {
+    "categories": [
+      "___COAT",
+      "___DOG",
+      "___HAT"
+    ],
+    "answers": [
+      {
+        "word": "TRENCH",
+        "region": "A",
+        "why": "Trench coat"
+      },
+      {
+        "word": "BULL",
+        "region": "B",
+        "why": "Bulldog"
+      },
+      {
+        "word": "HARD",
+        "region": "C",
+        "why": "Hard hat"
+      },
+      {
+        "word": "UNDER",
+        "region": "AB",
+        "why": "Undercoat, underdog"
+      },
+      {
+        "word": "RAIN",
+        "region": "AC",
+        "why": "Raincoat, rain hat"
+      },
+      {
+        "word": "SUN",
+        "region": "BC",
+        "why": "Sun dog (the winter halo), sun hat"
+      },
+      {
+        "word": "TOP",
+        "region": "ABC",
+        "why": "Topcoat, top dog, top hat"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___BREAK",
+      "___HOUSE",
+      "___TIME"
+    ],
+    "answers": [
+      {
+        "word": "HEART",
+        "region": "A",
+        "why": "Heartbreak"
+      },
+      {
+        "word": "TREE",
+        "region": "B",
+        "why": "Treehouse"
+      },
+      {
+        "word": "HALF",
+        "region": "C",
+        "why": "Halftime"
+      },
+      {
+        "word": "OUT",
+        "region": "AB",
+        "why": "Outbreak, outhouse"
+      },
+      {
+        "word": "SPRING",
+        "region": "AC",
+        "why": "Spring break, springtime"
+      },
+      {
+        "word": "PLAY",
+        "region": "BC",
+        "why": "Playhouse, playtime"
+      },
+      {
+        "word": "SUMMER",
+        "region": "ABC",
+        "why": "Summer break, summerhouse, summertime"
+      }
+    ],
+    "obscure": [
+      "SPRINGHOUSE"
+    ]
+  },
+  {
+    "categories": [
+      "___DOOR",
+      "___SIDE",
+      "___YARD"
+    ],
+    "answers": [
+      {
+        "word": "TRAP",
+        "region": "A",
+        "why": "Trapdoor"
+      },
+      {
+        "word": "COUNTRY",
+        "region": "B",
+        "why": "Countryside"
+      },
+      {
+        "word": "VINE",
+        "region": "C",
+        "why": "Vineyard"
+      },
+      {
+        "word": "IN",
+        "region": "AB",
+        "why": "Indoor, inside"
+      },
+      {
+        "word": "BARN",
+        "region": "AC",
+        "why": "Barn door, barnyard"
+      },
+      {
+        "word": "GRAVE",
+        "region": "BC",
+        "why": "Graveside, graveyard"
+      },
+      {
+        "word": "BACK",
+        "region": "ABC",
+        "why": "Back door, backside, backyard"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___ARM",
+      "___WATER",
+      "___GROUND"
+    ],
+    "answers": [
+      {
+        "word": "SIDE",
+        "region": "A",
+        "why": "Sidearm"
+      },
+      {
+        "word": "SALT",
+        "region": "B",
+        "why": "Saltwater"
+      },
+      {
+        "word": "CAMP",
+        "region": "C",
+        "why": "Campground"
+      },
+      {
+        "word": "FIRE",
+        "region": "AB",
+        "why": "Firearm, firewater"
+      },
+      {
+        "word": "FORE",
+        "region": "AC",
+        "why": "Forearm, foreground"
+      },
+      {
+        "word": "BACK",
+        "region": "BC",
+        "why": "Backwater, background"
+      },
+      {
+        "word": "UNDER",
+        "region": "ABC",
+        "why": "Underarm, underwater, underground"
+      }
+    ]
+  },
+  {
+    "categories": [
+      "___HOUSE",
+      "___HAND",
+      "___LAND"
+    ],
+    "answers": [
+      {
+        "word": "DOLL",
+        "region": "A",
+        "why": "Dollhouse"
+      },
+      {
+        "word": "SHORT",
+        "region": "B",
+        "why": "Shorthand"
+      },
+      {
+        "word": "WONDER",
+        "region": "C",
+        "why": "Wonderland"
+      },
+      {
+        "word": "HOT",
+        "region": "AB",
+        "why": "Hothouse, hot hand"
+      },
+      {
+        "word": "GREEN",
+        "region": "AC",
+        "why": "Greenhouse, Greenland"
+      },
+      {
+        "word": "OVER",
+        "region": "BC",
+        "why": "Overhand, overland"
+      },
+      {
+        "word": "FARM",
+        "region": "ABC",
+        "why": "Farmhouse, farmhand, farmland"
+      }
+    ],
+    "obscure": [
+      "OVERHOUSE"
+    ]
+  },
+  {
+    "categories": [
+      "___BIRD",
+      "___SUIT",
+      "___WALK"
+    ],
+    "answers": [
+      {
+        "word": "HUMMING",
+        "region": "A",
+        "why": "Hummingbird"
+      },
+      {
+        "word": "SWIM",
+        "region": "B",
+        "why": "Swimsuit"
+      },
+      {
+        "word": "BOARD",
+        "region": "C",
+        "why": "Boardwalk"
+      },
+      {
+        "word": "SNOW",
+        "region": "AB",
+        "why": "Snowbird, snowsuit"
+      },
+      {
+        "word": "JAY",
+        "region": "AC",
+        "why": "Jaybird, jaywalk"
+      },
+      {
+        "word": "SPACE",
+        "region": "BC",
+        "why": "Spacesuit, spacewalk"
+      },
+      {
+        "word": "CAT",
+        "region": "ABC",
+        "why": "Catbird, catsuit, catwalk"
+      }
+    ]
+  }
+]

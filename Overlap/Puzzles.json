@@ -350,5 +350,4273 @@
     "why": "Football, footman, footwork"
    }
   ]
+ },
+ {
+  "categories": [
+   "Gemstones",
+   "Colors",
+   "Six letters"
+  ],
+  "answers": [
+   {
+    "word": "DIAMOND",
+    "region": "A",
+    "why": "A gem, but not a color, seven letters"
+   },
+   {
+    "word": "MAGENTA",
+    "region": "B",
+    "why": "A color, not a gem, seven letters"
+   },
+   {
+    "word": "CANDLE",
+    "region": "C",
+    "why": "Six letters, neither gem nor color"
+   },
+   {
+    "word": "EMERALD",
+    "region": "AB",
+    "why": "A gem and a color, but seven letters"
+   },
+   {
+    "word": "QUARTZ",
+    "region": "AC",
+    "why": "A gem with six letters, not a color"
+   },
+   {
+    "word": "PURPLE",
+    "region": "BC",
+    "why": "A color with six letters, not a gem"
+   },
+   {
+    "word": "GARNET",
+    "region": "ABC",
+    "why": "A gem, a deep red color, six letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "UP___",
+   "DOWN___",
+   "OUT___"
+  ],
+  "answers": [
+   {
+    "word": "KEEP",
+    "region": "A",
+    "why": "Upkeep"
+   },
+   {
+    "word": "TRODDEN",
+    "region": "B",
+    "why": "Downtrodden"
+   },
+   {
+    "word": "LAW",
+    "region": "C",
+    "why": "Outlaw"
+   },
+   {
+    "word": "TOWN",
+    "region": "AB",
+    "why": "Uptown, downtown"
+   },
+   {
+    "word": "STANDING",
+    "region": "AC",
+    "why": "Upstanding, outstanding"
+   },
+   {
+    "word": "PLAY",
+    "region": "BC",
+    "why": "Downplay, outplay"
+   },
+   {
+    "word": "SIDE",
+    "region": "ABC",
+    "why": "Upside, downside, outside"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___LAND",
+   "___ROOM",
+   "___WORK"
+  ],
+  "answers": [
+   {
+    "word": "WASTE",
+    "region": "A",
+    "why": "Wasteland"
+   },
+   {
+    "word": "BATH",
+    "region": "B",
+    "why": "Bathroom"
+   },
+   {
+    "word": "NET",
+    "region": "C",
+    "why": "Network"
+   },
+   {
+    "word": "HEAD",
+    "region": "AB",
+    "why": "Headland, headroom"
+   },
+   {
+    "word": "WOOD",
+    "region": "AC",
+    "why": "Woodland, woodwork"
+   },
+   {
+    "word": "LEG",
+    "region": "BC",
+    "why": "Legroom, legwork"
+   },
+   {
+    "word": "HOME",
+    "region": "ABC",
+    "why": "Homeland, homeroom, homework"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Superheroes",
+   "Birds",
+   "Six letters"
+  ],
+  "answers": [
+   {
+    "word": "SUPERMAN",
+    "region": "A",
+    "why": "Is it a bird? No, it's Superman (eight letters)"
+   },
+   {
+    "word": "PELICAN",
+    "region": "B",
+    "why": "A bird with no superpowers, seven letters"
+   },
+   {
+    "word": "MITTEN",
+    "region": "C",
+    "why": "Six letters, but no cape and no feathers"
+   },
+   {
+    "word": "ROBIN",
+    "region": "AB",
+    "why": "Batman's partner and a bird, but five letters"
+   },
+   {
+    "word": "BATMAN",
+    "region": "AC",
+    "why": "A six-letter superhero, and a bat is not a bird"
+   },
+   {
+    "word": "TOUCAN",
+    "region": "BC",
+    "why": "A six-letter bird, no superpowers"
+   },
+   {
+    "word": "FALCON",
+    "region": "ABC",
+    "why": "Marvel's Falcon, a bird of prey, and six letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Dances",
+   "Fishing gear",
+   "Has a double letter"
+  ],
+  "answers": [
+   {
+    "word": "TANGO",
+    "region": "A",
+    "why": "A dance, no double letter"
+   },
+   {
+    "word": "SINKER",
+    "region": "B",
+    "why": "Fishing weight, no double letter"
+   },
+   {
+    "word": "BALLOON",
+    "region": "C",
+    "why": "Double L and double O, but not a dance or gear"
+   },
+   {
+    "word": "JIG",
+    "region": "AB",
+    "why": "An Irish dance and a fishing lure"
+   },
+   {
+    "word": "BALLET",
+    "region": "AC",
+    "why": "A dance with a double L"
+   },
+   {
+    "word": "BOBBER",
+    "region": "BC",
+    "why": "Fishing float with a double B"
+   },
+   {
+    "word": "REEL",
+    "region": "ABC",
+    "why": "A Scottish dance, a fishing reel, and a double E"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "HOME___",
+   "HOUSE___",
+   "SCHOOL___"
+  ],
+  "answers": [
+   {
+    "word": "SICK",
+    "region": "A",
+    "why": "Homesick"
+   },
+   {
+    "word": "BOAT",
+    "region": "B",
+    "why": "Houseboat"
+   },
+   {
+    "word": "YARD",
+    "region": "C",
+    "why": "Schoolyard"
+   },
+   {
+    "word": "BOUND",
+    "region": "AB",
+    "why": "Homebound, housebound"
+   },
+   {
+    "word": "ROOM",
+    "region": "AC",
+    "why": "Homeroom, schoolroom"
+   },
+   {
+    "word": "MATE",
+    "region": "BC",
+    "why": "Housemate, schoolmate"
+   },
+   {
+    "word": "WORK",
+    "region": "ABC",
+    "why": "Homework, housework, schoolwork"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BOX",
+   "___STONE",
+   "___STORM"
+  ],
+  "answers": [
+   {
+    "word": "MATCH",
+    "region": "A",
+    "why": "Matchbox"
+   },
+   {
+    "word": "MILE",
+    "region": "B",
+    "why": "Milestone"
+   },
+   {
+    "word": "WIND",
+    "region": "C",
+    "why": "Windstorm"
+   },
+   {
+    "word": "SOAP",
+    "region": "AB",
+    "why": "Soapbox, soapstone"
+   },
+   {
+    "word": "ICE",
+    "region": "AC",
+    "why": "Icebox, ice storm"
+   },
+   {
+    "word": "HAIL",
+    "region": "BC",
+    "why": "Hailstone, hailstorm"
+   },
+   {
+    "word": "SAND",
+    "region": "ABC",
+    "why": "Sandbox, sandstone, sandstorm"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Greek gods",
+   "NASA programs",
+   "Six letters"
+  ],
+  "answers": [
+   {
+    "word": "POSEIDON",
+    "region": "A",
+    "why": "Greek god of the sea"
+   },
+   {
+    "word": "VOYAGER",
+    "region": "B",
+    "why": "NASA's Voyager probes; not a god, seven letters"
+   },
+   {
+    "word": "ROCKET",
+    "region": "C",
+    "why": "Six letters, not a god or a program"
+   },
+   {
+    "word": "ARTEMIS",
+    "region": "AB",
+    "why": "Greek goddess and NASA's return-to-the-Moon program"
+   },
+   {
+    "word": "ATHENA",
+    "region": "AC",
+    "why": "Greek goddess of wisdom, six letters"
+   },
+   {
+    "word": "GEMINI",
+    "region": "BC",
+    "why": "NASA's two-person program, six letters"
+   },
+   {
+    "word": "APOLLO",
+    "region": "ABC",
+    "why": "Greek god, the Moon-landing program, and six letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Fish",
+   "Musical instruments",
+   "Starts with B"
+  ],
+  "answers": [
+   {
+    "word": "WALLEYE",
+    "region": "A",
+    "why": "Minnesota's state fish, starts with W"
+   },
+   {
+    "word": "CELLO",
+    "region": "B",
+    "why": "An instrument, starts with C"
+   },
+   {
+    "word": "BONFIRE",
+    "region": "C",
+    "why": "Starts with B, but no fish or instrument"
+   },
+   {
+    "word": "DRUM",
+    "region": "AB",
+    "why": "Freshwater drum (sheepshead) and a drum kit"
+   },
+   {
+    "word": "BLUEGILL",
+    "region": "AC",
+    "why": "A panfish starting with B"
+   },
+   {
+    "word": "BANJO",
+    "region": "BC",
+    "why": "An instrument starting with B"
+   },
+   {
+    "word": "BASS",
+    "region": "ABC",
+    "why": "A fish, a bass guitar, and starts with B"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "BLACK___",
+   "BLUE___",
+   "RED___"
+  ],
+  "answers": [
+   {
+    "word": "SMITH",
+    "region": "A",
+    "why": "Blacksmith"
+   },
+   {
+    "word": "GILL",
+    "region": "B",
+    "why": "Bluegill"
+   },
+   {
+    "word": "HANDED",
+    "region": "C",
+    "why": "Red-handed"
+   },
+   {
+    "word": "BERRY",
+    "region": "AB",
+    "why": "Blackberry, blueberry"
+   },
+   {
+    "word": "HEAD",
+    "region": "AC",
+    "why": "Blackhead, redhead"
+   },
+   {
+    "word": "BLOODED",
+    "region": "BC",
+    "why": "Blue-blooded, red-blooded"
+   },
+   {
+    "word": "BIRD",
+    "region": "ABC",
+    "why": "Blackbird, bluebird, redbird (the cardinal)"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___DUST",
+   "___FISH",
+   "___LIGHT"
+  ],
+  "answers": [
+   {
+    "word": "PIXIE",
+    "region": "A",
+    "why": "Pixie dust"
+   },
+   {
+    "word": "CAT",
+    "region": "B",
+    "why": "Catfish"
+   },
+   {
+    "word": "SPOT",
+    "region": "C",
+    "why": "Spotlight"
+   },
+   {
+    "word": "GOLD",
+    "region": "AB",
+    "why": "Gold dust, goldfish"
+   },
+   {
+    "word": "MOON",
+    "region": "AC",
+    "why": "Moon dust, moonlight"
+   },
+   {
+    "word": "SUN",
+    "region": "BC",
+    "why": "Sunfish, sunlight"
+   },
+   {
+    "word": "STAR",
+    "region": "ABC",
+    "why": "Stardust, starfish, starlight"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Car parts",
+   "Clothing",
+   "Starts with H"
+  ],
+  "answers": [
+   {
+    "word": "BUMPER",
+    "region": "A",
+    "why": "A car part you can't wear"
+   },
+   {
+    "word": "SWEATER",
+    "region": "B",
+    "why": "Clothing, not a car part, starts with S"
+   },
+   {
+    "word": "HONEY",
+    "region": "C",
+    "why": "Starts with H, but not a car part or clothing"
+   },
+   {
+    "word": "MUFFLER",
+    "region": "AB",
+    "why": "Quiets your exhaust, or warms your neck"
+   },
+   {
+    "word": "HORN",
+    "region": "AC",
+    "why": "A car part starting with H, but you can't wear it"
+   },
+   {
+    "word": "HAT",
+    "region": "BC",
+    "why": "Clothing that starts with H"
+   },
+   {
+    "word": "HOOD",
+    "region": "ABC",
+    "why": "Covers the engine or your head, and starts with H"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Car brands",
+   "Planets",
+   "No repeated letters"
+  ],
+  "answers": [
+   {
+    "word": "TOYOTA",
+    "region": "A",
+    "why": "A car brand that repeats T and O"
+   },
+   {
+    "word": "NEPTUNE",
+    "region": "B",
+    "why": "A planet that repeats N and E"
+   },
+   {
+    "word": "CANOE",
+    "region": "C",
+    "why": "Five different letters, not a car or planet"
+   },
+   {
+    "word": "MERCURY",
+    "region": "AB",
+    "why": "Old Ford brand and a planet, but two R's"
+   },
+   {
+    "word": "HONDA",
+    "region": "AC",
+    "why": "A car brand with no repeated letters"
+   },
+   {
+    "word": "JUPITER",
+    "region": "BC",
+    "why": "A planet with seven different letters"
+   },
+   {
+    "word": "SATURN",
+    "region": "ABC",
+    "why": "Old GM brand, a planet, and no letter repeats"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "SUN___",
+   "MOON___",
+   "STAR___"
+  ],
+  "answers": [
+   {
+    "word": "SCREEN",
+    "region": "A",
+    "why": "Sunscreen"
+   },
+   {
+    "word": "WALK",
+    "region": "B",
+    "why": "Moonwalk"
+   },
+   {
+    "word": "BOARD",
+    "region": "C",
+    "why": "Starboard"
+   },
+   {
+    "word": "BEAM",
+    "region": "AB",
+    "why": "Sunbeam, moonbeam"
+   },
+   {
+    "word": "BURST",
+    "region": "AC",
+    "why": "Sunburst, starburst"
+   },
+   {
+    "word": "DUST",
+    "region": "BC",
+    "why": "Moon dust, stardust"
+   },
+   {
+    "word": "LIGHT",
+    "region": "ABC",
+    "why": "Sunlight, moonlight, starlight"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___HOUSE",
+   "___FIGHT",
+   "___FISH"
+  ],
+  "answers": [
+   {
+    "word": "LIGHT",
+    "region": "A",
+    "why": "Lighthouse"
+   },
+   {
+    "word": "FIST",
+    "region": "B",
+    "why": "Fistfight"
+   },
+   {
+    "word": "JELLY",
+    "region": "C",
+    "why": "Jellyfish"
+   },
+   {
+    "word": "FIRE",
+    "region": "AB",
+    "why": "Firehouse, firefight"
+   },
+   {
+    "word": "WHITE",
+    "region": "AC",
+    "why": "White House, whitefish"
+   },
+   {
+    "word": "SWORD",
+    "region": "BC",
+    "why": "Swordfight, swordfish"
+   },
+   {
+    "word": "DOG",
+    "region": "ABC",
+    "why": "Doghouse, dogfight, dogfish"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Minnesota cities",
+   "Also a first name",
+   "Six letters"
+  ],
+  "answers": [
+   {
+    "word": "BEMIDJI",
+    "region": "A",
+    "why": "Home of the giant Paul Bunyan statue"
+   },
+   {
+    "word": "OLE",
+    "region": "B",
+    "why": "Ole of Ole and Lena jokes"
+   },
+   {
+    "word": "HOCKEY",
+    "region": "C",
+    "why": "Six letters, but not a city or a name"
+   },
+   {
+    "word": "VIRGINIA",
+    "region": "AB",
+    "why": "Iron Range city and a first name"
+   },
+   {
+    "word": "DULUTH",
+    "region": "AC",
+    "why": "North Shore city, six letters"
+   },
+   {
+    "word": "INGRID",
+    "region": "BC",
+    "why": "A first name with six letters"
+   },
+   {
+    "word": "AUSTIN",
+    "region": "ABC",
+    "why": "Spam's hometown, a first name, and six letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Greek letters",
+   "Three letters",
+   "Ends with A"
+  ],
+  "answers": [
+   {
+    "word": "OMICRON",
+    "region": "A",
+    "why": "A Greek letter, seven letters, ends in N"
+   },
+   {
+    "word": "SKI",
+    "region": "B",
+    "why": "Three letters, ends in I"
+   },
+   {
+    "word": "SAUNA",
+    "region": "C",
+    "why": "Ends in A, but not Greek and not three letters"
+   },
+   {
+    "word": "RHO",
+    "region": "AB",
+    "why": "A three-letter Greek letter ending in O"
+   },
+   {
+    "word": "DELTA",
+    "region": "AC",
+    "why": "A Greek letter ending in A, five letters"
+   },
+   {
+    "word": "SPA",
+    "region": "BC",
+    "why": "Three letters ending in A, not Greek"
+   },
+   {
+    "word": "ETA",
+    "region": "ABC",
+    "why": "A Greek letter, three letters, ends in A"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "LAKE___",
+   "SEA___",
+   "RIVER___"
+  ],
+  "answers": [
+   {
+    "word": "EFFECT",
+    "region": "A",
+    "why": "Lake-effect snow"
+   },
+   {
+    "word": "SHELL",
+    "region": "B",
+    "why": "Seashell"
+   },
+   {
+    "word": "BANK",
+    "region": "C",
+    "why": "Riverbank"
+   },
+   {
+    "word": "SHORE",
+    "region": "AB",
+    "why": "Lakeshore, seashore"
+   },
+   {
+    "word": "WALK",
+    "region": "AC",
+    "why": "Lakewalk (hi, Duluth), riverwalk"
+   },
+   {
+    "word": "OTTER",
+    "region": "BC",
+    "why": "Sea otter, river otter"
+   },
+   {
+    "word": "BED",
+    "region": "ABC",
+    "why": "Lakebed, seabed, riverbed"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BOARD",
+   "___HOLE",
+   "___PAD"
+  ],
+  "answers": [
+   {
+    "word": "CARD",
+    "region": "A",
+    "why": "Cardboard"
+   },
+   {
+    "word": "PIGEON",
+    "region": "B",
+    "why": "Pigeonhole"
+   },
+   {
+    "word": "LILY",
+    "region": "C",
+    "why": "Lily pad"
+   },
+   {
+    "word": "BLACK",
+    "region": "AB",
+    "why": "Blackboard, black hole"
+   },
+   {
+    "word": "DRAWING",
+    "region": "AC",
+    "why": "Drawing board, drawing pad"
+   },
+   {
+    "word": "MOUSE",
+    "region": "BC",
+    "why": "Mousehole, mouse pad"
+   },
+   {
+    "word": "KEY",
+    "region": "ABC",
+    "why": "Keyboard, keyhole, keypad"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Fish",
+   "Hides a body part",
+   "Seven letters"
+  ],
+  "answers": [
+   {
+    "word": "PERCH",
+    "region": "A",
+    "why": "A panfish, five letters, nothing hidden"
+   },
+   {
+    "word": "LEGEND",
+    "region": "B",
+    "why": "Hides LEG"
+   },
+   {
+    "word": "HOTDISH",
+    "region": "C",
+    "why": "Seven letters and a church-basement classic"
+   },
+   {
+    "word": "BULLHEAD",
+    "region": "AB",
+    "why": "A catfish that hides HEAD"
+   },
+   {
+    "word": "SUNFISH",
+    "region": "AC",
+    "why": "A sunny, seven letters"
+   },
+   {
+    "word": "SHINDIG",
+    "region": "BC",
+    "why": "Hides SHIN, seven letters"
+   },
+   {
+    "word": "WALLEYE",
+    "region": "ABC",
+    "why": "Minnesota's state fish hides EYE, seven letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Chess pieces",
+   "Mattress sizes",
+   "Has a double letter"
+  ],
+  "answers": [
+   {
+    "word": "KNIGHT",
+    "region": "A",
+    "why": "A chess piece, no double letter"
+   },
+   {
+    "word": "TWIN",
+    "region": "B",
+    "why": "A mattress size, no double letter"
+   },
+   {
+    "word": "PONTOON",
+    "region": "C",
+    "why": "Double O, but not chess or a mattress"
+   },
+   {
+    "word": "KING",
+    "region": "AB",
+    "why": "A chess piece and a mattress size"
+   },
+   {
+    "word": "ROOK",
+    "region": "AC",
+    "why": "A chess piece with a double O"
+   },
+   {
+    "word": "FULL",
+    "region": "BC",
+    "why": "A mattress size with a double L"
+   },
+   {
+    "word": "QUEEN",
+    "region": "ABC",
+    "why": "Chess piece, mattress size, and a double E"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "FIRE___",
+   "WATER___",
+   "AIR___"
+  ],
+  "answers": [
+   {
+    "word": "FLY",
+    "region": "A",
+    "why": "Firefly"
+   },
+   {
+    "word": "MELON",
+    "region": "B",
+    "why": "Watermelon"
+   },
+   {
+    "word": "PORT",
+    "region": "C",
+    "why": "Airport"
+   },
+   {
+    "word": "PROOF",
+    "region": "AB",
+    "why": "Fireproof, waterproof"
+   },
+   {
+    "word": "BALL",
+    "region": "AC",
+    "why": "Fireball, airball"
+   },
+   {
+    "word": "TIGHT",
+    "region": "BC",
+    "why": "Watertight, airtight"
+   },
+   {
+    "word": "HOSE",
+    "region": "ABC",
+    "why": "Fire hose, water hose, air hose"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___LAND",
+   "___ROAD",
+   "___WAY"
+  ],
+  "answers": [
+   {
+    "word": "DREAM",
+    "region": "A",
+    "why": "Dreamland"
+   },
+   {
+    "word": "DIRT",
+    "region": "B",
+    "why": "Dirt road"
+   },
+   {
+    "word": "RUN",
+    "region": "C",
+    "why": "Runway"
+   },
+   {
+    "word": "MAIN",
+    "region": "AB",
+    "why": "Mainland, main road"
+   },
+   {
+    "word": "PARK",
+    "region": "AC",
+    "why": "Parkland, parkway"
+   },
+   {
+    "word": "RAIL",
+    "region": "BC",
+    "why": "Railroad, railway"
+   },
+   {
+    "word": "HIGH",
+    "region": "ABC",
+    "why": "Highland, high road, highway"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "NFL team names",
+   "Birds",
+   "Seven letters"
+  ],
+  "answers": [
+   {
+    "word": "BEARS",
+    "region": "A",
+    "why": "Chicago's NFL team, not birds"
+   },
+   {
+    "word": "LOONS",
+    "region": "B",
+    "why": "Birds, and Minnesota's soccer team, not NFL"
+   },
+   {
+    "word": "MUSKIES",
+    "region": "C",
+    "why": "Seven letters, but fish"
+   },
+   {
+    "word": "EAGLES",
+    "region": "AB",
+    "why": "Philadelphia's NFL team and birds, six letters"
+   },
+   {
+    "word": "VIKINGS",
+    "region": "AC",
+    "why": "Minnesota's NFL team, seven letters"
+   },
+   {
+    "word": "ORIOLES",
+    "region": "BC",
+    "why": "Birds and a baseball team, not NFL"
+   },
+   {
+    "word": "FALCONS",
+    "region": "ABC",
+    "why": "Atlanta's NFL team, birds, and seven letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Disney characters",
+   "Flowers",
+   "Contains a Y"
+  ],
+  "answers": [
+   {
+    "word": "SIMBA",
+    "region": "A",
+    "why": "The Lion King, no Y"
+   },
+   {
+    "word": "TULIP",
+    "region": "B",
+    "why": "A flower, no Y"
+   },
+   {
+    "word": "KAYAK",
+    "region": "C",
+    "why": "Has a Y, but not Disney or a flower"
+   },
+   {
+    "word": "JASMINE",
+    "region": "AB",
+    "why": "Aladdin's princess and a flower, no Y"
+   },
+   {
+    "word": "GOOFY",
+    "region": "AC",
+    "why": "A Disney character with a Y"
+   },
+   {
+    "word": "PEONY",
+    "region": "BC",
+    "why": "A flower with a Y"
+   },
+   {
+    "word": "DAISY",
+    "region": "ABC",
+    "why": "Daisy Duck, a flower, and a Y"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "DOG___",
+   "CAT___",
+   "FIRE___"
+  ],
+  "answers": [
+   {
+    "word": "SLED",
+    "region": "A",
+    "why": "Dogsled"
+   },
+   {
+    "word": "NIP",
+    "region": "B",
+    "why": "Catnip"
+   },
+   {
+    "word": "WORKS",
+    "region": "C",
+    "why": "Fireworks"
+   },
+   {
+    "word": "PERSON",
+    "region": "AB",
+    "why": "Dog person, cat person"
+   },
+   {
+    "word": "WOOD",
+    "region": "AC",
+    "why": "Dogwood, firewood"
+   },
+   {
+    "word": "BIRD",
+    "region": "BC",
+    "why": "Catbird, firebird"
+   },
+   {
+    "word": "FIGHT",
+    "region": "ABC",
+    "why": "Dogfight, catfight, firefight"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___FALL",
+   "___MARK",
+   "___WAY"
+  ],
+  "answers": [
+   {
+    "word": "RAIN",
+    "region": "A",
+    "why": "Rainfall"
+   },
+   {
+    "word": "BIRTH",
+    "region": "B",
+    "why": "Birthmark"
+   },
+   {
+    "word": "DRIVE",
+    "region": "C",
+    "why": "Driveway"
+   },
+   {
+    "word": "LAND",
+    "region": "AB",
+    "why": "Landfall, landmark"
+   },
+   {
+    "word": "FREE",
+    "region": "AC",
+    "why": "Free fall, freeway"
+   },
+   {
+    "word": "HALL",
+    "region": "BC",
+    "why": "Hallmark, hallway"
+   },
+   {
+    "word": "WATER",
+    "region": "ABC",
+    "why": "Waterfall, watermark, waterway"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Boats",
+   "Has a double letter",
+   "Five letters"
+  ],
+  "answers": [
+   {
+    "word": "ROWBOAT",
+    "region": "A",
+    "why": "A boat with no double letter, seven letters"
+   },
+   {
+    "word": "RIPPLE",
+    "region": "B",
+    "why": "Double P, but not a boat"
+   },
+   {
+    "word": "SHORE",
+    "region": "C",
+    "why": "Five letters, not a boat"
+   },
+   {
+    "word": "PONTOON",
+    "region": "AB",
+    "why": "Every Minnesota lake has one; double O"
+   },
+   {
+    "word": "KAYAK",
+    "region": "AC",
+    "why": "A five-letter boat, no double letter"
+   },
+   {
+    "word": "REELS",
+    "region": "BC",
+    "why": "Double E, five letters"
+   },
+   {
+    "word": "FERRY",
+    "region": "ABC",
+    "why": "A boat, double R, and five letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "US states",
+   "Rivers",
+   "Has a double letter"
+  ],
+  "answers": [
+   {
+    "word": "TEXAS",
+    "region": "A",
+    "why": "A state, no river, no double letter"
+   },
+   {
+    "word": "NILE",
+    "region": "B",
+    "why": "A river, no double letter"
+   },
+   {
+    "word": "COFFEE",
+    "region": "C",
+    "why": "Double F and double E, but not a state or river"
+   },
+   {
+    "word": "COLORADO",
+    "region": "AB",
+    "why": "A state and the river of the Grand Canyon"
+   },
+   {
+    "word": "HAWAII",
+    "region": "AC",
+    "why": "A state with a double I"
+   },
+   {
+    "word": "YELLOWSTONE",
+    "region": "BC",
+    "why": "A river with a double L, not a state"
+   },
+   {
+    "word": "MISSISSIPPI",
+    "region": "ABC",
+    "why": "A state, a river from Lake Itasca, and doubles"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "SPRING___",
+   "SUMMER___",
+   "WINTER___"
+  ],
+  "answers": [
+   {
+    "word": "CHICKEN",
+    "region": "A",
+    "why": "Spring chicken"
+   },
+   {
+    "word": "SCHOOL",
+    "region": "B",
+    "why": "Summer school"
+   },
+   {
+    "word": "WONDERLAND",
+    "region": "C",
+    "why": "Winter wonderland"
+   },
+   {
+    "word": "FLING",
+    "region": "AB",
+    "why": "Spring fling, summer fling"
+   },
+   {
+    "word": "WHEAT",
+    "region": "AC",
+    "why": "Spring wheat, winter wheat"
+   },
+   {
+    "word": "SQUASH",
+    "region": "BC",
+    "why": "Summer squash, winter squash"
+   },
+   {
+    "word": "TIME",
+    "region": "ABC",
+    "why": "Springtime, summertime, wintertime"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___PLANE",
+   "___PORT",
+   "___SHIP"
+  ],
+  "answers": [
+   {
+    "word": "FLOAT",
+    "region": "A",
+    "why": "Floatplane"
+   },
+   {
+    "word": "PASS",
+    "region": "B",
+    "why": "Passport"
+   },
+   {
+    "word": "FRIEND",
+    "region": "C",
+    "why": "Friendship"
+   },
+   {
+    "word": "SEA",
+    "region": "AB",
+    "why": "Seaplane, seaport"
+   },
+   {
+    "word": "WAR",
+    "region": "AC",
+    "why": "Warplane, warship"
+   },
+   {
+    "word": "SPACE",
+    "region": "BC",
+    "why": "Spaceport, spaceship"
+   },
+   {
+    "word": "AIR",
+    "region": "ABC",
+    "why": "Airplane, airport, airship"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Ford models",
+   "Kinds of horses",
+   "Five letters"
+  ],
+  "answers": [
+   {
+    "word": "EXPLORER",
+    "region": "A",
+    "why": "Ford SUV, not a horse"
+   },
+   {
+    "word": "STALLION",
+    "region": "B",
+    "why": "A male horse, not a Ford"
+   },
+   {
+    "word": "CHEVY",
+    "region": "C",
+    "why": "Five letters, but not a Ford"
+   },
+   {
+    "word": "MUSTANG",
+    "region": "AB",
+    "why": "Ford's muscle car and a wild horse"
+   },
+   {
+    "word": "FOCUS",
+    "region": "AC",
+    "why": "Ford compact, five letters"
+   },
+   {
+    "word": "FILLY",
+    "region": "BC",
+    "why": "A young female horse, five letters"
+   },
+   {
+    "word": "PINTO",
+    "region": "ABC",
+    "why": "A Ford, a spotted horse, and five letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Countries",
+   "Rivers",
+   "Ends with a vowel"
+  ],
+  "answers": [
+   {
+    "word": "SPAIN",
+    "region": "A",
+    "why": "A country ending in N"
+   },
+   {
+    "word": "THAMES",
+    "region": "B",
+    "why": "London's river, ends in S"
+   },
+   {
+    "word": "PATIO",
+    "region": "C",
+    "why": "Ends in O, but not a country or river"
+   },
+   {
+    "word": "JORDAN",
+    "region": "AB",
+    "why": "A country and a river, ends in N"
+   },
+   {
+    "word": "PERU",
+    "region": "AC",
+    "why": "A country ending in U"
+   },
+   {
+    "word": "DANUBE",
+    "region": "BC",
+    "why": "A river ending in E, not a country"
+   },
+   {
+    "word": "CONGO",
+    "region": "ABC",
+    "why": "A country, an African river, and ends in O"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "WATER___",
+   "SNOW___",
+   "RAIN___"
+  ],
+  "answers": [
+   {
+    "word": "COLOR",
+    "region": "A",
+    "why": "Watercolor"
+   },
+   {
+    "word": "FLAKE",
+    "region": "B",
+    "why": "Snowflake"
+   },
+   {
+    "word": "BOW",
+    "region": "C",
+    "why": "Rainbow"
+   },
+   {
+    "word": "SKI",
+    "region": "AB",
+    "why": "Water ski, snow ski"
+   },
+   {
+    "word": "BARREL",
+    "region": "AC",
+    "why": "Water barrel, rain barrel"
+   },
+   {
+    "word": "STORM",
+    "region": "BC",
+    "why": "Snowstorm, rainstorm"
+   },
+   {
+    "word": "FALL",
+    "region": "ABC",
+    "why": "Waterfall, snowfall, rainfall"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BALL",
+   "___PRINT",
+   "___STAND"
+  ],
+  "answers": [
+   {
+    "word": "MEAT",
+    "region": "A",
+    "why": "Meatball"
+   },
+   {
+    "word": "THUMB",
+    "region": "B",
+    "why": "Thumbprint"
+   },
+   {
+    "word": "BAND",
+    "region": "C",
+    "why": "Bandstand"
+   },
+   {
+    "word": "FOOT",
+    "region": "AB",
+    "why": "Football, footprint"
+   },
+   {
+    "word": "KICK",
+    "region": "AC",
+    "why": "Kickball, kickstand"
+   },
+   {
+    "word": "NEWS",
+    "region": "BC",
+    "why": "Newsprint, newsstand"
+   },
+   {
+    "word": "HAND",
+    "region": "ABC",
+    "why": "Handball, handprint, handstand"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Shakespeare characters",
+   "Disney characters",
+   "Five letters"
+  ],
+  "answers": [
+   {
+    "word": "MACBETH",
+    "region": "A",
+    "why": "Shakespeare's Scottish king"
+   },
+   {
+    "word": "STITCH",
+    "region": "B",
+    "why": "Disney's alien from Lilo & Stitch"
+   },
+   {
+    "word": "GLOBE",
+    "region": "C",
+    "why": "Shakespeare's theater, not a character"
+   },
+   {
+    "word": "IAGO",
+    "region": "AB",
+    "why": "Othello's villain and Jafar's parrot"
+   },
+   {
+    "word": "ROMEO",
+    "region": "AC",
+    "why": "Juliet's love, five letters"
+   },
+   {
+    "word": "DUMBO",
+    "region": "BC",
+    "why": "Disney's flying elephant, five letters"
+   },
+   {
+    "word": "ARIEL",
+    "region": "ABC",
+    "why": "The Tempest's spirit, the Little Mermaid, and five letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Cocktails",
+   "Tools",
+   "Starts with S"
+  ],
+  "answers": [
+   {
+    "word": "MARTINI",
+    "region": "A",
+    "why": "A cocktail starting with M"
+   },
+   {
+    "word": "HAMMER",
+    "region": "B",
+    "why": "A tool starting with H"
+   },
+   {
+    "word": "SAILBOAT",
+    "region": "C",
+    "why": "Starts with S, not a drink or tool"
+   },
+   {
+    "word": "GIMLET",
+    "region": "AB",
+    "why": "Gin-lime cocktail, named for a small hole-boring tool"
+   },
+   {
+    "word": "SIDECAR",
+    "region": "AC",
+    "why": "A cocktail starting with S"
+   },
+   {
+    "word": "SHOVEL",
+    "region": "BC",
+    "why": "A tool starting with S"
+   },
+   {
+    "word": "SCREWDRIVER",
+    "region": "ABC",
+    "why": "Vodka and OJ, a tool, and starts with S"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "BLACK___",
+   "WHITE___",
+   "SNOW___"
+  ],
+  "answers": [
+   {
+    "word": "MAIL",
+    "region": "A",
+    "why": "Blackmail"
+   },
+   {
+    "word": "WASH",
+    "region": "B",
+    "why": "Whitewash"
+   },
+   {
+    "word": "PLOW",
+    "region": "C",
+    "why": "Snowplow"
+   },
+   {
+    "word": "LIST",
+    "region": "AB",
+    "why": "Blacklist, whitelist"
+   },
+   {
+    "word": "BALL",
+    "region": "AC",
+    "why": "Blackball, snowball"
+   },
+   {
+    "word": "CAP",
+    "region": "BC",
+    "why": "Whitecap, snowcap"
+   },
+   {
+    "word": "BOARD",
+    "region": "ABC",
+    "why": "Blackboard, whiteboard, snowboard"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BOAT",
+   "___HORN",
+   "___SHOT"
+  ],
+  "answers": [
+   {
+    "word": "TUG",
+    "region": "A",
+    "why": "Tugboat"
+   },
+   {
+    "word": "SHOE",
+    "region": "B",
+    "why": "Shoehorn"
+   },
+   {
+    "word": "SLING",
+    "region": "C",
+    "why": "Slingshot"
+   },
+   {
+    "word": "AIR",
+    "region": "AB",
+    "why": "Airboat, air horn"
+   },
+   {
+    "word": "GUN",
+    "region": "AC",
+    "why": "Gunboat, gunshot"
+   },
+   {
+    "word": "BIG",
+    "region": "BC",
+    "why": "Bighorn, big shot"
+   },
+   {
+    "word": "LONG",
+    "region": "ABC",
+    "why": "Longboat, longhorn, long shot"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Monopoly spaces",
+   "US states",
+   "Starts with a vowel"
+  ],
+  "answers": [
+   {
+    "word": "BOARDWALK",
+    "region": "A",
+    "why": "Monopoly's priciest property"
+   },
+   {
+    "word": "MINNESOTA",
+    "region": "B",
+    "why": "A state, but not on the Monopoly board"
+   },
+   {
+    "word": "AUCTION",
+    "region": "C",
+    "why": "A Monopoly rule, not a space; starts with A"
+   },
+   {
+    "word": "VERMONT",
+    "region": "AB",
+    "why": "Vermont Avenue, and a state"
+   },
+   {
+    "word": "ATLANTIC",
+    "region": "AC",
+    "why": "Atlantic Avenue, starts with A"
+   },
+   {
+    "word": "IOWA",
+    "region": "BC",
+    "why": "A state that starts with I, but not on the board"
+   },
+   {
+    "word": "ILLINOIS",
+    "region": "ABC",
+    "why": "Illinois Avenue, a state, and starts with I"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Metals",
+   "Colors",
+   "Contains a Z"
+  ],
+  "answers": [
+   {
+    "word": "ALUMINUM",
+    "region": "A",
+    "why": "A metal, not a color, no Z"
+   },
+   {
+    "word": "TEAL",
+    "region": "B",
+    "why": "A color, no Z"
+   },
+   {
+    "word": "KAZOO",
+    "region": "C",
+    "why": "Has a Z, but not a metal or color"
+   },
+   {
+    "word": "SILVER",
+    "region": "AB",
+    "why": "A metal and a color, no Z"
+   },
+   {
+    "word": "ZINC",
+    "region": "AC",
+    "why": "A metal with a Z"
+   },
+   {
+    "word": "AZURE",
+    "region": "BC",
+    "why": "A sky-blue color with a Z"
+   },
+   {
+    "word": "BRONZE",
+    "region": "ABC",
+    "why": "A metal, a color, and a Z"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "HEAD___",
+   "EAR___",
+   "EYE___"
+  ],
+  "answers": [
+   {
+    "word": "BAND",
+    "region": "A",
+    "why": "Headband"
+   },
+   {
+    "word": "LOBE",
+    "region": "B",
+    "why": "Earlobe"
+   },
+   {
+    "word": "BROW",
+    "region": "C",
+    "why": "Eyebrow"
+   },
+   {
+    "word": "PHONE",
+    "region": "AB",
+    "why": "Headphone, earphone"
+   },
+   {
+    "word": "WEAR",
+    "region": "AC",
+    "why": "Headwear, eyewear"
+   },
+   {
+    "word": "DROPS",
+    "region": "BC",
+    "why": "Eardrops, eyedrops"
+   },
+   {
+    "word": "PIECE",
+    "region": "ABC",
+    "why": "Headpiece, earpiece, eyepiece"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___HORSE",
+   "___ROOM",
+   "___SIDE"
+  ],
+  "answers": [
+   {
+    "word": "RACE",
+    "region": "A",
+    "why": "Racehorse"
+   },
+   {
+    "word": "MUSH",
+    "region": "B",
+    "why": "Mushroom"
+   },
+   {
+    "word": "LAKE",
+    "region": "C",
+    "why": "Lakeside"
+   },
+   {
+    "word": "WAR",
+    "region": "AB",
+    "why": "Warhorse, war room"
+   },
+   {
+    "word": "SEA",
+    "region": "AC",
+    "why": "Seahorse, seaside"
+   },
+   {
+    "word": "BED",
+    "region": "BC",
+    "why": "Bedroom, bedside"
+   },
+   {
+    "word": "DARK",
+    "region": "ABC",
+    "why": "Dark horse, darkroom, dark side"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Dances",
+   "NATO alphabet",
+   "Ends with O"
+  ],
+  "answers": [
+   {
+    "word": "POLKA",
+    "region": "A",
+    "why": "A dance at every Minnesota wedding"
+   },
+   {
+    "word": "QUEBEC",
+    "region": "B",
+    "why": "NATO's word for Q"
+   },
+   {
+    "word": "PIANO",
+    "region": "C",
+    "why": "Ends with O, not a dance or a code word"
+   },
+   {
+    "word": "FOXTROT",
+    "region": "AB",
+    "why": "A ballroom dance and NATO's F"
+   },
+   {
+    "word": "MAMBO",
+    "region": "AC",
+    "why": "A Latin dance ending in O"
+   },
+   {
+    "word": "BRAVO",
+    "region": "BC",
+    "why": "NATO's B, ends with O"
+   },
+   {
+    "word": "TANGO",
+    "region": "ABC",
+    "why": "A dance, NATO's T, and ends with O"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Flowers",
+   "Colors",
+   "Starts with a vowel"
+  ],
+  "answers": [
+   {
+    "word": "TULIP",
+    "region": "A",
+    "why": "A flower starting with T"
+   },
+   {
+    "word": "BEIGE",
+    "region": "B",
+    "why": "A color starting with B"
+   },
+   {
+    "word": "ANCHOR",
+    "region": "C",
+    "why": "Starts with A, not a flower or color"
+   },
+   {
+    "word": "LILAC",
+    "region": "AB",
+    "why": "A flower and a color, starts with L"
+   },
+   {
+    "word": "IRIS",
+    "region": "AC",
+    "why": "A flower starting with I"
+   },
+   {
+    "word": "AMBER",
+    "region": "BC",
+    "why": "A color starting with A"
+   },
+   {
+    "word": "ORCHID",
+    "region": "ABC",
+    "why": "A flower, a purple color, and starts with O"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "OVER___",
+   "UNDER___",
+   "OUT___"
+  ],
+  "answers": [
+   {
+    "word": "TIME",
+    "region": "A",
+    "why": "Overtime"
+   },
+   {
+    "word": "DOG",
+    "region": "B",
+    "why": "Underdog"
+   },
+   {
+    "word": "BREAK",
+    "region": "C",
+    "why": "Outbreak"
+   },
+   {
+    "word": "PASS",
+    "region": "AB",
+    "why": "Overpass, underpass"
+   },
+   {
+    "word": "LOOK",
+    "region": "AC",
+    "why": "Overlook, outlook"
+   },
+   {
+    "word": "LINE",
+    "region": "BC",
+    "why": "Underline, outline"
+   },
+   {
+    "word": "DONE",
+    "region": "ABC",
+    "why": "Overdone, underdone, outdone"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___LOAD",
+   "___MATE",
+   "___YARD"
+  ],
+  "answers": [
+   {
+    "word": "PAY",
+    "region": "A",
+    "why": "Payload"
+   },
+   {
+    "word": "SOUL",
+    "region": "B",
+    "why": "Soulmate"
+   },
+   {
+    "word": "JUNK",
+    "region": "C",
+    "why": "Junkyard"
+   },
+   {
+    "word": "WORK",
+    "region": "AB",
+    "why": "Workload, workmate"
+   },
+   {
+    "word": "BOAT",
+    "region": "AC",
+    "why": "Boatload, boatyard"
+   },
+   {
+    "word": "SCHOOL",
+    "region": "BC",
+    "why": "Schoolmate, schoolyard"
+   },
+   {
+    "word": "SHIP",
+    "region": "ABC",
+    "why": "Shipload, shipmate, shipyard"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Foods",
+   "Slang for money",
+   "Starts with B"
+  ],
+  "answers": [
+   {
+    "word": "WAFFLE",
+    "region": "A",
+    "why": "A breakfast food, not money"
+   },
+   {
+    "word": "MOOLAH",
+    "region": "B",
+    "why": "Slang for money you can't eat"
+   },
+   {
+    "word": "BICYCLE",
+    "region": "C",
+    "why": "Starts with B, but not food or money"
+   },
+   {
+    "word": "CHEDDAR",
+    "region": "AB",
+    "why": "A cheese, and slang for cash"
+   },
+   {
+    "word": "BAGEL",
+    "region": "AC",
+    "why": "A food that starts with B, but not money"
+   },
+   {
+    "word": "BUCKS",
+    "region": "BC",
+    "why": "Slang for dollars that starts with B"
+   },
+   {
+    "word": "BREAD",
+    "region": "ABC",
+    "why": "A food, slang for money, and starts with B"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Birds",
+   "Golf terms",
+   "Has a double letter"
+  ],
+  "answers": [
+   {
+    "word": "HERON",
+    "region": "A",
+    "why": "A bird, no double letter"
+   },
+   {
+    "word": "BOGEY",
+    "region": "B",
+    "why": "One over par, no double letter"
+   },
+   {
+    "word": "KETTLE",
+    "region": "C",
+    "why": "Double T, but not a bird or golf term"
+   },
+   {
+    "word": "EAGLE",
+    "region": "AB",
+    "why": "A bird and two under par"
+   },
+   {
+    "word": "LOON",
+    "region": "AC",
+    "why": "Minnesota's state bird, double O"
+   },
+   {
+    "word": "MULLIGAN",
+    "region": "BC",
+    "why": "A golf do-over with a double L"
+   },
+   {
+    "word": "ALBATROSS",
+    "region": "ABC",
+    "why": "A seabird, three under par, and a double S"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "ICE___",
+   "STONE___",
+   "IRON___"
+  ],
+  "answers": [
+   {
+    "word": "FISHING",
+    "region": "A",
+    "why": "Ice fishing"
+   },
+   {
+    "word": "MASON",
+    "region": "B",
+    "why": "Stonemason"
+   },
+   {
+    "word": "CLAD",
+    "region": "C",
+    "why": "Ironclad"
+   },
+   {
+    "word": "COLD",
+    "region": "AB",
+    "why": "Ice-cold, stone-cold"
+   },
+   {
+    "word": "MAN",
+    "region": "AC",
+    "why": "Iceman, Iron Man"
+   },
+   {
+    "word": "WORK",
+    "region": "BC",
+    "why": "Stonework, ironwork"
+   },
+   {
+    "word": "AGE",
+    "region": "ABC",
+    "why": "Ice Age, Stone Age, Iron Age"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___WARE",
+   "___SCREEN",
+   "___BACK"
+  ],
+  "answers": [
+   {
+    "word": "KITCHEN",
+    "region": "A",
+    "why": "Kitchenware"
+   },
+   {
+    "word": "SMOKE",
+    "region": "B",
+    "why": "Smokescreen"
+   },
+   {
+    "word": "QUARTER",
+    "region": "C",
+    "why": "Quarterback"
+   },
+   {
+    "word": "FLAT",
+    "region": "AB",
+    "why": "Flatware, flat screen"
+   },
+   {
+    "word": "HARD",
+    "region": "AC",
+    "why": "Hardware, hardback"
+   },
+   {
+    "word": "GREEN",
+    "region": "BC",
+    "why": "Green screen, greenback"
+   },
+   {
+    "word": "SILVER",
+    "region": "ABC",
+    "why": "Silverware, silver screen, silverback"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Baseball terms",
+   "Fishing terms",
+   "Six letters"
+  ],
+  "answers": [
+   {
+    "word": "BULLPEN",
+    "region": "A",
+    "why": "Where relief pitchers warm up"
+   },
+   {
+    "word": "LURE",
+    "region": "B",
+    "why": "Fishing only, four letters"
+   },
+   {
+    "word": "SUNSET",
+    "region": "C",
+    "why": "Six letters, no bat or rod needed"
+   },
+   {
+    "word": "FLY",
+    "region": "AB",
+    "why": "A fly ball, or fly fishing"
+   },
+   {
+    "word": "DUGOUT",
+    "region": "AC",
+    "why": "Baseball's bench, six letters"
+   },
+   {
+    "word": "BOBBER",
+    "region": "BC",
+    "why": "Watch it go under; six letters"
+   },
+   {
+    "word": "SINKER",
+    "region": "ABC",
+    "why": "A pitch, a fishing weight, and six letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Poker terms",
+   "Golf terms",
+   "Three letters"
+  ],
+  "answers": [
+   {
+    "word": "BLUFF",
+    "region": "A",
+    "why": "A poker move, five letters"
+   },
+   {
+    "word": "DIVOT",
+    "region": "B",
+    "why": "Turf a golf swing digs up, five letters"
+   },
+   {
+    "word": "OAR",
+    "region": "C",
+    "why": "Three letters, not poker or golf"
+   },
+   {
+    "word": "CHIP",
+    "region": "AB",
+    "why": "Poker chip and golf chip shot, four letters"
+   },
+   {
+    "word": "POT",
+    "region": "AC",
+    "why": "The poker pot, three letters"
+   },
+   {
+    "word": "TEE",
+    "region": "BC",
+    "why": "Golf tee, three letters"
+   },
+   {
+    "word": "ACE",
+    "region": "ABC",
+    "why": "Top poker card, a hole in one, three letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "RED___",
+   "WHITE___",
+   "BLUE___"
+  ],
+  "answers": [
+   {
+    "word": "CARPET",
+    "region": "A",
+    "why": "Red carpet"
+   },
+   {
+    "word": "NOISE",
+    "region": "B",
+    "why": "White noise"
+   },
+   {
+    "word": "PRINT",
+    "region": "C",
+    "why": "Blueprint"
+   },
+   {
+    "word": "HOT",
+    "region": "AB",
+    "why": "Red-hot, white-hot"
+   },
+   {
+    "word": "CROSS",
+    "region": "AC",
+    "why": "Red Cross, Blue Cross"
+   },
+   {
+    "word": "COLLAR",
+    "region": "BC",
+    "why": "White-collar, blue-collar"
+   },
+   {
+    "word": "FISH",
+    "region": "ABC",
+    "why": "Redfish, whitefish, bluefish"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BOAT",
+   "___TIME",
+   "___LINE"
+  ],
+  "answers": [
+   {
+    "word": "ROW",
+    "region": "A",
+    "why": "Rowboat"
+   },
+   {
+    "word": "NAP",
+    "region": "B",
+    "why": "Naptime"
+   },
+   {
+    "word": "COAST",
+    "region": "C",
+    "why": "Coastline"
+   },
+   {
+    "word": "SHOW",
+    "region": "AB",
+    "why": "Showboat, showtime"
+   },
+   {
+    "word": "POWER",
+    "region": "AC",
+    "why": "Powerboat, power line"
+   },
+   {
+    "word": "STORY",
+    "region": "BC",
+    "why": "Storytime, storyline"
+   },
+   {
+    "word": "LIFE",
+    "region": "ABC",
+    "why": "Lifeboat, lifetime, lifeline"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Harry Potter characters",
+   "Stars & constellations",
+   "Starts with S"
+  ],
+  "answers": [
+   {
+    "word": "HERMIONE",
+    "region": "A",
+    "why": "Harry's best friend, no star"
+   },
+   {
+    "word": "ORION",
+    "region": "B",
+    "why": "The hunter constellation"
+   },
+   {
+    "word": "SPELL",
+    "region": "C",
+    "why": "Starts with S, but not a character or a star"
+   },
+   {
+    "word": "DRACO",
+    "region": "AB",
+    "why": "Draco Malfoy and the dragon constellation"
+   },
+   {
+    "word": "SNAPE",
+    "region": "AC",
+    "why": "The Potions master, starts with S"
+   },
+   {
+    "word": "SUN",
+    "region": "BC",
+    "why": "Our nearest star, starts with S"
+   },
+   {
+    "word": "SIRIUS",
+    "region": "ABC",
+    "why": "Sirius Black, the brightest star, starts with S"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Kinds of dog",
+   "Has a double letter",
+   "Ends with ER"
+  ],
+  "answers": [
+   {
+    "word": "BEAGLE",
+    "region": "A",
+    "why": "A dog, no double letter, ends in E"
+   },
+   {
+    "word": "PUFFIN",
+    "region": "B",
+    "why": "Double F, but a seabird, and no -ER"
+   },
+   {
+    "word": "WINTER",
+    "region": "C",
+    "why": "Ends in ER, no double letter"
+   },
+   {
+    "word": "POODLE",
+    "region": "AB",
+    "why": "A dog breed with a double O"
+   },
+   {
+    "word": "BOXER",
+    "region": "AC",
+    "why": "A dog breed ending in ER"
+   },
+   {
+    "word": "SUMMER",
+    "region": "BC",
+    "why": "Double M and ends in ER"
+   },
+   {
+    "word": "TERRIER",
+    "region": "ABC",
+    "why": "A kind of dog, a double R, and ends in ER"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "HEAD___",
+   "HAND___",
+   "Three letters"
+  ],
+  "answers": [
+   {
+    "word": "LIGHT",
+    "region": "A",
+    "why": "Headlight"
+   },
+   {
+    "word": "CUFF",
+    "region": "B",
+    "why": "Handcuff"
+   },
+   {
+    "word": "TOE",
+    "region": "C",
+    "why": "Three letters"
+   },
+   {
+    "word": "STAND",
+    "region": "AB",
+    "why": "Headstand, handstand"
+   },
+   {
+    "word": "WAY",
+    "region": "AC",
+    "why": "Headway, three letters"
+   },
+   {
+    "word": "BAG",
+    "region": "BC",
+    "why": "Handbag, three letters"
+   },
+   {
+    "word": "SET",
+    "region": "ABC",
+    "why": "Headset, handset, three letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___KEEPER",
+   "___CARD",
+   "___LINE"
+  ],
+  "answers": [
+   {
+    "word": "ZOO",
+    "region": "A",
+    "why": "Zookeeper"
+   },
+   {
+    "word": "POST",
+    "region": "B",
+    "why": "Postcard"
+   },
+   {
+    "word": "DEAD",
+    "region": "C",
+    "why": "Deadline"
+   },
+   {
+    "word": "SCORE",
+    "region": "AB",
+    "why": "Scorekeeper, scorecard"
+   },
+   {
+    "word": "GOAL",
+    "region": "AC",
+    "why": "Goalkeeper, goal line"
+   },
+   {
+    "word": "PUNCH",
+    "region": "BC",
+    "why": "Punch card, punchline"
+   },
+   {
+    "word": "TIME",
+    "region": "ABC",
+    "why": "Timekeeper, time card, timeline"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "US presidents",
+   "Car brands",
+   "Four letters"
+  ],
+  "answers": [
+   {
+    "word": "HOOVER",
+    "region": "A",
+    "why": "A president (and a vacuum), but no car"
+   },
+   {
+    "word": "TESLA",
+    "region": "B",
+    "why": "A car brand, never a president"
+   },
+   {
+    "word": "SLED",
+    "region": "C",
+    "why": "Four letters, but no president or car brand"
+   },
+   {
+    "word": "LINCOLN",
+    "region": "AB",
+    "why": "President and Ford's luxury brand, seven letters"
+   },
+   {
+    "word": "TAFT",
+    "region": "AC",
+    "why": "A four-letter president with no car"
+   },
+   {
+    "word": "JEEP",
+    "region": "BC",
+    "why": "A four-letter car brand"
+   },
+   {
+    "word": "FORD",
+    "region": "ABC",
+    "why": "President Gerald Ford, a car brand, and four letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Pasta",
+   "Ends with I",
+   "Contains a Z"
+  ],
+  "answers": [
+   {
+    "word": "PENNE",
+    "region": "A",
+    "why": "Pasta, ends in E, no Z"
+   },
+   {
+    "word": "BROCCOLI",
+    "region": "B",
+    "why": "Ends in I, but a vegetable"
+   },
+   {
+    "word": "PIZZA",
+    "region": "C",
+    "why": "Has a Z, but not pasta"
+   },
+   {
+    "word": "RIGATONI",
+    "region": "AB",
+    "why": "Pasta ending in I"
+   },
+   {
+    "word": "ORZO",
+    "region": "AC",
+    "why": "Rice-shaped pasta with a Z"
+   },
+   {
+    "word": "ZUCCHINI",
+    "region": "BC",
+    "why": "Has a Z and ends in I, but a squash"
+   },
+   {
+    "word": "ZITI",
+    "region": "ABC",
+    "why": "Pasta with a Z, ending in I"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "DOOR___",
+   "WINDOW___",
+   "Four letters"
+  ],
+  "answers": [
+   {
+    "word": "KNOCKER",
+    "region": "A",
+    "why": "Door knocker"
+   },
+   {
+    "word": "SHOPPING",
+    "region": "B",
+    "why": "Window shopping"
+   },
+   {
+    "word": "LOON",
+    "region": "C",
+    "why": "Four letters"
+   },
+   {
+    "word": "FRAME",
+    "region": "AB",
+    "why": "Doorframe, window frame"
+   },
+   {
+    "word": "BELL",
+    "region": "AC",
+    "why": "Doorbell, four letters"
+   },
+   {
+    "word": "PANE",
+    "region": "BC",
+    "why": "Windowpane, four letters"
+   },
+   {
+    "word": "LOCK",
+    "region": "ABC",
+    "why": "Door lock, window lock, four letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BOARD",
+   "___WATER",
+   "___CAP"
+  ],
+  "answers": [
+   {
+    "word": "CLIP",
+    "region": "A",
+    "why": "Clipboard"
+   },
+   {
+    "word": "SALT",
+    "region": "B",
+    "why": "Saltwater"
+   },
+   {
+    "word": "HUB",
+    "region": "C",
+    "why": "Hubcap"
+   },
+   {
+    "word": "SPRING",
+    "region": "AB",
+    "why": "Springboard, spring water"
+   },
+   {
+    "word": "SNOW",
+    "region": "AC",
+    "why": "Snowboard, snowcap"
+   },
+   {
+    "word": "ICE",
+    "region": "BC",
+    "why": "Ice water, ice cap"
+   },
+   {
+    "word": "WHITE",
+    "region": "ABC",
+    "why": "Whiteboard, whitewater, whitecap"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Fruits",
+   "Tech companies",
+   "Starts with a vowel"
+  ],
+  "answers": [
+   {
+    "word": "BANANA",
+    "region": "A",
+    "why": "A fruit, not a tech company, starts with B"
+   },
+   {
+    "word": "MICROSOFT",
+    "region": "B",
+    "why": "A tech giant you can't eat"
+   },
+   {
+    "word": "UMBRELLA",
+    "region": "C",
+    "why": "Starts with a vowel, but not fruit or tech"
+   },
+   {
+    "word": "BLACKBERRY",
+    "region": "AB",
+    "why": "A fruit and the old phone maker, starts with B"
+   },
+   {
+    "word": "APRICOT",
+    "region": "AC",
+    "why": "A fruit that starts with a vowel"
+   },
+   {
+    "word": "INTEL",
+    "region": "BC",
+    "why": "A chip maker that starts with a vowel"
+   },
+   {
+    "word": "APPLE",
+    "region": "ABC",
+    "why": "A fruit, a tech giant, and starts with a vowel"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Card games",
+   "Starts with a vowel",
+   "Ends with E"
+  ],
+  "answers": [
+   {
+    "word": "RUMMY",
+    "region": "A",
+    "why": "A card game, starts with R"
+   },
+   {
+    "word": "ISLAND",
+    "region": "B",
+    "why": "Starts with I, ends in D"
+   },
+   {
+    "word": "CANOE",
+    "region": "C",
+    "why": "Ends in E, starts with C"
+   },
+   {
+    "word": "UNO",
+    "region": "AB",
+    "why": "A card game starting with U"
+   },
+   {
+    "word": "CRIBBAGE",
+    "region": "AC",
+    "why": "A cabin card game ending in E"
+   },
+   {
+    "word": "ICE",
+    "region": "BC",
+    "why": "Starts with I and ends in E"
+   },
+   {
+    "word": "EUCHRE",
+    "region": "ABC",
+    "why": "A Midwest card game that starts and ends with E"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "SUN___",
+   "RAIN___",
+   "Five letters"
+  ],
+  "answers": [
+   {
+    "word": "FLOWER",
+    "region": "A",
+    "why": "Sunflower"
+   },
+   {
+    "word": "COAT",
+    "region": "B",
+    "why": "Raincoat"
+   },
+   {
+    "word": "TRAIL",
+    "region": "C",
+    "why": "Five letters"
+   },
+   {
+    "word": "HAT",
+    "region": "AB",
+    "why": "Sun hat, rain hat"
+   },
+   {
+    "word": "SHINE",
+    "region": "AC",
+    "why": "Sunshine, five letters"
+   },
+   {
+    "word": "CHECK",
+    "region": "BC",
+    "why": "Rain check, five letters"
+   },
+   {
+    "word": "DANCE",
+    "region": "ABC",
+    "why": "Sun dance, rain dance, five letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___EYE",
+   "___LIGHT",
+   "___WOOD"
+  ],
+  "answers": [
+   {
+    "word": "PINK",
+    "region": "A",
+    "why": "Pinkeye"
+   },
+   {
+    "word": "FLASH",
+    "region": "B",
+    "why": "Flashlight"
+   },
+   {
+    "word": "DRIFT",
+    "region": "C",
+    "why": "Driftwood"
+   },
+   {
+    "word": "BLACK",
+    "region": "AB",
+    "why": "Black eye, black light"
+   },
+   {
+    "word": "DEAD",
+    "region": "AC",
+    "why": "Deadeye, deadwood"
+   },
+   {
+    "word": "FIRE",
+    "region": "BC",
+    "why": "Firelight, firewood"
+   },
+   {
+    "word": "RED",
+    "region": "ABC",
+    "why": "Red-eye, red light, redwood"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "One-name singers",
+   "Animals",
+   "Ends with E"
+  ],
+  "answers": [
+   {
+    "word": "LIZZO",
+    "region": "A",
+    "why": "The Minneapolis-launched star, ends with O"
+   },
+   {
+    "word": "WALRUS",
+    "region": "B",
+    "why": "An animal, not a singer"
+   },
+   {
+    "word": "PICKLE",
+    "region": "C",
+    "why": "Ends with E, but can't sing and isn't an animal"
+   },
+   {
+    "word": "SEAL",
+    "region": "AB",
+    "why": "Sang \"Kiss from a Rose,\" and a sea animal"
+   },
+   {
+    "word": "PRINCE",
+    "region": "AC",
+    "why": "Minnesota's own Prince, ends with E"
+   },
+   {
+    "word": "GIRAFFE",
+    "region": "BC",
+    "why": "An animal that ends with E"
+   },
+   {
+    "word": "DRAKE",
+    "region": "ABC",
+    "why": "The rapper, a male duck, and ends with E"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Weather",
+   "Has a double letter",
+   "Contains a Z"
+  ],
+  "answers": [
+   {
+    "word": "TORNADO",
+    "region": "A",
+    "why": "Weather, no double, no Z"
+   },
+   {
+    "word": "HAMMOCK",
+    "region": "B",
+    "why": "Double M, no Z, not weather"
+   },
+   {
+    "word": "ZEBRA",
+    "region": "C",
+    "why": "Has a Z, no double letter"
+   },
+   {
+    "word": "MONSOON",
+    "region": "AB",
+    "why": "Seasonal rains with a double O"
+   },
+   {
+    "word": "HAZE",
+    "region": "AC",
+    "why": "Weather with a Z"
+   },
+   {
+    "word": "PUZZLE",
+    "region": "BC",
+    "why": "Double Z, but not weather"
+   },
+   {
+    "word": "BLIZZARD",
+    "region": "ABC",
+    "why": "Minnesota weather with a double Z"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "FOOT___",
+   "HAND___",
+   "Four letters"
+  ],
+  "answers": [
+   {
+    "word": "STOOL",
+    "region": "A",
+    "why": "Footstool"
+   },
+   {
+    "word": "SHAKE",
+    "region": "B",
+    "why": "Handshake"
+   },
+   {
+    "word": "DOCK",
+    "region": "C",
+    "why": "Four letters"
+   },
+   {
+    "word": "PRINT",
+    "region": "AB",
+    "why": "Footprint, handprint"
+   },
+   {
+    "word": "NOTE",
+    "region": "AC",
+    "why": "Footnote, four letters"
+   },
+   {
+    "word": "MADE",
+    "region": "BC",
+    "why": "Handmade, four letters"
+   },
+   {
+    "word": "HOLD",
+    "region": "ABC",
+    "why": "Foothold, handhold, four letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BALL",
+   "___DROP",
+   "___PIECE"
+  ],
+  "answers": [
+   {
+    "word": "DODGE",
+    "region": "A",
+    "why": "Dodgeball"
+   },
+   {
+    "word": "TEAR",
+    "region": "B",
+    "why": "Teardrop"
+   },
+   {
+    "word": "CENTER",
+    "region": "C",
+    "why": "Centerpiece"
+   },
+   {
+    "word": "GUM",
+    "region": "AB",
+    "why": "Gumball, gumdrop"
+   },
+   {
+    "word": "HAIR",
+    "region": "AC",
+    "why": "Hairball, hairpiece"
+   },
+   {
+    "word": "EAR",
+    "region": "BC",
+    "why": "Eardrop, earpiece"
+   },
+   {
+    "word": "EYE",
+    "region": "ABC",
+    "why": "Eyeball, eyedrop, eyepiece"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "NBA teams",
+   "Weather words",
+   "Four letters"
+  ],
+  "answers": [
+   {
+    "word": "TIMBERWOLVES",
+    "region": "A",
+    "why": "Minnesota's NBA team"
+   },
+   {
+    "word": "BLIZZARD",
+    "region": "B",
+    "why": "Minnesota weather, not an NBA team"
+   },
+   {
+    "word": "MITT",
+    "region": "C",
+    "why": "Four letters, no team or weather"
+   },
+   {
+    "word": "THUNDER",
+    "region": "AB",
+    "why": "Oklahoma City's team and a storm sound"
+   },
+   {
+    "word": "JAZZ",
+    "region": "AC",
+    "why": "Utah's team, four letters"
+   },
+   {
+    "word": "HAIL",
+    "region": "BC",
+    "why": "Weather, four letters"
+   },
+   {
+    "word": "HEAT",
+    "region": "ABC",
+    "why": "Miami's team, weather, and four letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Pizza toppings",
+   "Fruits",
+   "Five letters"
+  ],
+  "answers": [
+   {
+    "word": "SAUSAGE",
+    "region": "A",
+    "why": "A topping, seven letters"
+   },
+   {
+    "word": "CHERRY",
+    "region": "B",
+    "why": "A fruit, six letters"
+   },
+   {
+    "word": "MOOSE",
+    "region": "C",
+    "why": "Five letters, not a topping or fruit"
+   },
+   {
+    "word": "PINEAPPLE",
+    "region": "AB",
+    "why": "A fruit and a (divisive) topping"
+   },
+   {
+    "word": "BACON",
+    "region": "AC",
+    "why": "A topping with five letters"
+   },
+   {
+    "word": "GRAPE",
+    "region": "BC",
+    "why": "A fruit with five letters"
+   },
+   {
+    "word": "OLIVE",
+    "region": "ABC",
+    "why": "A topping, the olive tree's fruit, and five letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "GOLD___",
+   "SILVER___",
+   "Animals"
+  ],
+  "answers": [
+   {
+    "word": "RUSH",
+    "region": "A",
+    "why": "Gold rush"
+   },
+   {
+    "word": "LINING",
+    "region": "B",
+    "why": "Silver lining"
+   },
+   {
+    "word": "BEAVER",
+    "region": "C",
+    "why": "An animal"
+   },
+   {
+    "word": "MEDAL",
+    "region": "AB",
+    "why": "Gold medal, silver medal"
+   },
+   {
+    "word": "FINCH",
+    "region": "AC",
+    "why": "Goldfinch, and a finch is an animal"
+   },
+   {
+    "word": "FOX",
+    "region": "BC",
+    "why": "Silver fox, and a fox is an animal"
+   },
+   {
+    "word": "FISH",
+    "region": "ABC",
+    "why": "Goldfish, silverfish, and fish are animals"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___MAKER",
+   "___BOOK",
+   "___LIST"
+  ],
+  "answers": [
+   {
+    "word": "PEACE",
+    "region": "A",
+    "why": "Peacemaker"
+   },
+   {
+    "word": "SCRAP",
+    "region": "B",
+    "why": "Scrapbook"
+   },
+   {
+    "word": "BUCKET",
+    "region": "C",
+    "why": "Bucket list"
+   },
+   {
+    "word": "MATCH",
+    "region": "AB",
+    "why": "Matchmaker, matchbook"
+   },
+   {
+    "word": "HIT",
+    "region": "AC",
+    "why": "Hitmaker, hit list"
+   },
+   {
+    "word": "GUEST",
+    "region": "BC",
+    "why": "Guestbook, guest list"
+   },
+   {
+    "word": "PLAY",
+    "region": "ABC",
+    "why": "Playmaker, playbook, playlist"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Candy",
+   "Playful insults",
+   "Five letters"
+  ],
+  "answers": [
+   {
+    "word": "SNICKERS",
+    "region": "A",
+    "why": "A candy bar, not an insult"
+   },
+   {
+    "word": "KNUCKLEHEAD",
+    "region": "B",
+    "why": "A classic insult, not a candy"
+   },
+   {
+    "word": "SMILE",
+    "region": "C",
+    "why": "Five letters, neither sweet nor mean"
+   },
+   {
+    "word": "AIRHEADS",
+    "region": "AB",
+    "why": "A taffy candy and a name for ditzy people"
+   },
+   {
+    "word": "HEATH",
+    "region": "AC",
+    "why": "A toffee bar, five letters"
+   },
+   {
+    "word": "DWEEB",
+    "region": "BC",
+    "why": "An insult with five letters"
+   },
+   {
+    "word": "NERDS",
+    "region": "ABC",
+    "why": "A candy, an insult, and five letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Fish",
+   "Starts with S",
+   "Ends with ER"
+  ],
+  "answers": [
+   {
+    "word": "PERCH",
+    "region": "A",
+    "why": "A fish starting with P"
+   },
+   {
+    "word": "SUNSET",
+    "region": "B",
+    "why": "Starts with S, not a fish"
+   },
+   {
+    "word": "OTTER",
+    "region": "C",
+    "why": "Ends in ER, but a mammal"
+   },
+   {
+    "word": "SUNFISH",
+    "region": "AB",
+    "why": "A fish starting with S"
+   },
+   {
+    "word": "FLOUNDER",
+    "region": "AC",
+    "why": "A flatfish ending in ER"
+   },
+   {
+    "word": "SINKER",
+    "region": "BC",
+    "why": "Starts with S, ends in ER, but it's gear"
+   },
+   {
+    "word": "SNAPPER",
+    "region": "ABC",
+    "why": "A fish that starts with S and ends in ER"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "LIFE___",
+   "TIME___",
+   "Has a double letter"
+  ],
+  "answers": [
+   {
+    "word": "GUARD",
+    "region": "A",
+    "why": "Lifeguard"
+   },
+   {
+    "word": "ZONE",
+    "region": "B",
+    "why": "Time zone"
+   },
+   {
+    "word": "PADDLE",
+    "region": "C",
+    "why": "Double D"
+   },
+   {
+    "word": "LINE",
+    "region": "AB",
+    "why": "Lifeline, timeline"
+   },
+   {
+    "word": "SUPPORT",
+    "region": "AC",
+    "why": "Life support, double P"
+   },
+   {
+    "word": "KEEPER",
+    "region": "BC",
+    "why": "Timekeeper, double E"
+   },
+   {
+    "word": "LESS",
+    "region": "ABC",
+    "why": "Lifeless, timeless, double S"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___COAT",
+   "___DOG",
+   "___HAT"
+  ],
+  "answers": [
+   {
+    "word": "TRENCH",
+    "region": "A",
+    "why": "Trench coat"
+   },
+   {
+    "word": "BULL",
+    "region": "B",
+    "why": "Bulldog"
+   },
+   {
+    "word": "HARD",
+    "region": "C",
+    "why": "Hard hat"
+   },
+   {
+    "word": "UNDER",
+    "region": "AB",
+    "why": "Undercoat, underdog"
+   },
+   {
+    "word": "RAIN",
+    "region": "AC",
+    "why": "Raincoat, rain hat"
+   },
+   {
+    "word": "SUN",
+    "region": "BC",
+    "why": "Sun dog (the winter halo), sun hat"
+   },
+   {
+    "word": "TOP",
+    "region": "ABC",
+    "why": "Topcoat, top dog, top hat"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Dog breeds",
+   "Nationalities",
+   "Starts with A"
+  ],
+  "answers": [
+   {
+    "word": "POODLE",
+    "region": "A",
+    "why": "A dog breed only"
+   },
+   {
+    "word": "KENYAN",
+    "region": "B",
+    "why": "A nationality, not a dog breed"
+   },
+   {
+    "word": "ALPACA",
+    "region": "C",
+    "why": "Starts with A, but not a dog"
+   },
+   {
+    "word": "MALTESE",
+    "region": "AB",
+    "why": "A toy breed and someone from Malta"
+   },
+   {
+    "word": "AKITA",
+    "region": "AC",
+    "why": "A Japanese dog breed, starts with A"
+   },
+   {
+    "word": "ALBANIAN",
+    "region": "BC",
+    "why": "A nationality that starts with A, not a breed"
+   },
+   {
+    "word": "AFGHAN",
+    "region": "ABC",
+    "why": "Afghan hound, a nationality, and starts with A"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "In a deck of cards",
+   "Tools",
+   "Four letters"
+  ],
+  "answers": [
+   {
+    "word": "JOKER",
+    "region": "A",
+    "why": "In the deck, five letters"
+   },
+   {
+    "word": "WRENCH",
+    "region": "B",
+    "why": "A tool, six letters"
+   },
+   {
+    "word": "DOCK",
+    "region": "C",
+    "why": "Four letters, not a card or tool"
+   },
+   {
+    "word": "SPADE",
+    "region": "AB",
+    "why": "A card suit and a garden tool"
+   },
+   {
+    "word": "KING",
+    "region": "AC",
+    "why": "A card with four letters"
+   },
+   {
+    "word": "FILE",
+    "region": "BC",
+    "why": "A tool with four letters"
+   },
+   {
+    "word": "JACK",
+    "region": "ABC",
+    "why": "A face card, a car jack, and four letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "HAIR___",
+   "PAINT___",
+   "Six letters"
+  ],
+  "answers": [
+   {
+    "word": "CUT",
+    "region": "A",
+    "why": "Haircut"
+   },
+   {
+    "word": "BOX",
+    "region": "B",
+    "why": "Paintbox"
+   },
+   {
+    "word": "ANCHOR",
+    "region": "C",
+    "why": "Six letters"
+   },
+   {
+    "word": "BRUSH",
+    "region": "AB",
+    "why": "Hairbrush, paintbrush (only five letters)"
+   },
+   {
+    "word": "CURLER",
+    "region": "AC",
+    "why": "Hair curler, six letters"
+   },
+   {
+    "word": "BUCKET",
+    "region": "BC",
+    "why": "Paint bucket, six letters"
+   },
+   {
+    "word": "ROLLER",
+    "region": "ABC",
+    "why": "Hair roller, paint roller, six letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BREAK",
+   "___HOUSE",
+   "___TIME"
+  ],
+  "answers": [
+   {
+    "word": "HEART",
+    "region": "A",
+    "why": "Heartbreak"
+   },
+   {
+    "word": "TREE",
+    "region": "B",
+    "why": "Treehouse"
+   },
+   {
+    "word": "HALF",
+    "region": "C",
+    "why": "Halftime"
+   },
+   {
+    "word": "OUT",
+    "region": "AB",
+    "why": "Outbreak, outhouse"
+   },
+   {
+    "word": "SPRING",
+    "region": "AC",
+    "why": "Spring break, springtime"
+   },
+   {
+    "word": "PLAY",
+    "region": "BC",
+    "why": "Playhouse, playtime"
+   },
+   {
+    "word": "SUMMER",
+    "region": "ABC",
+    "why": "Summer break, summerhouse, summertime"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Broadway musicals",
+   "Also a first name",
+   "Six letters"
+  ],
+  "answers": [
+   {
+    "word": "CATS",
+    "region": "A",
+    "why": "A musical, four letters"
+   },
+   {
+    "word": "MARGARET",
+    "region": "B",
+    "why": "A first name only"
+   },
+   {
+    "word": "ENCORE",
+    "region": "C",
+    "why": "Six letters, not a show or a name"
+   },
+   {
+    "word": "ANNIE",
+    "region": "AB",
+    "why": "The musical and a first name, five letters"
+   },
+   {
+    "word": "GREASE",
+    "region": "AC",
+    "why": "A musical with six letters"
+   },
+   {
+    "word": "SOPHIA",
+    "region": "BC",
+    "why": "A first name with six letters"
+   },
+   {
+    "word": "OLIVER",
+    "region": "ABC",
+    "why": "Oliver! the musical, a first name, six letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Nuts",
+   "Colors",
+   "Starts with a vowel"
+  ],
+  "answers": [
+   {
+    "word": "CASHEW",
+    "region": "A",
+    "why": "A nut starting with C"
+   },
+   {
+    "word": "MAROON",
+    "region": "B",
+    "why": "A color starting with M"
+   },
+   {
+    "word": "IGLOO",
+    "region": "C",
+    "why": "Starts with I, not a nut or color"
+   },
+   {
+    "word": "CHESTNUT",
+    "region": "AB",
+    "why": "A nut and a reddish-brown color"
+   },
+   {
+    "word": "ACORN",
+    "region": "AC",
+    "why": "An oak's nut, starts with A"
+   },
+   {
+    "word": "IVORY",
+    "region": "BC",
+    "why": "A color starting with I"
+   },
+   {
+    "word": "ALMOND",
+    "region": "ABC",
+    "why": "A nut, a color, and starts with A"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "AIR___",
+   "SEA___",
+   "Four letters"
+  ],
+  "answers": [
+   {
+    "word": "FIELD",
+    "region": "A",
+    "why": "Airfield"
+   },
+   {
+    "word": "HORSE",
+    "region": "B",
+    "why": "Seahorse"
+   },
+   {
+    "word": "SAIL",
+    "region": "C",
+    "why": "Four letters"
+   },
+   {
+    "word": "PLANE",
+    "region": "AB",
+    "why": "Airplane, seaplane"
+   },
+   {
+    "word": "LOCK",
+    "region": "AC",
+    "why": "Airlock, four letters"
+   },
+   {
+    "word": "GULL",
+    "region": "BC",
+    "why": "Seagull, four letters"
+   },
+   {
+    "word": "SICK",
+    "region": "ABC",
+    "why": "Airsick, seasick, four letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___DOOR",
+   "___SIDE",
+   "___YARD"
+  ],
+  "answers": [
+   {
+    "word": "TRAP",
+    "region": "A",
+    "why": "Trapdoor"
+   },
+   {
+    "word": "COUNTRY",
+    "region": "B",
+    "why": "Countryside"
+   },
+   {
+    "word": "VINE",
+    "region": "C",
+    "why": "Vineyard"
+   },
+   {
+    "word": "IN",
+    "region": "AB",
+    "why": "Indoor, inside"
+   },
+   {
+    "word": "BARN",
+    "region": "AC",
+    "why": "Barn door, barnyard"
+   },
+   {
+    "word": "GRAVE",
+    "region": "BC",
+    "why": "Graveside, graveyard"
+   },
+   {
+    "word": "BACK",
+    "region": "ABC",
+    "why": "Back door, backside, backyard"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Parts of a tree",
+   "Body parts",
+   "Starts with L"
+  ],
+  "answers": [
+   {
+    "word": "BARK",
+    "region": "A",
+    "why": "Covers a tree, but not a body part"
+   },
+   {
+    "word": "ELBOW",
+    "region": "B",
+    "why": "A body part you won't find on a tree"
+   },
+   {
+    "word": "LANTERN",
+    "region": "C",
+    "why": "Starts with L, but not tree or body"
+   },
+   {
+    "word": "TRUNK",
+    "region": "AB",
+    "why": "A tree's trunk, and your torso (or an elephant's)"
+   },
+   {
+    "word": "LEAF",
+    "region": "AC",
+    "why": "A tree part that starts with L"
+   },
+   {
+    "word": "LUNG",
+    "region": "BC",
+    "why": "A body part that starts with L"
+   },
+   {
+    "word": "LIMB",
+    "region": "ABC",
+    "why": "On a tree, on your body, and starts with L"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Car and truck brands",
+   "Animals",
+   "Six letters"
+  ],
+  "answers": [
+   {
+    "word": "TESLA",
+    "region": "A",
+    "why": "A car brand, five letters"
+   },
+   {
+    "word": "TIGER",
+    "region": "B",
+    "why": "An animal, five letters"
+   },
+   {
+    "word": "PICNIC",
+    "region": "C",
+    "why": "Six letters, not a car or animal"
+   },
+   {
+    "word": "RAM",
+    "region": "AB",
+    "why": "Ram pickups and a male sheep, three letters"
+   },
+   {
+    "word": "SUBARU",
+    "region": "AC",
+    "why": "A car brand with six letters"
+   },
+   {
+    "word": "BEAVER",
+    "region": "BC",
+    "why": "An animal with six letters"
+   },
+   {
+    "word": "JAGUAR",
+    "region": "ABC",
+    "why": "A car brand, a big cat, and six letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___ARM",
+   "___WATER",
+   "___GROUND"
+  ],
+  "answers": [
+   {
+    "word": "SIDE",
+    "region": "A",
+    "why": "Sidearm"
+   },
+   {
+    "word": "SALT",
+    "region": "B",
+    "why": "Saltwater"
+   },
+   {
+    "word": "CAMP",
+    "region": "C",
+    "why": "Campground"
+   },
+   {
+    "word": "FIRE",
+    "region": "AB",
+    "why": "Firearm, firewater"
+   },
+   {
+    "word": "FORE",
+    "region": "AC",
+    "why": "Forearm, foreground"
+   },
+   {
+    "word": "BACK",
+    "region": "BC",
+    "why": "Backwater, background"
+   },
+   {
+    "word": "UNDER",
+    "region": "ABC",
+    "why": "Underarm, underwater, underground"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "State nicknames",
+   "Big Ten mascots",
+   "Animals"
+  ],
+  "answers": [
+   {
+    "word": "SUNSHINE",
+    "region": "A",
+    "why": "Florida is the Sunshine State"
+   },
+   {
+    "word": "SPARTAN",
+    "region": "B",
+    "why": "Michigan State's mascot"
+   },
+   {
+    "word": "OTTER",
+    "region": "C",
+    "why": "An animal only"
+   },
+   {
+    "word": "BUCKEYE",
+    "region": "AB",
+    "why": "Ohio's nickname and mascot; a nut, not an animal"
+   },
+   {
+    "word": "BEAVER",
+    "region": "AC",
+    "why": "Oregon is the Beaver State; not a Big Ten mascot"
+   },
+   {
+    "word": "WILDCAT",
+    "region": "BC",
+    "why": "Northwestern's mascot, an animal"
+   },
+   {
+    "word": "GOPHER",
+    "region": "ABC",
+    "why": "The Gopher State, Goldy Gopher, and an animal"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "State capitals",
+   "US presidents",
+   "Starts with J"
+  ],
+  "answers": [
+   {
+    "word": "DENVER",
+    "region": "A",
+    "why": "Colorado's capital, starts with D"
+   },
+   {
+    "word": "KENNEDY",
+    "region": "B",
+    "why": "A president starting with K"
+   },
+   {
+    "word": "JETTY",
+    "region": "C",
+    "why": "Starts with J, not a capital or president"
+   },
+   {
+    "word": "LINCOLN",
+    "region": "AB",
+    "why": "Nebraska's capital and a president"
+   },
+   {
+    "word": "JUNEAU",
+    "region": "AC",
+    "why": "Alaska's capital, starts with J"
+   },
+   {
+    "word": "JOHNSON",
+    "region": "BC",
+    "why": "Two presidents, starts with J"
+   },
+   {
+    "word": "JACKSON",
+    "region": "ABC",
+    "why": "Mississippi's capital, a president, starts with J"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___HOUSE",
+   "___HAND",
+   "___LAND"
+  ],
+  "answers": [
+   {
+    "word": "DOLL",
+    "region": "A",
+    "why": "Dollhouse"
+   },
+   {
+    "word": "SHORT",
+    "region": "B",
+    "why": "Shorthand"
+   },
+   {
+    "word": "WONDER",
+    "region": "C",
+    "why": "Wonderland"
+   },
+   {
+    "word": "HOT",
+    "region": "AB",
+    "why": "Hothouse, hot hand"
+   },
+   {
+    "word": "GREEN",
+    "region": "AC",
+    "why": "Greenhouse, Greenland"
+   },
+   {
+    "word": "OVER",
+    "region": "BC",
+    "why": "Overhand, overland"
+   },
+   {
+    "word": "FARM",
+    "region": "ABC",
+    "why": "Farmhouse, farmhand, farmland"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Beatles first names",
+   "Apostles",
+   "Presidents' first names"
+  ],
+  "answers": [
+   {
+    "word": "RINGO",
+    "region": "A",
+    "why": "A Beatle only"
+   },
+   {
+    "word": "MATTHEW",
+    "region": "B",
+    "why": "An apostle only"
+   },
+   {
+    "word": "ABRAHAM",
+    "region": "C",
+    "why": "President Lincoln's first name"
+   },
+   {
+    "word": "PAUL",
+    "region": "AB",
+    "why": "McCartney and the apostle Paul"
+   },
+   {
+    "word": "GEORGE",
+    "region": "AC",
+    "why": "Harrison, and Washington or Bush"
+   },
+   {
+    "word": "THOMAS",
+    "region": "BC",
+    "why": "Doubting Thomas and Thomas Jefferson"
+   },
+   {
+    "word": "JOHN",
+    "region": "ABC",
+    "why": "Lennon, the apostle John, and John Adams"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Candy bars",
+   "In outer space",
+   "Four letters"
+  ],
+  "answers": [
+   {
+    "word": "SNICKERS",
+    "region": "A",
+    "why": "A candy bar, eight letters"
+   },
+   {
+    "word": "COMET",
+    "region": "B",
+    "why": "In space, five letters"
+   },
+   {
+    "word": "LAKE",
+    "region": "C",
+    "why": "Four letters, not candy or space"
+   },
+   {
+    "word": "MILKY WAY",
+    "region": "AB",
+    "why": "A candy bar and our galaxy"
+   },
+   {
+    "word": "TWIX",
+    "region": "AC",
+    "why": "A candy bar with four letters"
+   },
+   {
+    "word": "MOON",
+    "region": "BC",
+    "why": "In space, four letters"
+   },
+   {
+    "word": "MARS",
+    "region": "ABC",
+    "why": "A candy bar, a planet, and four letters"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "___BIRD",
+   "___SUIT",
+   "___WALK"
+  ],
+  "answers": [
+   {
+    "word": "HUMMING",
+    "region": "A",
+    "why": "Hummingbird"
+   },
+   {
+    "word": "SWIM",
+    "region": "B",
+    "why": "Swimsuit"
+   },
+   {
+    "word": "BOARD",
+    "region": "C",
+    "why": "Boardwalk"
+   },
+   {
+    "word": "SNOW",
+    "region": "AB",
+    "why": "Snowbird, snowsuit"
+   },
+   {
+    "word": "JAY",
+    "region": "AC",
+    "why": "Jaybird, jaywalk"
+   },
+   {
+    "word": "SPACE",
+    "region": "BC",
+    "why": "Spacesuit, spacewalk"
+   },
+   {
+    "word": "CAT",
+    "region": "ABC",
+    "why": "Catbird, catsuit, catwalk"
+   }
+  ]
+ },
+ {
+  "categories": [
+   "Greek gods",
+   "Famous brands",
+   "Four letters"
+  ],
+  "answers": [
+   {
+    "word": "APHRODITE",
+    "region": "A",
+    "why": "Greek goddess of love"
+   },
+   {
+    "word": "ADIDAS",
+    "region": "B",
+    "why": "A brand, not a god"
+   },
+   {
+    "word": "TOGA",
+    "region": "C",
+    "why": "Four letters, and it's Roman anyway"
+   },
+   {
+    "word": "HERMES",
+    "region": "AB",
+    "why": "Messenger god and the luxury brand"
+   },
+   {
+    "word": "ZEUS",
+    "region": "AC",
+    "why": "King of the Greek gods, four letters"
+   },
+   {
+    "word": "LEGO",
+    "region": "BC",
+    "why": "A famous brand, four letters"
+   },
+   {
+    "word": "NIKE",
+    "region": "ABC",
+    "why": "Goddess of victory, a brand, and four letters"
+   }
+  ]
  }
 ]
