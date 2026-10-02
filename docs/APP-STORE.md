@@ -22,7 +22,7 @@ Status as of September 28, 2026. An audit against Apple's current requirements (
 
 ## Uploading builds
 
-**Build 4 was uploaded on October 2, 2026** (it includes the two starting words). Its archive is `build/Overlap-4.xcarchive`.
+**Build 5 was uploaded on October 2, 2026**: the first build named Venn, with the two starting words. Its archive is `build/Overlap-5.xcarchive`.
 
 For the next upload, bump `CURRENT_PROJECT_VERSION` and run `xcodegen generate` first. If archiving stops at a macOS keychain prompt ("codesign wants to access key..."), enter your login password and choose **Always Allow**. Then either use Xcode (Product > Archive, then Distribute App > App Store Connect > Upload), or run:
 
@@ -64,7 +64,7 @@ The app record already exists (Apple ID 6816802521, bundle ID `co.nsgsolutions.o
 | Price / availability | Free. Consider leaving out China mainland and Vietnam, which require a game licence |
 | Mac and Apple Vision Pro | Uncheck both under Pricing and Availability for 1.0, or test "Designed for iPad" on a Mac first. The build settings don't control this |
 | EU trader status | Ola was declared non-trader; use the same unless that has changed |
-| Screenshots | `build/shots-store/iphone` (1284x2778, the 6.5" slot) and `build/shots-store/ipad` (2752x2064 landscape, the 13" slot). Not in git. **They predate the rename and the two starting words, so retake them before submitting.** Suggested order: 02-feedback, 01-placing, 03-solved, 06-howto, 05-home |
+| Screenshots | `build/shots-store/iphone` (1284x2778, the 6.5" slot) and `build/shots-store/ipad` (2752x2064 landscape, the 13" slot). Not in git. Taken from build 5 (named Venn, with the two starting words) in light mode with a clean status bar. Suggested order: 03-feedback, 01-start, 04-solved, 07-howto, 06-home |
 
 **Age rating note.** The puzzles still include ordinary compound words and idioms such as swordfish, gunboat, slingshot, arrowhead, and "cross swords", plus a "Playful insults" category (nerd, dweeb, airhead, knucklehead). The audit's verifiers judged these don't count as weapons content or crude humor, the same as in other word games rated 4+. If you'd rather be strict, answering "Infrequent" to Guns or Other Weapons gives 9+ (A16 in Brazil).
 
