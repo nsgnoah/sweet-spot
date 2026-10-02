@@ -1,4 +1,4 @@
-# Submitting Sweet Spot to the App Store
+# Submitting Venn to the App Store
 
 Status as of September 28, 2026. An audit against Apple's current requirements (App Review Guidelines of June 8, 2026, App Store Connect help, iOS 27 SDK notes) found 25 gaps. Every one that can be fixed in code is fixed in build 4. What remains is App Store Connect setup.
 
@@ -38,7 +38,7 @@ xcodebuild -exportArchive -archivePath build/Overlap-N.xcarchive -exportOptionsP
 
 ## Privacy and support pages
 
-These pages are live. The app links to both, and App Store Connect needs both URLs. The source is `site/` in this repo; it's published by GitHub Pages from the public `nsgnoah/sweetspot` repo, the same setup as Ola.
+These pages are live and say Venn. The app links to both, and App Store Connect needs both URLs. The source is `site/` in this repo; it's published by GitHub Pages from the public `nsgnoah/sweetspot` repo, the same setup as Ola. The address still says "sweetspot" from the old name; it works, and App Review doesn't care, so it was left alone rather than break the links in build 4.
 
 | App Store Connect field | URL |
 |---|---|
@@ -49,11 +49,11 @@ To change either page, edit it in `site/`, copy both files into a clone of `nsgn
 
 ## App Store Connect checklist
 
-The app record already exists: **Sweet Spot: Word Venn**, Apple ID 6816802521, bundle ID `co.nsgsolutions.overlap`. The bare name "Sweet Spot" belongs to another app (Weetech, Food & Drink), so keep the longer store name. The home-screen name stays "Sweet Spot".
+The app record already exists (Apple ID 6816802521, bundle ID `co.nsgsolutions.overlap`), currently named **Sweet Spot: Word Venn**. The game is now called **Venn**: rename the record under App Information > Name to **Venn: Word Puzzle** (17 characters). Plain "Venn" isn't available; at least a dozen apps start with it (Venn – Business Banking, Venn!, Venn+, Venn: Jigsaw Puzzle), but none is called "Venn: Word Puzzle". The home-screen name is "Venn", which App Review accepts because it's the start of the store name.
 
 | Item | Value |
 |---|---|
-| Build | Attach **build 4** to version 1.0, not 2 or 3 |
+| Build | Attach the newest build (5 or later: the first called Venn) to version 1.0 |
 | Subtitle | `Seven words, three circles` (26 of 30) |
 | Category | Games > Word; secondary Games > Puzzle |
 | Privacy Policy URL / Support URL | see above |
@@ -64,7 +64,7 @@ The app record already exists: **Sweet Spot: Word Venn**, Apple ID 6816802521, b
 | Price / availability | Free. Consider leaving out China mainland and Vietnam, which require a game licence |
 | Mac and Apple Vision Pro | Uncheck both under Pricing and Availability for 1.0, or test "Designed for iPad" on a Mac first. The build settings don't control this |
 | EU trader status | Ola was declared non-trader; use the same unless that has changed |
-| Screenshots | `build/shots-store/iphone` (1284x2778, the 6.5" slot) and `build/shots-store/ipad` (2752x2064 landscape, the 13" slot), taken from build 4 in light mode with a clean status bar. Not in git. Suggested order: 02-feedback, 01-placing, 03-solved, 06-howto, 05-home |
+| Screenshots | `build/shots-store/iphone` (1284x2778, the 6.5" slot) and `build/shots-store/ipad` (2752x2064 landscape, the 13" slot). Not in git. **They predate the rename and the two starting words, so retake them before submitting.** Suggested order: 02-feedback, 01-placing, 03-solved, 06-howto, 05-home |
 
 **Age rating note.** The puzzles still include ordinary compound words and idioms such as swordfish, gunboat, slingshot, arrowhead, and "cross swords", plus a "Playful insults" category (nerd, dweeb, airhead, knucklehead). The audit's verifiers judged these don't count as weapons content or crude humor, the same as in other word games rated 4+. If you'd rather be strict, answering "Infrequent" to Guns or Other Weapons gives 9+ (A16 in Brazil).
 
@@ -74,7 +74,7 @@ The app record already exists: **Sweet Spot: Word Venn**, Apple ID 6816802521, b
 
 > Seven words. Three mystery circles. Figure out where each one belongs.
 >
-> Every Sweet Spot puzzle hides three categories, drawn as overlapping circles. Each word fits exactly one of the seven spaces: inside one circle, where two overlap, or right in the sweet spot where all three meet.
+> Every Venn puzzle hides three categories, drawn as overlapping circles. Each word fits exactly one of the seven spaces: inside one circle, where two overlap, or right in the middle, where all three meet.
 >
 > Drag the words onto the diagram and submit. Words in the right spot lock in place. Close ones share a circle with the right answer. Misses share none. You get six tries.
 >
@@ -92,7 +92,7 @@ Don't mention Wordle, NYT, or Connections anywhere in the metadata (2.3.7, 4.1).
 
 ### App Review notes (draft)
 
-> Sweet Spot is a free word puzzle that works fully offline. There is no account or sign-in, no network access, no ads, and no in-app purchase.
+> Venn is a free word puzzle that works fully offline. There is no account or sign-in, no network access, no ads, and no in-app purchase.
 >
 > To play: tap Play on the home screen, drag each word onto a spot in the diagram (or tap a word, then tap a spot), and tap Submit. Tapping a "Mystery category" reveals it as a hint. All 129 puzzles can be opened from the grid on the home screen. The privacy policy and support contact are under the (i) button on the home screen.
 

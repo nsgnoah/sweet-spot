@@ -45,7 +45,7 @@ enum Puzzles {
             let answers = order.map { r.answers[$0] }
             let masks = answers.map { a in a.region.reduce(0) { $0 | (["A": 1, "B": 2, "C": 4][String($1)] ?? 0) } }
             // Two words start in place to get you going: the same two for everyone, and never the
-            // center word, so the sweet spot is still yours to find.
+            // center word, so the middle is still yours to find.
             var givenRNG = SeededRandom(seed: fnv1a(key + "#givens"))
             let givens = masks.indices.filter { masks[$0] != 7 }.shuffled(using: &givenRNG).prefix(2)
             return Puzzle(

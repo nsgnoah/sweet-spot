@@ -66,7 +66,7 @@ struct GameView: View {
             }
         }
         .background(Theme.ground)
-        .navigationTitle("Sweet Spot #\(game.puzzle.id)")
+        .navigationTitle("Venn #\(game.puzzle.id)")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItemGroup(placement: .topBarTrailing) {

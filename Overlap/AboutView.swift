@@ -18,20 +18,20 @@ struct AboutView: View {
                 VStack(alignment: .leading, spacing: 20) {
                     card("Privacy") {
                         section("The short version",
-                                "Sweet Spot has no accounts, no ads, no analytics, and no tracking. It never connects to the internet, so nothing you do in it is sent to us or anyone else.")
+                                "Venn has no accounts, no ads, no analytics, and no tracking. It never connects to the internet, so nothing you do in it is sent to us or anyone else.")
                         section("What stays on this device",
                                 "Your progress on each puzzle, and whether you\u{2019}ve seen How to play, are saved in the app on this device. Start over clears a puzzle. Deleting the app clears everything.")
                         section("Sharing",
                                 "Share and Copy hand your result, the puzzle number and your \u{25CF} \u{25D0} \u{25CB} marks, to the share sheet or clipboard only when you tap them. Where it goes from there is up to you.")
                         section("Children",
-                                "Sweet Spot collects nothing from anyone, children included.")
+                                "Venn collects nothing from anyone, children included.")
                         Link("Read the policy on the web", destination: Self.policyURL)
                             .font(.subheadline.weight(.semibold))
                     }
 
                     card("Support") {
                         Text("Questions, bugs, or a puzzle answer you think is wrong? Get in touch.")
-                        Link(Self.supportEmail, destination: URL(string: "mailto:\(Self.supportEmail)?subject=Sweet%20Spot")!)
+                        Link(Self.supportEmail, destination: URL(string: "mailto:\(Self.supportEmail)?subject=Venn")!)
                             .font(.body.weight(.semibold))
                         Link("Support page", destination: Self.supportURL)
                             .font(.subheadline.weight(.semibold))
