@@ -62,6 +62,17 @@ final class Game {
     init(puzzle: Puzzle) {
         self.puzzle = puzzle
         self.state = Store.load(puzzle)
+        placeGivens()
+    }
+
+    /// Puts the starting words in their spots, bumping anything a saved game left there back to the bank.
+    private func placeGivens() {
+        for w in puzzle.givens where state.placements[w] != puzzle.answers[w] {
+            if let occupant = state.placements.first(where: { $0.value == puzzle.answers[w] })?.key {
+                state.placements[occupant] = nil
+            }
+            state.placements[w] = puzzle.answers[w]
+        }
     }
 
     var count: Int { puzzle.words.count }
@@ -75,10 +86,11 @@ final class Game {
         }
     }
 
-    /// Words that were green on the latest guess can't move.
+    /// The starting words, and words that were green on the latest guess, can't move.
     var locked: Set<Int> {
-        guard let last = state.guesses.last else { return [] }
-        return Set(marks(last).enumerated().filter { $0.element == .green }.map(\.offset))
+        let givens = Set(puzzle.givens)
+        guard let last = state.guesses.last else { return givens }
+        return givens.union(marks(last).enumerated().filter { $0.element == .green }.map(\.offset))
     }
 
     /// When a game is lost, the board shows the answers.
@@ -95,7 +107,7 @@ final class Game {
 
     /// Feedback color for a word, shown only while it sits where it was last judged.
     func mark(for word: Int) -> Mark? {
-        if state.finished && !state.won { return .green }
+        if state.finished && !state.won || puzzle.givens.contains(word) { return .green }
         guard let last = state.guesses.last, let region = state.placements[word], last[word] == region else { return nil }
         return marks(last)[word]
     }
@@ -216,6 +228,7 @@ final class Game {
     func restart() {
         Store.reset(puzzle)
         state = GameState()
+        placeGivens()
         selected = nil
     }
 

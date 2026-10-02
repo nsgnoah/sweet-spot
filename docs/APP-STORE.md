@@ -76,6 +76,7 @@ The app record already exists: **Sweet Spot: Word Venn**, Apple ID 6816802521, b
 >
 > Drag the words onto the diagram and submit. Words in the right spot lock in place. Close ones share a circle with the right answer. Misses share none. You get six tries.
 >
+> • Two words start in place, so you always have a foothold
 > • 129 puzzles, with a featured puzzle every day
 > • Play any puzzle from the grid, at your own pace
 > • Stuck? Reveal a category as a hint

@@ -37,14 +37,19 @@ final class LandscapeTests: XCTestCase {
 
         let center = app.buttons["Empty spot, all three circles"]
         XCTAssertTrue(center.waitForExistence(timeout: 5))
-        let word = app.buttons.matching(NSPredicate(format: "label MATCHES %@", "^[A-Z][A-Z '-]+$")).firstMatch
+        // Two words start on the board, locked in their right spots
+        let placed = NSPredicate(format: "value BEGINSWITH 'only' OR value CONTAINS ' and ' OR value BEGINSWITH 'all three'")
+        XCTAssertEqual(app.buttons.matching(NSPredicate(format: "value CONTAINS 'locked'")).count, 2)
+        let bankWord = NSCompoundPredicate(andPredicateWithSubpredicates: [
+            NSPredicate(format: "label MATCHES %@", "^[A-Z][A-Z '-]+$"), NSCompoundPredicate(notPredicateWithSubpredicate: placed)])
+        let word = app.buttons.matching(bankWord).firstMatch
         XCTAssertTrue(word.exists)
         let label = word.label
 
         word.press(forDuration: 0.1, thenDragTo: center, withVelocity: .slow, thenHoldForDuration: 0.3)
 
-        let placed = app.buttons.matching(NSPredicate(format: "label == %@ AND value BEGINSWITH 'all three circles'", label)).firstMatch
-        XCTAssertTrue(placed.waitForExistence(timeout: 3), "\(label) should be on the center spot")
+        let dropped = app.buttons.matching(NSPredicate(format: "label == %@ AND value BEGINSWITH 'all three circles'", label)).firstMatch
+        XCTAssertTrue(dropped.waitForExistence(timeout: 3), "\(label) should be on the center spot")
         XCTAssertFalse(center.exists)
     }
 

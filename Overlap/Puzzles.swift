@@ -8,6 +8,7 @@ struct Puzzle: Identifiable, Hashable {
     let words: [String]
     let answers: [Int]
     let whys: [String]
+    let givens: [Int]        // words that start the game already in their right spot
 
     static func == (l: Puzzle, r: Puzzle) -> Bool { l.key == r.key }
 
@@ -16,7 +17,8 @@ struct Puzzle: Identifiable, Hashable {
         id: 1, key: "placeholder", categories: ["Red", "Fruit", "Round"],
         words: ["FIRE TRUCK", "BANANA", "BASEBALL", "STRAWBERRY", "CLOWN NOSE", "ORANGE", "APPLE"],
         answers: [1, 2, 4, 3, 5, 6, 7],
-        whys: ["Red only", "Fruit only", "Round only", "Red and a fruit", "Red and round", "A round fruit", "Red, a fruit, and round"]
+        whys: ["Red only", "Fruit only", "Round only", "Red and a fruit", "Red and round", "A round fruit", "Red, a fruit, and round"],
+        givens: [1, 4]
     )
     func hash(into h: inout Hasher) { h.combine(key) }
 }
@@ -41,13 +43,19 @@ enum Puzzles {
             var rng = SeededRandom(seed: fnv1a(key))
             let order = r.answers.indices.shuffled(using: &rng)
             let answers = order.map { r.answers[$0] }
+            let masks = answers.map { a in a.region.reduce(0) { $0 | (["A": 1, "B": 2, "C": 4][String($1)] ?? 0) } }
+            // Two words start in place to get you going: the same two for everyone, and never the
+            // center word, so the sweet spot is still yours to find.
+            var givenRNG = SeededRandom(seed: fnv1a(key + "#givens"))
+            let givens = masks.indices.filter { masks[$0] != 7 }.shuffled(using: &givenRNG).prefix(2)
             return Puzzle(
                 id: index + 1,
                 key: key,
                 categories: r.categories,
                 words: answers.map(\.word),
-                answers: answers.map { a in a.region.reduce(0) { $0 | (["A": 1, "B": 2, "C": 4][String($1)] ?? 0) } },
-                whys: answers.map(\.why)
+                answers: masks,
+                whys: answers.map(\.why),
+                givens: givens.sorted()
             )
         }
     }()

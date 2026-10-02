@@ -214,6 +214,7 @@ struct HowToPlayView: View {
                 }
 
                 card("Playing") {
+                    step("lock", "Two words start out locked in their right spots, to get you going.")
                     step("hand.draw", "Drag each word to a spot on the diagram. You can also tap a word, then tap a spot.")
                     step("checkmark.circle", "Submit once all seven are placed. You get six tries.")
                     step("lightbulb", "Stuck? Tap a mystery category to reveal it. Hints show as 💡 when you share.")
