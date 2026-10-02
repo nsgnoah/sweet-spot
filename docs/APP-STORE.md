@@ -20,19 +20,21 @@ Status as of September 28, 2026. An audit against Apple's current requirements (
 | Close and miss are shown by a symbol as well as color; better contrast; Reduce Motion respected; paired buttons stack at the largest text sizes | `Components.swift`, `GameView.swift`, `HomeView.swift` |
 | Export compliance, arm64, launch screen, 1024 opaque icon, iPhone portrait / iPad all orientations | `project.yml`, asset catalog (unchanged, already correct) |
 
-## Upload build 4
+## Uploading builds
 
-Build 4 is committed but not yet uploaded. Archiving after a restart stops at a macOS keychain prompt ("codesign wants to access key..."). Enter your login password and choose **Always Allow**. Then either use Xcode (Product > Archive, then Distribute App > App Store Connect > Upload), or run:
+**Build 4 was uploaded on October 2, 2026** (it includes the two starting words). Its archive is `build/Overlap-4.xcarchive`.
+
+For the next upload, bump `CURRENT_PROJECT_VERSION` and run `xcodegen generate` first. If archiving stops at a macOS keychain prompt ("codesign wants to access key..."), enter your login password and choose **Always Allow**. Then either use Xcode (Product > Archive, then Distribute App > App Store Connect > Upload), or run:
 
 ```bash
-xcodebuild archive -project Overlap.xcodeproj -scheme Overlap -configuration Release -destination 'generic/platform=iOS' -archivePath build/Overlap-4.xcarchive -allowProvisioningUpdates
+xcodebuild archive -project Overlap.xcodeproj -scheme Overlap -configuration Release -destination 'generic/platform=iOS' -archivePath build/Overlap-N.xcarchive -allowProvisioningUpdates
 ```
 
 ```bash
-xcodebuild -exportArchive -archivePath build/Overlap-4.xcarchive -exportOptionsPlist build/ExportOptions.plist -exportPath build/export -allowProvisioningUpdates
+xcodebuild -exportArchive -archivePath build/Overlap-N.xcarchive -exportOptionsPlist build/ExportOptions.plist -exportPath build/export -allowProvisioningUpdates
 ```
 
-`build/ExportOptions.plist` (not in git) uploads straight to App Store Connect, and has `manageAppVersionAndBuildNumber` set to false, so the uploaded build is 4, matching the source. After processing, check email for any ITMS warning. There shouldn't be one now that the privacy manifest is in.
+`build/ExportOptions.plist` (not in git) uploads straight to App Store Connect, and has `manageAppVersionAndBuildNumber` set to false, so the uploaded build number matches the source. After processing, check email for any ITMS warning. There shouldn't be one now that the privacy manifest is in.
 
 ## Privacy and support pages
 
