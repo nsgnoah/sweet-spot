@@ -28,6 +28,7 @@ struct GameState: Codable {
     var hints: Set<Int> = []           // revealed category indices
     var finished = false
     var won = false
+    var finishedOn: Int?               // Puzzles.day() when it was finished; older saves don't have it
 
     var started: Bool { !placements.isEmpty || !guesses.isEmpty || !hints.isEmpty }
 }
@@ -48,6 +49,29 @@ enum Store {
     }
 
     static func reset(_ puzzle: Puzzle) { UserDefaults.standard.removeObject(forKey: key(puzzle)) }
+
+    // MARK: Streaks
+
+    private static let bestStreakKey = "overlap.bestStreak"
+
+    /// Whether that day's featured puzzle was solved on that day.
+    static func solvedOn(_ day: Int) -> Bool {
+        let state = load(Puzzles.puzzle(forDay: day))
+        return state.won && state.finishedOn == day
+    }
+
+    static func currentStreak() -> Int { Streak.current(today: Puzzles.day(), solvedOn: solvedOn) }
+
+    /// Kept as well as recomputed, so starting a puzzle over or the daily cycle coming round
+    /// (which reuses a puzzle's save) can't lower it.
+    static func bestStreak() -> Int {
+        max(UserDefaults.standard.integer(forKey: bestStreakKey),
+            Streak.longest(through: Puzzles.day(), solvedOn: solvedOn))
+    }
+
+    static func recordStreak() {
+        UserDefaults.standard.set(max(bestStreak(), currentStreak()), forKey: bestStreakKey)
+    }
 }
 
 @Observable
@@ -214,7 +238,9 @@ final class Game {
             flash(greens == count - 1 ? "So close!" : "\(greens) of \(count) in the right spot")
             Haptics.notify(.warning)
         }
+        if state.finished { state.finishedOn = Puzzles.day() }
         save()
+        if state.won { Store.recordStreak() }
     }
 
     func reveal(_ category: Int) {
