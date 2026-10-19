@@ -82,11 +82,32 @@ struct HomeView: View {
                 Button(buttonTitle(state)) { path.append(today) }
                     .buttonStyle(PillStyle(filled: true))
             }
+            streakLine
         }
         .id(refresh)
         .frame(maxWidth: .infinity)
         .padding(22)
         .background(RoundedRectangle(cornerRadius: 22, style: .continuous).fill(Theme.chip))
+    }
+
+    /// Days in a row the daily puzzle was solved on its day; hidden until there's been one.
+    @ViewBuilder
+    private var streakLine: some View {
+        let best = Store.bestStreak()
+        if best > 0 {
+            let current = Store.currentStreak()
+            Label {
+                Text("Streak \(current) · Best \(best)")
+            } icon: {
+                Image(systemName: "flame.fill")
+                    .foregroundStyle(current > 0 ? Theme.yellow : Color.secondary)
+            }
+            .font(.subheadline.weight(.semibold))
+            .foregroundStyle(.secondary)
+            .monospacedDigit()
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Daily streak \(current) \(current == 1 ? "day" : "days"), best \(best)")
+        }
     }
 
     private var archive: some View {

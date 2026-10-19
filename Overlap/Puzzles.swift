@@ -61,17 +61,48 @@ enum Puzzles {
     }()
 
     /// One puzzle per day, cycling, starting on launch day.
+    static var today: Puzzle { puzzle(forDay: day()) }
+
+    /// Days since launch day (September 27, 2026 is day 0).
     /// Always counted on the Gregorian calendar (in the local time zone), so everyone gets the same puzzle.
-    static var today: Puzzle {
+    static func day(of date: Date = Date()) -> Int {
         let cal = Calendar(identifier: .gregorian)
         let start = cal.date(from: DateComponents(year: 2026, month: 9, day: 27))!
-        let days = cal.dateComponents([.day], from: cal.startOfDay(for: start), to: cal.startOfDay(for: .now)).day ?? 0
+        return cal.dateComponents([.day], from: cal.startOfDay(for: start), to: cal.startOfDay(for: date)).day ?? 0
+    }
+
+    /// The featured puzzle on a given day.
+    static func puzzle(forDay day: Int) -> Puzzle {
         let n = max(all.count, 1)
-        return all.isEmpty ? .placeholder : all[((days % n) + n) % n]
+        return all.isEmpty ? .placeholder : all[((day % n) + n) % n]
     }
 
     private static func fnv1a(_ s: String) -> UInt64 {
         s.utf8.reduce(14695981039346656037) { ($0 ^ UInt64($1)) &* 1099511628211 }
+    }
+}
+
+/// Daily streaks: consecutive days on which that day's featured puzzle was solved on the day itself.
+/// A miss or a skipped day ends a streak. Today only counts once it's solved, so an unplayed
+/// today keeps yesterday's streak alive.
+enum Streak {
+    static func current(today: Int, solvedOn: (Int) -> Bool) -> Int {
+        var day = solvedOn(today) ? today : today - 1
+        var count = 0
+        while day >= 0 && solvedOn(day) {
+            count += 1
+            day -= 1
+        }
+        return count
+    }
+
+    static func longest(through today: Int, solvedOn: (Int) -> Bool) -> Int {
+        var best = 0, run = 0
+        for day in stride(from: 0, through: today, by: 1) {
+            run = solvedOn(day) ? run + 1 : 0
+            best = max(best, run)
+        }
+        return best
     }
 }
 

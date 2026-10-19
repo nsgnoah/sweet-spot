@@ -19,7 +19,7 @@ No accounts, no ads, no network. Everything ships in the app.
 
 ## What it does
 
-- **Home** — today's puzzle with Play / Continue / See result (once today's is done, a button for the next unfinished one), and a grid of all 129 puzzles showing solved (with score), missed, in progress, and today. Solved / missed / average-guesses totals above the grid.
+- **Home** — today's puzzle with Play / Continue / See result (once today's is done, a button for the next unfinished one) and the daily streak, and a grid of all 129 puzzles showing solved (with score), missed, in progress, and today. Solved / missed / average-guesses totals above the grid.
 - **Game** — the legend with the three circles (mystery until revealed), the board, the word bank, guesses left, Clear (keeps locked words), Submit, and a row of marks per guess. Start over is in the ⋯ menu.
 - **Result** — a headline by guess count, Share and Copy, the guess history, and the answers list (center first, then pairs, then singles) with a one-line "why" for each word.
 - **How to play** — shown on first launch and from the ? button, with a worked Red / Fruit / Round example.
@@ -56,6 +56,7 @@ The project started as **Overlap** and was renamed **Sweet Spot** for build 2, t
   - `PrivacyInfo.xcprivacy` — privacy manifest.
 - `puzzles/` — puzzle source files and `validate.py`, which checks them and builds `Overlap/Puzzles.json`.
 - `OverlapUITests/` — UI tests.
+- `tests/` — command-line checks for `Puzzles.swift`, outside the Xcode project.
 - `site/` — the support and privacy pages.
 - `docs/APP-STORE.md` — submission status and the App Store Connect checklist.
 - `project.yml` — [xcodegen](https://github.com/yonaskolb/XcodeGen) spec. The generated `Overlap.xcodeproj` is committed.
@@ -70,6 +71,8 @@ open Overlap.xcodeproj
 Pick the `Overlap` scheme and run on any iPhone or iPad running iOS 17 or later. Automatic signing, team in `project.yml`. No capabilities or entitlements. Run `xcodegen generate` after changing `project.yml` or adding files.
 
 Tests: `xcodebuild test -project Overlap.xcodeproj -scheme Overlap -destination 'platform=iOS Simulator,name=iPhone 17 Pro'`. There are two UI tests in `OverlapUITests/LandscapeTests.swift`: one opens a puzzle in landscape and rotates mid-game, the other checks the two locked starting words and drags a word onto the center spot (in landscape on an iPad simulator, portrait on iPhone). Both start today's puzzle over on the simulator.
+
+`tests/main.swift` checks the Foundation-only logic in `Puzzles.swift` (streaks, day counting). It needs no simulator and runs on macOS or Linux: `swiftc -o /tmp/venn-tests Overlap/Puzzles.swift tests/main.swift && /tmp/venn-tests`.
 
 ## Puzzles
 
@@ -139,9 +142,13 @@ If the file fails to load, a single built-in placeholder puzzle is used instead 
 
 Every puzzle is playable at any time from the grid; nothing is locked.
 
+### Streak
+
+The today card shows **Streak N · Best M** once a daily puzzle has been solved on its day. A day counts when that day's puzzle was solved on that day (by `Puzzles.day()`); a miss or a skipped day ends the streak, and an unplayed today keeps yesterday's streak alive. Older puzzles played from the grid don't count. The logic is `Streak` in `Puzzles.swift`. `Store` works out which days count from each save's `finishedOn`. The best streak is also kept in `UserDefaults` under `overlap.bestStreak`, so starting a puzzle over can't lower it, and neither can the daily cycle reusing a puzzle's save.
+
 ## Saving
 
-Each puzzle's state (placements, guesses, revealed hints, finished, won) is JSON in `UserDefaults` under `overlap.puzzle.<key>`, saved after every move. The home screen's stats and tiles are read from those. Start over deletes that puzzle's entry. Nothing leaves the device.
+Each puzzle's state (placements, guesses, revealed hints, finished, won, and the day it was finished) is JSON in `UserDefaults` under `overlap.puzzle.<key>`, saved after every move. The home screen's stats and tiles are read from those. Start over deletes that puzzle's entry. Nothing leaves the device.
 
 ## Store and privacy
 
