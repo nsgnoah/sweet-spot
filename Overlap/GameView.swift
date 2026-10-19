@@ -285,10 +285,30 @@ struct ResultCard: View {
                 }
                 .buttonStyle(PillStyle(filled: false))
             }
+            if game.puzzle == Puzzles.today { nextPuzzle }
         }
         .frame(maxWidth: .infinity)
         .padding(20)
         .background(RoundedRectangle(cornerRadius: 20, style: .continuous).fill(Theme.chip))
+    }
+
+    /// On today's puzzle, a live countdown to tomorrow's, which flips to "ready" at midnight.
+    private var nextPuzzle: some View {
+        let next = Puzzles.nextPuzzleDate()
+        return TimelineView(.explicit([next])) { context in
+            Label {
+                if context.date < next {
+                    Text("Next puzzle in \(Text(timerInterval: context.date...next, countsDown: true))")
+                } else {
+                    Text("A new puzzle is ready")
+                }
+            } icon: {
+                Image(systemName: "clock")
+            }
+            .font(.subheadline.weight(.semibold))
+            .foregroundStyle(.secondary)
+            .monospacedDigit()
+        }
     }
 
     private var headline: String {

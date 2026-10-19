@@ -71,6 +71,16 @@ enum Puzzles {
         return cal.dateComponents([.day], from: cal.startOfDay(for: start), to: cal.startOfDay(for: date)).day ?? 0
     }
 
+    /// Local midnight at the start of a given day, the inverse of `day(of:)`.
+    static func start(ofDay day: Int) -> Date {
+        let cal = Calendar(identifier: .gregorian)
+        let launch = cal.startOfDay(for: cal.date(from: DateComponents(year: 2026, month: 9, day: 27))!)
+        return cal.startOfDay(for: cal.date(byAdding: .day, value: day, to: launch)!)
+    }
+
+    /// When the next day's puzzle becomes today's.
+    static func nextPuzzleDate(after date: Date = Date()) -> Date { start(ofDay: day(of: date) + 1) }
+
     /// The featured puzzle on a given day.
     static func puzzle(forDay day: Int) -> Puzzle {
         let n = max(all.count, 1)
