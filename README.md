@@ -21,7 +21,7 @@ No accounts, no ads, no network. Everything ships in the app.
 
 - **Home** — today's puzzle with Play / Continue / See result (once today's is done, a button for the next unfinished one) and the daily streak, and a grid of all 129 puzzles showing solved (with score), missed, in progress, and today. Solved / missed / average-guesses totals above the grid.
 - **Game** — the legend with the three circles (mystery until revealed), the board, the word bank, guesses left, Clear (keeps locked words), Submit, and a row of marks per guess. Start over is in the ⋯ menu.
-- **Result** — a headline by guess count, Share and Copy, the guess history, and the answers list (center first, then pairs, then singles) with a one-line "why" for each word.
+- **Result** — a headline by guess count, Share and Copy, a live "Next puzzle in 5:12:03" countdown on today's puzzle (it changes to "A new puzzle is ready" at midnight), the guess history, and the answers list (center first, then pairs, then singles) with a one-line "why" for each word.
 - **How to play** — shown on first launch and from the ? button, with a worked Red / Fruit / Round example.
 - **Privacy & support** — the full privacy policy as text, the support email, links to the web pages, and the version and build.
 - **iPad** — all orientations; in landscape the board sits beside the controls. Pointer hover on words and grid tiles. iPhone is portrait only.
@@ -72,7 +72,7 @@ Pick the `Overlap` scheme and run on any iPhone or iPad running iOS 17 or later.
 
 Tests: `xcodebuild test -project Overlap.xcodeproj -scheme Overlap -destination 'platform=iOS Simulator,name=iPhone 17 Pro'`. There are two UI tests in `OverlapUITests/LandscapeTests.swift`: one opens a puzzle in landscape and rotates mid-game, the other checks the two locked starting words and drags a word onto the center spot (in landscape on an iPad simulator, portrait on iPhone). Both start today's puzzle over on the simulator.
 
-`tests/main.swift` checks the Foundation-only logic in `Puzzles.swift` (streaks, day counting). It needs no simulator and runs on macOS or Linux: `swiftc -o /tmp/venn-tests Overlap/Puzzles.swift tests/main.swift && /tmp/venn-tests`.
+`tests/main.swift` checks the Foundation-only logic in `Puzzles.swift` (streaks, day counting, when the next puzzle arrives). It needs no simulator and runs on macOS or Linux: `swiftc -o /tmp/venn-tests Overlap/Puzzles.swift tests/main.swift && /tmp/venn-tests`.
 
 ## Puzzles
 
@@ -138,7 +138,7 @@ If the file fails to load, a single built-in placeholder puzzle is used instead 
 
 ## The daily puzzle
 
-`Puzzles.today` counts days since September 27, 2026 on the Gregorian calendar in the local time zone, and cycles through the list, so everyone gets the same puzzle whatever calendar their region uses. The home screen picks up a new day when the app returns to the foreground or the day changes. With 129 puzzles, puzzle #1 comes back on February 3, 2027.
+`Puzzles.today` counts days since September 27, 2026 on the Gregorian calendar in the local time zone, and cycles through the list, so everyone gets the same puzzle whatever calendar their region uses. The home screen picks up a new day when the app returns to the foreground or the day changes. `Puzzles.start(ofDay:)` turns a day number back into its local midnight, and `Puzzles.nextPuzzleDate()` is the next one, which the result card counts down to. With 129 puzzles, puzzle #1 comes back on February 3, 2027.
 
 Every puzzle is playable at any time from the grid; nothing is locked.
 

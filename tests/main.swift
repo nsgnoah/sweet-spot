@@ -44,6 +44,20 @@ expect(Puzzles.day(of: date(2026, 9, 27, hour: 23)), 0, "late on launch day is s
 expect(Puzzles.day(of: date(2026, 9, 28, hour: 0)), 1, "just after midnight is the next day")
 expect(Puzzles.day(of: date(2027, 2, 3)), 129, "puzzle #1 comes back on February 3, 2027")
 
+// Start of a day and the next puzzle
+expect(Puzzles.day(of: Puzzles.start(ofDay: 0)), 0, "start of day 0 is day 0")
+expect(Puzzles.day(of: Puzzles.start(ofDay: 23)), 23, "start of day 23 is day 23")
+expect(Puzzles.day(of: Puzzles.start(ofDay: 23).addingTimeInterval(-1)), 22, "a second before is the day before")
+expect(Puzzles.day(of: Puzzles.start(ofDay: -5)), -5, "works before launch day")
+expect(Int(Puzzles.start(ofDay: 0).timeIntervalSince(date(2026, 9, 27, hour: 0))), 0, "day 0 starts at midnight on launch day")
+expect(Puzzles.day(of: Puzzles.nextPuzzleDate(after: date(2026, 10, 19, hour: 9))), Puzzles.day(of: date(2026, 10, 20)), "next puzzle arrives the next day")
+expect(Int(Puzzles.nextPuzzleDate(after: date(2026, 10, 19, hour: 9)).timeIntervalSince(date(2026, 10, 20, hour: 0))), 0, "at midnight")
+expect(Int(Puzzles.nextPuzzleDate(after: date(2026, 10, 19, hour: 0)).timeIntervalSince(date(2026, 10, 20, hour: 0))), 0, "even right at midnight")
+expect(Int(Puzzles.nextPuzzleDate(after: date(2026, 10, 19, hour: 23)).timeIntervalSince(date(2026, 10, 19, hour: 23))), 3600, "an hour before midnight")
+// Clocks go back on November 1, 2026 in the US, so that day is 25 hours long there
+let nov1 = cal.startOfDay(for: date(2026, 11, 1))
+expect(Puzzles.day(of: Puzzles.nextPuzzleDate(after: nov1)) - Puzzles.day(of: nov1), 1, "next puzzle across a clock change")
+
 if failures > 0 {
     print("\n\(failures) failed")
     exit(1)
